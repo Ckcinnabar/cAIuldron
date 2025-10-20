@@ -1,0 +1,36 @@
+# Illustration Generation Dependencies
+# For generating line-art cooking step illustrations
+
+## Core AI Models
+diffusers==0.25.0          # Stable Diffusion pipeline
+transformers==4.35.0        # Model loading
+accelerate==0.25.0          # Speed optimization
+controlnet_aux==0.0.7       # ControlNet preprocessors
+
+## Image Processing
+opencv-python==4.8.1        # Image manipulation
+pillow==10.1.0              # Image I/O
+numpy==1.26.2               # Array operations
+
+## Optional: DALL-E API
+openai==1.6.1               # For DALL-E 3 API access (if using Method 2)
+
+## Utilities
+tqdm==4.66.1                # Progress bars
+requests==2.31.0            # HTTP requests (for downloading images)
+
+## PyTorch (choose based on your system)
+# For CUDA 11.8 (GPU):
+torch==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu118
+
+# For CPU only:
+# torch==2.1.0
+# torchvision==0.16.0
+
+## For SVG handling (optional)
+cairosvg==2.7.1             # SVG to PNG conversion
+svgwrite==1.4.3             # SVG creation
+
+## For quality validation
+scikit-image==0.22.0        # Image quality metrics
