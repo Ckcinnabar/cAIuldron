@@ -3,7 +3,7 @@
 **Feature Branch**: `001-ai-recipe-generator`
 **Created**: 2025-10-16
 **Status**: Draft
-**Input**: User description: "Build a app, the system allows users to upload a photo of their main ingredient—for example, a chicken breast or a piece of salmon—and instantly receive recipe suggestions(at least 5) powered by AI.Each suggestion includes: Diverse cuisine options (Asian, Western, fusion, etc.), Portion sizes and calorie estimates based on the actual ingredient size, Cooking time and difficulty level, Step-by-step illustrated guides, generated in clean, engaging line-art style, Clear text instructions and interactive guidance for beginners. It's a seamless experience that turns a single photo into a full, personalized cooking plan—combining inspiration, precision, and confidence in the kitchen."
+**Input**: User description: "Build a app, the system allows users to upload a photo of their main ingredient—for example, a chicken breast or a piece of salmon—and instantly receive recipe suggestions(at least 5) powered by AI.Each suggestion includes: Diverse cuisine options (Asian, Western, fusion, etc.), Portion sizes and calorie estimates based on the actual ingredient size, Cooking time and difficulty level, Step-by-step text instructions and interactive guidance for beginners. It's a seamless experience that turns a single photo into a full, personalized cooking plan—combining inspiration, precision, and confidence in the kitchen."
 
 ## User Scenarios & Testing *(mandatory)*
 
@@ -40,28 +40,11 @@ Users receive accurate portion size and calorie estimates based on the actual si
 
 ---
 
-### User Story 3 - Step-by-Step Illustrated Cooking Guide (Priority: P3)
-
-Users receive detailed step-by-step cooking instructions with clean line-art illustrations for each step, making it easy for beginners to follow along visually.
-
-**Why this priority**: Visual guidance significantly improves the cooking experience, especially for beginners, but the user can still cook successfully with text instructions alone from P1/P2.
-
-**Independent Test**: User selects a recipe from suggestions and views a step-by-step guide with both text instructions and corresponding line-art illustrations for each cooking step.
-
-**Acceptance Scenarios**:
-
-1. **Given** a user selects a recipe from suggestions, **When** they view the cooking guide, **Then** they see numbered steps with clear text instructions
-2. **Given** a cooking guide is displayed, **When** the user views each step, **Then** they see a clean line-art illustration showing the cooking action (chopping, stirring, plating, etc.)
-3. **Given** a user is following a recipe, **When** they progress through steps, **Then** they can easily navigate between steps (previous/next buttons)
-4. **Given** a recipe has complex techniques, **When** displayed, **Then** illustrations clearly depict the technique (e.g., proper knife angle for julienne cutting)
-
----
-
-### User Story 4 - Interactive Beginner Guidance (Priority: P4)
+### User Story 3 - Interactive Beginner Guidance (Priority: P3)
 
 Beginners receive interactive guidance with tips, technique explanations, and timing alerts to build confidence while cooking.
 
-**Why this priority**: This enhances the learning experience but assumes users already have the recipe and illustrations from P1-P3. It's a value-add for skill development.
+**Why this priority**: This enhances the learning experience but assumes users already have the recipe from P1-P2. It's a value-add for skill development.
 
 **Independent Test**: User following a recipe can access contextual cooking tips, technique explanations, and receive timing notifications for critical steps.
 
@@ -97,46 +80,42 @@ Beginners receive interactive guidance with tips, technique explanations, and ti
 - **FR-007**: System MUST estimate portion size based on visual analysis of the ingredient in the photo
 - **FR-008**: System MUST calculate calorie estimates per serving for each recipe
 - **FR-009**: System MUST generate step-by-step cooking instructions for each recipe
-- **FR-010**: System MUST create line-art style illustrations for each cooking step
-- **FR-011**: System MUST provide clear, beginner-friendly text instructions for each step
-- **FR-012**: System MUST handle unrecognizable or invalid photos with helpful error messages
-- **FR-013**: System MUST allow users to navigate between recipe steps (next/previous)
-- **FR-014**: Users MUST be able to view all 5+ recipe suggestions before selecting one
-- **FR-015**: System MUST provide contextual cooking tips and technique explanations
-- **FR-016**: System MUST support timing guidance for time-sensitive cooking steps
-- **FR-017**: System MUST present recipe information in a clear, organized format
-- **FR-018**: System MUST process photo uploads and return recipe suggestions within 15 seconds
+- **FR-010**: System MUST provide clear, beginner-friendly text instructions for each step
+- **FR-011**: System MUST handle unrecognizable or invalid photos with helpful error messages
+- **FR-012**: System MUST allow users to navigate between recipe steps (next/previous)
+- **FR-013**: Users MUST be able to view all 5+ recipe suggestions before selecting one
+- **FR-014**: System MUST provide contextual cooking tips and technique explanations
+- **FR-015**: System MUST support timing guidance for time-sensitive cooking steps
+- **FR-016**: System MUST present recipe information in a clear, organized format
+- **FR-017**: System MUST process photo uploads and return recipe suggestions within 5 seconds
 
 ### Key Entities
 
 - **Ingredient**: Represents the primary food item identified from the photo; includes name, estimated quantity, visual characteristics, and confidence score from AI analysis
 - **Recipe**: Contains title, cuisine type, cooking time, difficulty level, portion size, calorie estimate, and ingredient list; belongs to one primary ingredient
-- **Cooking Step**: Individual instruction in a recipe sequence; includes step number, text description, estimated time, and associated illustration; belongs to one recipe
-- **Illustration**: Line-art visual guide for a cooking step; depicts cooking action or technique; associated with one cooking step
+- **Cooking Step**: Individual instruction in a recipe sequence; includes step number, text description, and estimated time; belongs to one recipe
 - **Portion Estimate**: Calculated serving information; includes number of servings, estimated weight/volume, and calorie count per serving; derived from photo analysis
 
 ## Success Criteria *(mandatory)*
 
 ### Measurable Outcomes
 
-- **SC-001**: Users can upload a photo and receive recipe suggestions within 15 seconds
+- **SC-001**: Users can upload a photo and receive recipe suggestions within 5 seconds
 - **SC-002**: System accurately identifies common ingredients in photos with 90% confidence in at least 80% of cases
 - **SC-003**: 90% of users successfully complete the photo upload and recipe selection flow on first attempt
 - **SC-004**: Recipe suggestions include at least 3 different cuisine types in 95% of generations
 - **SC-005**: Users rate the cooking instructions as "clear and easy to follow" in 85% of feedback responses
 - **SC-006**: Beginner users successfully complete a recipe using the app guidance in 80% of attempts
 - **SC-007**: Portion and calorie estimates are within 20% accuracy when compared to standard nutritional databases
-- **SC-008**: Generated line-art illustrations are rated as "helpful for understanding the step" by 80% of users
-- **SC-009**: System handles 100 concurrent photo uploads without degradation in response time
-- **SC-010**: 70% of users who upload a photo proceed to view at least one full recipe guide
+- **SC-008**: System handles 100 concurrent photo uploads without degradation in response time
+- **SC-009**: 70% of users who upload a photo proceed to view at least one full recipe guide
 
 ## Assumptions
 
 - Users have access to a device with a camera or photo library for uploading ingredient photos
-- Users have basic internet connectivity for AI processing and image generation
+- Users have basic internet connectivity for AI processing
 - Standard ingredient photos (well-lit, clear focus, single primary ingredient) are the typical use case
 - Calorie and portion estimates use standard nutritional databases and common ingredient sizes as reference
-- Line-art illustration style is preferred over photorealistic images for clarity and app performance
 - Users are primarily cooking at home with access to basic kitchen equipment
 - Recipe suggestions assume common pantry staples (salt, pepper, oil, etc.) are available
 - AI-generated recipes follow food safety best practices and standard cooking techniques

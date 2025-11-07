@@ -31,13 +31,7 @@ cAIuldron delivers four main user stories, prioritized for incremental developme
 - **Portion Details**: Per-serving weight and nutritional breakdown
 - **Confidence Intervals**: ±20% accuracy with uncertainty ranges
 
-### 🥉 Priority 3: Step-by-Step Illustrated Guides
-- **AI-Generated Art**: Stable Diffusion v1.5 + ControlNet creates clean, engaging line-art illustrations
-- **Visual Steps**: Each cooking step includes illustrative guidance
-- **Sequential Instructions**: Numbered steps with clear text and images
-- **Beginner-Friendly**: Clear, simple visuals for easy understanding
-
-### 🎖️ Priority 4: Interactive Beginner Guidance
+### 🥉 Priority 3: Interactive Beginner Guidance
 - **Technique Explanations**: Contextual definitions for cooking terms (sauté, julienne, etc.)
 - **Timing Alerts**: Timer support for time-sensitive cooking steps
 - **Contextual Tips**: Helpful guidance at critical moments
@@ -46,8 +40,8 @@ cAIuldron delivers four main user stories, prioritized for incremental developme
 ## 🏗️ System Architecture
 
 ```
-Photo Upload → CNN Recognition → Recipe Generation → Nutrition Estimation → Illustration Creation
-                                  (Transformer+RNN)    (Bayesian PGM)         (Stable Diffusion)
+Photo Upload → CNN Recognition → Recipe Generation → Nutrition Estimation
+                                  (Transformer+RNN)    (Bayesian PGM)
 ```
 
 ### AI Model Ecosystem
@@ -58,9 +52,8 @@ Photo Upload → CNN Recognition → Recipe Generation → Nutrition Estimation 
 | Recipe Generation | GPT-2 Medium | Create diverse recipes | 2-3s |
 | Cooking Refinement | BiLSTM | Adjust cooking time and step order | <50ms |
 | Nutrition Estimation | Bayesian Network | Calculate calories and portions | <10ms |
-| Illustration Generation | Stable Diffusion v1.5 + ControlNet | Create line-art illustrations | 3-5s (GPU) / 20-30s (CPU) |
 
-**Total Processing Time**: Target < 15 seconds (typical 6-10 seconds)
+**Total Processing Time**: Target < 5 seconds (typical 3-4 seconds)
 
 ## 🚀 Quick Start
 
@@ -68,9 +61,8 @@ Photo Upload → CNN Recognition → Recipe Generation → Nutrition Estimation 
 
 - Python 3.11+
 - JupyterLab 4.0+ or VS Code with Jupyter extension
-- 16GB RAM recommended
-- 5-6GB disk space for model weights (including Stable Diffusion)
-- GPU with 6GB+ VRAM highly recommended for illustration generation (optional but 10x faster)
+- 8GB RAM recommended
+- 2GB disk space for model weights
 
 ### Installation
 
@@ -107,7 +99,7 @@ jupyter lab
 3. **View Results**
    - Browse recipe suggestions with cooking time, difficulty, and ingredients
    - Check nutritional information and calorie estimates (±20% accuracy)
-   - Follow step-by-step illustrated guides with line-art visuals
+   - Follow step-by-step text instructions
    - Access interactive guidance for beginners (timing alerts, technique tips)
 
 ## 📁 Project Structure
@@ -130,9 +122,6 @@ cAIuldron/
 │   ├── model_nutrition_estimation/    # Probabilistic models for nutrition
 │   │   ├── model_pgm_training.ipynb
 │   │   └── model_pgm_inference.ipynb
-│   ├── model_illustration_generation/ # Stable Diffusion for line-art illustrations
-│   │   ├── model_stable_diffusion_lineart.ipynb
-│   │   └── model_stable_diffusion_lineart_improved.ipynb
 │   ├── pipeline_recipe_app/           # End-to-end recipe generation pipeline
 │   │   ├── pipeline_photo_to_recipes.ipynb
 │   │   └── pipeline_interactive_guide.ipynb
@@ -155,17 +144,13 @@ cAIuldron/
 │   │   └── nutrition_vectors/    # Nutrition embeddings
 │   └── results/                  # Model outputs
 │       ├── generated_recipes/    # AI-generated recipes (JSON)
-│       ├── illustrations/        # Stable Diffusion-generated line art
 │       └── nutrition_estimates/  # Calorie and portion calculations
 │
 ├── models/                       # Trained model weights
 │   ├── cnn_ingredient_recognition.h5
 │   ├── transformer_recipe_generation.pt
 │   ├── rnn_cooking_refinement.pt
-│   ├── pgm_nutrition_estimation.pkl
-│   └── stable_diffusion_controlnet/  # Downloaded from HuggingFace
-│       ├── stable-diffusion-v1-5/
-│       └── control_v11p_sd15_lineart/
+│   └── pgm_nutrition_estimation.pkl
 │
 ├── tests/                        # Tests
 │   ├── notebook_tests/           # Notebook execution tests
@@ -182,8 +167,7 @@ cAIuldron/
 │       └── contracts/            # API contracts (input/output specs)
 │           ├── ingredient_recognition.json
 │           ├── recipe_generation.json
-│           ├── nutrition_estimation.json
-│           └── illustration_generation.json
+│           └── nutrition_estimation.json
 │
 ├── .specify/                     # Project governance
 │   ├── memory/
@@ -212,19 +196,18 @@ The system implements 18 functional requirements defined in [spec.md](specs/001-
 - FR-007: Visual-based portion size estimation
 - FR-008: Calorie estimates per serving
 
-**Guided Cooking (FR-009 to FR-011)**
+**Guided Cooking (FR-009 to FR-010)**
 - FR-009: Step-by-step cooking instructions
-- FR-010: Line-art style illustrations for each step
-- FR-011: Beginner-friendly text instructions
+- FR-010: Beginner-friendly text instructions
 
-**User Experience (FR-012 to FR-018)**
-- FR-012: Helpful error messages for invalid photos
-- FR-013: Step navigation (next/previous)
-- FR-014: Browse all recipe suggestions before selection
-- FR-015: Contextual cooking tips and technique explanations
-- FR-016: Timing guidance for critical steps
-- FR-017: Clear, organized information presentation
-- FR-018: Complete processing within 15 seconds
+**User Experience (FR-011 to FR-017)**
+- FR-011: Helpful error messages for invalid photos
+- FR-012: Step navigation (next/previous)
+- FR-013: Browse all recipe suggestions before selection
+- FR-014: Contextual cooking tips and technique explanations
+- FR-015: Timing guidance for critical steps
+- FR-016: Clear, organized information presentation
+- FR-017: Complete processing within 5 seconds
 
 For detailed acceptance scenarios, see [spec.md](specs/001-ai-recipe-generator/spec.md).
 
@@ -243,10 +226,8 @@ This project follows a **Jupyter Notebook-first** development philosophy:
 ### Core Dependencies
 
 ```
-torch==2.1.0              # PyTorch (CNN, RNN, Stable Diffusion)
-diffusers==0.25.0         # Hugging Face Diffusers (Stable Diffusion, ControlNet)
+torch==2.1.0              # PyTorch (CNN, RNN)
 transformers==4.35.0      # Hugging Face Transformers (GPT-2)
-controlnet-aux==0.0.7     # ControlNet preprocessors
 opencv-python==4.8.1      # Image processing
 pillow==10.1.0            # Image loading
 pandas==2.1.3             # Data manipulation
@@ -257,32 +238,27 @@ papermill==2.5.0          # Notebook testing
 
 ## 📊 Performance Metrics & Success Criteria
 
-### Processing Speed (from spec.md FR-018)
+### Processing Speed (from spec.md FR-017)
 - **Ingredient Recognition**: 50-100ms (CNN inference)
 - **Recipe Generation**: 2-3 seconds (5 recipes in parallel)
 - **Nutrition Estimation**: <10ms (Bayesian inference)
-- **Illustration Generation**: 3-5s per image (GPU) / 20-30s (CPU)
-  - Note: Can be deferred or done in background for better UX
-- **Total End-to-End**: Target < 15 seconds for recipe generation (illustrations optional/async)
+- **Total End-to-End**: Target < 5 seconds
 
-### Success Criteria (from spec.md SC-001 to SC-010)
-- **SC-001**: Recipe suggestions delivered within 15 seconds
+### Success Criteria (from spec.md SC-001 to SC-009)
+- **SC-001**: Recipe suggestions delivered within 5 seconds
 - **SC-002**: 90% confidence ingredient identification in 80%+ of cases
 - **SC-003**: 90% of users complete photo upload and recipe selection on first attempt
 - **SC-004**: At least 3 different cuisine types in 95% of recipe generations
 - **SC-005**: 85% of users rate instructions as "clear and easy to follow"
 - **SC-006**: 80% of beginners successfully complete recipes using app guidance
 - **SC-007**: Portion and calorie estimates within ±20% accuracy
-- **SC-008**: 80% of users find line-art illustrations "helpful for understanding the step"
-- **SC-009**: Handle 100 concurrent photo uploads without performance degradation
-- **SC-010**: 70% of users proceed to view at least one full recipe guide
+- **SC-008**: Handle 100 concurrent photo uploads without performance degradation
+- **SC-009**: 70% of users proceed to view at least one full recipe guide
 
 ### Resource Requirements
-- **Memory**: 8GB peak (all models loaded including Stable Diffusion), 16GB RAM recommended
-- **Storage**: ~5-6GB (model weights including Stable Diffusion v1.5 + ControlNet)
-- **GPU**: Highly recommended for illustration generation (10x speedup: 3-5s vs 20-30s per image)
-  - NVIDIA GPU with 6GB+ VRAM recommended for Stable Diffusion
-  - CPU-only mode supported but slower
+- **Memory**: 4GB peak (all models loaded), 8GB RAM recommended
+- **Storage**: ~2GB (model weights)
+- **GPU**: Optional for faster inference (CNN and RNN models)
 
 ## 🧪 Testing
 
@@ -303,7 +279,7 @@ python tests/notebook_tests/test_end_to_end_pipeline.py
 
 ### Validation Checklist
 
-Aligned with Success Criteria (spec.md SC-001 to SC-010):
+Aligned with Success Criteria (spec.md SC-001 to SC-009):
 
 - ✅ **SC-001**: All notebooks execute top-to-bottom without errors
 - ✅ **SC-002**: Ingredient recognition confidence ≥ 0.9 for 80%+ of common ingredients
@@ -311,16 +287,15 @@ Aligned with Success Criteria (spec.md SC-001 to SC-010):
 - ✅ **SC-004**: Generate 5+ recipes with at least 3 different cuisines (95% of cases)
 - ✅ **SC-005**: Instructions clear and beginner-friendly
 - ✅ **SC-007**: Calorie estimates within ±20% of USDA database values
-- ✅ **SC-008**: Illustration quality score ≥ 0.6 and helpful for understanding
-- ✅ **SC-018**: Total processing time < 15 seconds (FR-018)
+- ✅ **SC-017**: Total processing time < 5 seconds (FR-017)
 
 ## 📖 Documentation
 
-- **[Feature Specification](specs/001-ai-recipe-generator/spec.md)** - User stories (4 priorities), functional requirements (FR-001 to FR-018), success criteria (SC-001 to SC-010)
+- **[Feature Specification](specs/001-ai-recipe-generator/spec.md)** - User stories (3 priorities), functional requirements (FR-001 to FR-017), success criteria (SC-001 to SC-009)
 - **[Implementation Plan](specs/001-ai-recipe-generator/plan.md)** - Technical architecture, project structure, constitution compliance
 - **[Task Breakdown](specs/001-ai-recipe-generator/tasks.md)** - 89 tasks across 7 phases with dependencies and parallel opportunities
 - **[Research Documentation](specs/001-ai-recipe-generator/research.md)** - AI model selection, best practices, and technical decisions
-- **[Data Models](specs/001-ai-recipe-generator/data-model.md)** - Entity schemas (Ingredient, Recipe, CookingStep, Illustration, PortionEstimate) and validation rules
+- **[Data Models](specs/001-ai-recipe-generator/data-model.md)** - Entity schemas (Ingredient, Recipe, CookingStep, PortionEstimate) and validation rules
 - **[Quickstart Guide](specs/001-ai-recipe-generator/quickstart.md)** - Detailed step-by-step implementation guide
 - **[API Contracts](specs/001-ai-recipe-generator/contracts/)** - Input/output specifications for each AI model component
 - **[Project Constitution](.specify/memory/constitution.md)** - Notebook-first development principles and quality standards
@@ -361,11 +336,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Pre-trained Models
 - **EfficientNetV2**: Google Research (ingredient recognition)
 - **GPT-2**: OpenAI (recipe generation)
-- **Stable Diffusion v1.5**: RunwayML (illustration generation)
-- **ControlNet**: lllyasviel (lineart conditioning)
 
 ### Tools and Frameworks
-- PyTorch, Hugging Face Transformers, Diffusers
+- PyTorch, Hugging Face Transformers
 - Jupyter, Papermill, nbconvert
 - OpenCV, Pillow, Pandas, pgmpy
 
@@ -393,19 +366,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - USDA database integration
   - ±20% calorie accuracy
 
-### Phase 5: Priority 3 - Visual Guides
-- [ ] User Story 3: Step-by-step illustrated guides (Tasks T046-T063)
-  - Stable Diffusion + ControlNet for line-art illustration generation
-  - Interactive guide notebook
-  - Quality score ≥ 0.6
-
-### Phase 6: Priority 4 - Beginner Support
-- [ ] User Story 4: Interactive beginner guidance (Tasks T064-T078)
+### Phase 5: Priority 3 - Beginner Support
+- [ ] User Story 3: Interactive beginner guidance (Tasks T064-T078)
   - Technique explanations and tips
   - Timing alerts and progress tracking
   - Feedback collection
 
-### Phase 7: Polish & Production
+### Phase 6: Polish & Production
 - [ ] Comprehensive documentation and performance monitoring (Tasks T079-T089)
 - [ ] End-to-end testing and validation
 - [ ] Code quality and constitution compliance checks
