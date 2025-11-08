@@ -71,8 +71,9 @@ Beginners receive interactive guidance with tips, technique explanations, and ti
 
 ### Functional Requirements
 
-- **FR-001**: System MUST accept photo uploads of food ingredients in common image formats (JPEG, PNG, HEIC)
+- **FR-001**: System MUST accept photo uploads of food ingredients in common image formats (JPEG, PNG, HEIC, WebP)
 - **FR-002**: System MUST analyze uploaded photos using AI to identify the primary ingredient
+  - *Technical Implementation*: Uses Roboflow pre-trained object detection model (food-ingredients-dataset v2) via Inference SDK for serverless, fast ingredient recognition with bounding box detection
 - **FR-003**: System MUST generate at least 5 distinct recipe suggestions for each identified ingredient
 - **FR-004**: System MUST include diverse cuisine types in suggestions (minimum: Asian, Western, and one fusion/other option)
 - **FR-005**: System MUST provide cooking time estimate for each recipe (in minutes)
@@ -91,7 +92,7 @@ Beginners receive interactive guidance with tips, technique explanations, and ti
 
 ### Key Entities
 
-- **Ingredient**: Represents the primary food item identified from the photo; includes name, estimated quantity, visual characteristics, and confidence score from AI analysis
+- **Ingredient**: Represents the primary food item identified from the photo via Roboflow object detection; includes name, category, bounding box coordinates, estimated quantity, visual characteristics, and confidence score from AI analysis
 - **Recipe**: Contains title, cuisine type, cooking time, difficulty level, portion size, calorie estimate, and ingredient list; belongs to one primary ingredient
 - **Cooking Step**: Individual instruction in a recipe sequence; includes step number, text description, and estimated time; belongs to one recipe
 - **Portion Estimate**: Calculated serving information; includes number of servings, estimated weight/volume, and calorie count per serving; derived from photo analysis

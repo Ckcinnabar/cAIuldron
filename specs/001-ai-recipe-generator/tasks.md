@@ -19,10 +19,10 @@
 **Purpose**: Project initialization and basic structure
 
 - [ ] T001 Create project structure per implementation plan: notebooks/, data/raw/, data/processed/, data/results/, models/, tests/
-- [ ] T002 Initialize Python project with requirements.txt including torch==2.1.0, tensorflow==2.14.0, transformers==4.35.0, opencv-python==4.8.1, pillow==10.1.0, pgmpy==0.1.23, numpy, pandas, matplotlib, jupyter, papermill, pytest
+- [ ] T002 Initialize Python project with requirements.txt including torch==2.1.0, transformers==4.35.0, opencv-python==4.8.1, pillow==10.1.0, pgmpy==0.1.23, numpy, pandas, matplotlib, jupyter, papermill, pytest
 - [ ] T003 [P] Configure linting tools: create .flake8 config, setup black formatter, install nbstripout for notebook output management
 - [ ] T004 [P] Create .gitignore for notebook checkpoints (*.ipynb_checkpoints/), large model files (models/*.h5, models/*.pt), data files (data/raw/*, data/results/*), and Python cache (__pycache__/, *.pyc)
-- [ ] T005 [P] Create data directories structure: data/raw/ingredient_images/, data/raw/recipe_corpus/, data/raw/nutrition_database/, data/processed/ingredient_features/, data/processed/recipe_tokens/, data/processed/nutrition_vectors/, data/results/generated_recipes/, data/results/illustrations/, data/results/nutrition_estimates/
+- [ ] T005 [P] Create data directories structure: data/raw/ingredient_images/, data/raw/recipe_corpus/, data/raw/nutrition_database/, data/processed/ingredient_features/, data/processed/recipe_tokens/, data/processed/nutrition_vectors/, data/results/generated_recipes/, data/results/nutrition_estimates/
 
 ---
 
@@ -36,7 +36,7 @@
 - [ ] T007 [P] Create notebook notebooks/utils_recipe/utils_model_loading.ipynb with model checkpoint loading, device selection (cuda/cpu), and memory optimization functions
 - [ ] T008 [P] Create notebook notebooks/utils_recipe/utils_visualization.ipynb with plot formatting functions, progress bar setup (tqdm), and result display utilities
 - [ ] T009 Create reproducibility setup notebook notebooks/utils_recipe/utils_reproducibility.ipynb with random seed setting for NumPy (42), PyTorch (42), and TensorFlow (42), plus environment variable configuration
-- [ ] T010 Create data validation notebook notebooks/utils_recipe/utils_validation.ipynb with entity validation functions for Ingredient, Recipe, CookingStep, Illustration, and PortionEstimate per data-model.md specifications
+- [ ] T010 Create data validation notebook notebooks/utils_recipe/utils_validation.ipynb with entity validation functions for Ingredient, Recipe, CookingStep, and PortionEstimate per data-model.md specifications
 - [ ] T011 [P] Create logging utility notebook notebooks/utils_recipe/utils_logging.ipynb with timestamp logging, model metadata tracking, and performance metric logging functions
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
@@ -45,20 +45,16 @@
 
 ## Phase 3: User Story 1 - Basic Ingredient Photo to Recipe Suggestions (Priority: P1) 🎯 MVP
 
-**Goal**: User uploads ingredient photo and receives 5+ diverse recipe suggestions with cuisine type, cooking time, and difficulty level within 15 seconds
+**Goal**: User uploads ingredient photo and receives 5+ diverse recipe suggestions with cuisine type, cooking time, and difficulty level within 5 seconds
 
 **Independent Test**: Upload a chicken breast photo → receive 5 recipes with Asian, Western, and fusion options, each showing cooking time and difficulty
 
 ### Implementation for User Story 1
 
-**CNN Ingredient Recognition (Required for US1)**
+**Roboflow Ingredient Recognition (Required for US1)**
 
-- [ ] T012 [P] [US1] Create exploration notebook notebooks/explore_ingredients/explore_ingredient_dataset.ipynb to analyze Food-101 and Open Images datasets, document ingredient classes, and visualize sample images
-- [ ] T013 [P] [US1] Create preprocessing exploration notebook notebooks/explore_ingredients/explore_image_preprocessing.ipynb to test resize strategies, normalization parameters, and size estimation approaches
-- [ ] T014 [US1] Create CNN inference notebook notebooks/model_ingredient_recognition/model_cnn_inference.ipynb implementing EfficientNetV2-S pre-trained model loading, image preprocessing (384x384 resize), and ingredient prediction with confidence scoring (threshold 0.7)
-- [ ] T015 [US1] Add size estimation logic to notebooks/model_ingredient_recognition/model_cnn_inference.ipynb using spatial features, reference object detection, and ingredient density database for weight calculation in grams
-- [ ] T016 [US1] Implement Ingredient entity creation in notebooks/model_ingredient_recognition/model_cnn_inference.ipynb following data-model.md schema with ingredient_id (UUID), name, category, confidence_score, visual_characteristics, and estimated_quantity
-- [ ] T017 [US1] Add validation and error handling cells to notebooks/model_ingredient_recognition/model_cnn_inference.ipynb for invalid image formats, low confidence (<0.7), and no ingredient detected scenarios per ingredient_recognition.json contract
+- [x] T012-T014 [P] [US1] ✅ **COMPLETED** - Create Roboflow model setup notebook notebooks/model_ingredient_recognition/setup_roboflow_model.ipynb to download and configure pre-trained food ingredients detection model (v4) from Roboflow Universe, supporting both API and ONNX local inference
+- [x] T014-T017 [US1] ✅ **COMPLETED** - Create ingredient recognition notebook notebooks/model_ingredient_recognition/model_cnn_inference.ipynb implementing Roboflow model inference, bounding box size estimation for weight calculation, Ingredient entity creation per data-model.md schema, and validation/error handling for low confidence (<0.7) and detection failures per ingredient_recognition.json contract
 
 **Transformer Recipe Generation (Required for US1)**
 
@@ -78,12 +74,12 @@
 
 **End-to-End Pipeline (Integration for US1)**
 
-- [ ] T028 [US1] Create end-to-end pipeline notebook notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb orchestrating: (1) CNN ingredient recognition, (2) parallel Transformer recipe generation (5 recipes), (3) RNN refinement per recipe, validating total time < 15 seconds
+- [ ] T028 [US1] Create end-to-end pipeline notebook notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb orchestrating: (1) CNN ingredient recognition, (2) parallel Transformer recipe generation (5 recipes), (3) RNN refinement per recipe, validating total time < 5 seconds
 - [ ] T029 [US1] Add recipe diversity validation to notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb ensuring minimum 3 different cuisine types across 5 recipes per FR-004 requirement
 - [ ] T030 [US1] Implement recipe output formatting in notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb to display recipes with title, cuisine_type, cooking_time_minutes, difficulty_level, and ingredients_list preview
-- [ ] T031 [US1] Add error handling and user feedback cells to notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb for unrecognizable photos (helpful message per FR-012), low confidence ingredients (user confirmation), and generation failures (fallback message)
+- [ ] T031 [US1] Add error handling and user feedback cells to notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb for unrecognizable photos (helpful message per FR-011), low confidence ingredients (user confirmation), and generation failures (fallback message)
 - [ ] T032 [US1] Create recipe storage cells in notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb saving Recipe entities as JSON to data/results/generated_recipes/{recipe_id}.json with timestamps and metadata
-- [ ] T033 [US1] Add notebook execution validation in notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb to verify top-to-bottom execution without errors, test with sample chicken breast image, and validate 5 recipes generated within 15 seconds
+- [ ] T033 [US1] Add notebook execution validation in notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb to verify top-to-bottom execution without errors, test with sample chicken breast image, and validate 5 recipes generated within 5 seconds
 
 **Checkpoint**: At this point, User Story 1 should be fully functional - users can upload photos and receive 5 diverse recipe suggestions with cooking time and difficulty
 
@@ -119,99 +115,60 @@
 
 ---
 
-## Phase 5: User Story 3 - Step-by-Step Illustrated Cooking Guide (Priority: P3)
-
-**Goal**: Users view selected recipes with detailed cooking instructions and clean line-art illustrations for each step, making it easy for beginners to follow visually
-
-**Independent Test**: Select a recipe → view numbered steps with text instructions and corresponding line-art illustrations (e.g., chopping, stirring, plating)
-
-### Implementation for User Story 3
-
-**GAN Illustration Generation (Required for US3)**
-
-- [ ] T046 [P] [US3] Create illustration generation notebook notebooks/model_illustration_generation/model_gan_inference.ipynb loading Pix2Pix GAN model (U-Net generator) for line-art generation
-- [ ] T047 [P] [US3] Implement cooking action extraction in notebooks/model_illustration_generation/model_gan_inference.ipynb parsing CookingStep.cooking_method and instruction_text to identify visual actions (chop, stir, bake, plate)
-- [ ] T048 [US3] Add CLIP text-to-sketch intermediate generation in notebooks/model_illustration_generation/model_gan_inference.ipynb converting cooking action text to base sketch input for Pix2Pix
-- [ ] T049 [US3] Implement GAN generation loop in notebooks/model_illustration_generation/model_gan_inference.ipynb feeding sketches through Pix2Pix generator, setting noise seed for deterministic output, and generating 512x512 pixel line-art images
-- [ ] T050 [US3] Add post-processing cells to notebooks/model_illustration_generation/model_gan_inference.ipynb for edge cleaning, line weight normalization (1.5-3.0), and SVG conversion for scalability
-- [ ] T051 [US3] Create Illustration entity instances in notebooks/model_illustration_generation/model_gan_inference.ipynb following data-model.md schema with illustration_id (UUID), step_id reference, image_data (format, file_path, dimensions), style_metadata, generation_metadata (gan_model, seed, quality_score), and alt_text
-- [ ] T052 [US3] Implement quality validation in notebooks/model_illustration_generation/model_gan_inference.ipynb checking quality_score ≥ 0.6, ensuring image not blank or corrupted, and falling back to template illustrations for common actions if generation fails
-- [ ] T053 [US3] Add illustration storage to notebooks/model_illustration_generation/model_gan_inference.ipynb saving images to data/results/illustrations/{recipe_id}/step_{step_number}.png with metadata
-
-**Recipe Guide Display (Integration for US3)**
-
-- [ ] T054 [US3] Create interactive guide notebook notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb loading selected Recipe with all CookingSteps and linked Illustrations
-- [ ] T055 [US3] Implement step-by-step display in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb showing step_number, instruction_text (max 500 chars), cooking_method, estimated_time_minutes, and temperature if applicable
-- [ ] T056 [US3] Add illustration display cells to notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb rendering line-art images inline with PIL/matplotlib, including alt_text for accessibility
-- [ ] T057 [US3] Implement navigation controls in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb with previous/next step buttons using ipywidgets, tracking current step index
-- [ ] T058 [US3] Add step dependency visualization to notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb showing which steps must be completed first based on CookingStep.dependencies array
-- [ ] T059 [US3] Create recipe guide storage in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb exporting complete guide as HTML with embedded illustrations for offline viewing
-
-**Integration with Full Pipeline (Connect US3 to US1+US2)**
-
-- [ ] T060 [US3] Update pipeline notebook notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb to optionally generate illustrations after recipe generation by calling GAN inference for each CookingStep
-- [ ] T061 [US3] Add illustration generation toggle to notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb allowing users to skip illustrations for faster processing (2-3 seconds saved per recipe)
-- [ ] T062 [US3] Implement parallel illustration generation in notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb using async GPU queue for multiple CookingSteps (5-10 per recipe) to stay within 15-second total time budget
-- [ ] T063 [US3] Add final validation to notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb checking all CookingSteps have valid illustrations (quality_score ≥ 0.6), step_numbers are sequential, and alt_text describes actions
-
-**Checkpoint**: All 3 user stories should now be independently functional - US1 provides recipes, US2 adds nutrition, US3 adds illustrated guides
-
----
-
-## Phase 6: User Story 4 - Interactive Beginner Guidance (Priority: P4)
+## Phase 5: User Story 3 - Interactive Beginner Guidance (Priority: P3)
 
 **Goal**: Beginners receive interactive guidance with cooking tips, technique explanations, and timing alerts to build confidence while cooking
 
 **Independent Test**: View recipe steps → tap technique terms for explanations, set timers for critical steps, see contextual tips
 
-### Implementation for User Story 4
+### Implementation for User Story 3
 
-**Technique Explanations & Tips (Required for US4)**
+**Technique Explanations & Tips (Required for US3)**
 
-- [ ] T064 [P] [US4] Create technique database notebook notebooks/pipeline_recipe_app/build_technique_database.ipynb with cooking term definitions (sauté, julienne, marinate, etc.) and visual reference links
-- [ ] T065 [P] [US4] Add contextual tips generation to notebooks/model_recipe_generation/model_transformer_inference.ipynb using GPT-2 to generate helpful tips per cooking_method (e.g., "Don't overcrowd the pan for better browning" for sauté)
-- [ ] T066 [US4] Update CookingStep creation in notebooks/model_cooking_refinement/model_rnn_inference.ipynb to add tips array (optional) and technique_explanations dict mapping technique names to explanation text
-- [ ] T067 [US4] Implement interactive tips display in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb with clickable technique terms using ipywidgets, showing popup explanations with visual references
-- [ ] T068 [US4] Add tip highlighting to notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb displaying contextual tips in styled boxes for critical steps (high heat, marinating, timing-sensitive actions)
+- [ ] T046 [P] [US3] Create technique database notebook notebooks/pipeline_recipe_app/build_technique_database.ipynb with cooking term definitions (sauté, julienne, marinate, etc.) and visual reference links
+- [ ] T047 [P] [US3] Add contextual tips generation to notebooks/model_recipe_generation/model_transformer_inference.ipynb using GPT-2 to generate helpful tips per cooking_method (e.g., "Don't overcrowd the pan for better browning" for sauté)
+- [ ] T048 [US3] Update CookingStep creation in notebooks/model_cooking_refinement/model_rnn_inference.ipynb to add tips array (optional) and technique_explanations dict mapping technique names to explanation text
+- [ ] T049 [US3] Implement interactive tips display in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb with clickable technique terms using ipywidgets, showing popup explanations with visual references
+- [ ] T050 [US3] Add tip highlighting to notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb displaying contextual tips in styled boxes for critical steps (high heat, marinating, timing-sensitive actions)
 
-**Timing Alerts & Progress Tracking (Required for US4)**
+**Timing Alerts & Progress Tracking (Required for US3)**
 
-- [ ] T069 [US4] Implement timing alert detection in notebooks/model_cooking_refinement/model_rnn_inference.ipynb setting CookingStep.timing_alert = true for time-sensitive steps (marinate X minutes, cook until Y, etc.) and ensuring estimated_time_minutes is set
-- [ ] T070 [US4] Create timer widget in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb using ipywidgets countdown timer, allowing users to start/pause/reset for steps with timing_alert = true
-- [ ] T071 [US4] Add progress tracking to notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb showing completed steps checkboxes, total progress bar, and estimated time remaining based on uncompleted CookingStep.estimated_time_minutes sum
-- [ ] T072 [US4] Implement cooking session state management in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb tracking step completion status, timer states, and allowing resume from interruptions
+- [ ] T051 [US3] Implement timing alert detection in notebooks/model_cooking_refinement/model_rnn_inference.ipynb setting CookingStep.timing_alert = true for time-sensitive steps (marinate X minutes, cook until Y, etc.) and ensuring estimated_time_minutes is set
+- [ ] T052 [US3] Create timer widget in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb using ipywidgets countdown timer, allowing users to start/pause/reset for steps with timing_alert = true
+- [ ] T053 [US3] Add progress tracking to notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb showing completed steps checkboxes, total progress bar, and estimated time remaining based on uncompleted CookingStep.estimated_time_minutes sum
+- [ ] T054 [US3] Implement cooking session state management in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb tracking step completion status, timer states, and allowing resume from interruptions
 
-**Feedback & Encouragement (Required for US4)**
+**Feedback & Encouragement (Required for US3)**
 
-- [ ] T073 [US4] Add completion celebration to notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb showing encouragement message when all steps marked complete, with recipe photo upload option
-- [ ] T074 [US4] Create feedback collection cells in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb with rating widgets (1-5 stars), difficulty assessment, and optional text feedback
-- [ ] T075 [US4] Implement feedback storage in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb saving user ratings to data/results/feedback/{recipe_id}_{timestamp}.json for quality monitoring
+- [ ] T055 [US3] Add completion celebration to notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb showing encouragement message when all steps marked complete, with recipe photo upload option
+- [ ] T056 [US3] Create feedback collection cells in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb with rating widgets (1-5 stars), difficulty assessment, and optional text feedback
+- [ ] T057 [US3] Implement feedback storage in notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb saving user ratings to data/results/feedback/{recipe_id}_{timestamp}.json for quality monitoring
 
-**Integration & Final Validation (Connect US4 to US1+US2+US3)**
+**Integration & Final Validation (Connect US3 to US1+US2)**
 
-- [ ] T076 [US4] Update pipeline notebook notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb to generate technique explanations and tips during RNN refinement phase
-- [ ] T077 [US4] Add beginner mode toggle to notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb enabling/disabling interactive features (tips, explanations, timers) based on user preference
-- [ ] T078 [US4] Validate complete user journey in notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb: photo upload → 5 recipes with nutrition → select recipe → illustrated guide → interactive cooking → completion feedback, ensuring all FR-001 through FR-018 requirements met
+- [ ] T058 [US3] Update pipeline notebook notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb to generate technique explanations and tips during RNN refinement phase
+- [ ] T059 [US3] Add beginner mode toggle to notebooks/pipeline_recipe_app/pipeline_interactive_guide.ipynb enabling/disabling interactive features (tips, explanations, timers) based on user preference
+- [ ] T060 [US3] Validate complete user journey in notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb: photo upload → 5 recipes with nutrition → select recipe → interactive cooking → completion feedback, ensuring all FR-001 through FR-017 requirements met
 
-**Checkpoint**: All 4 user stories fully functional - complete beginner-friendly recipe generation and guided cooking experience
+**Checkpoint**: All 3 user stories fully functional - complete beginner-friendly recipe generation and guided cooking experience
 
 ---
 
-## Phase 7: Polish & Cross-Cutting Concerns
+## Phase 6: Polish & Cross-Cutting Concerns
 
 **Purpose**: Improvements that affect multiple user stories and final quality checks
 
-- [ ] T079 [P] Create comprehensive README.md at repository root documenting project overview, installation instructions (requirements.txt), usage examples for each notebook, and performance benchmarks (15-second generation time)
-- [ ] T080 [P] Add notebook execution documentation in docs/notebook_guide.md explaining cell organization, reproducibility setup, and troubleshooting common issues (model loading, GPU/CPU selection, memory limits)
-- [ ] T081 [P] Create performance monitoring notebook notebooks/pipeline_recipe_app/monitor_performance.ipynb tracking inference times for each model component (CNN: 50-100ms, Transformer: 2-3s, RNN: <50ms, PGM: <10ms, GAN: 200-300ms), memory usage, and quality metrics (confidence scores, recipe diversity, illustration quality)
-- [ ] T082 Code cleanup: run black formatter on all .py utility modules, flake8 linting, and nbstripout to clear notebook outputs before committing
-- [ ] T083 [P] Create model checkpoint documentation in models/README.md listing each model file, version, training date, performance metrics, and download links for large files (GPT-2 Medium 1.4GB)
-- [ ] T084 [P] Add data versioning manifest in data/processed/manifest.json with dataset checksums (MD5), version dates, train/val/test split ratios, and data source attributions
-- [ ] T085 Create end-to-end test script tests/test_full_pipeline.py using papermill to execute notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb with sample ingredient photos, validating 5 recipes generated, timing < 15 seconds, and cuisine diversity ≥ 3
-- [ ] T086 [P] Add error handling improvements across all notebooks: validate image formats before CNN, check model file existence before loading, handle GPU OOM gracefully with CPU fallback, and provide helpful error messages per FR-012
-- [ ] T087 Validate quickstart.md instructions by executing each code example, verifying notebook paths, and confirming all dependencies installed correctly
-- [ ] T088 Create demo notebook notebooks/demo_recipe_generator.ipynb with pre-loaded sample images, step-by-step execution cells, and expected outputs for quick demonstration and onboarding
-- [ ] T089 [P] Add constitution compliance verification: check all notebooks execute top-to-bottom without errors, confirm reproducibility with seed=42, validate markdown documentation cells present, ensure PEP 8 compliance with type hints in extracted functions
+- [ ] T061 [P] Create comprehensive README.md at repository root documenting project overview, installation instructions (requirements.txt), usage examples for each notebook, and performance benchmarks (5-second generation time)
+- [ ] T062 [P] Add notebook execution documentation in docs/notebook_guide.md explaining cell organization, reproducibility setup, and troubleshooting common issues (model loading, GPU/CPU selection, memory limits)
+- [ ] T063 [P] Create performance monitoring notebook notebooks/pipeline_recipe_app/monitor_performance.ipynb tracking inference times for each model component (CNN: 50-100ms, Transformer: 2-3s, RNN: <50ms, PGM: <10ms), memory usage, and quality metrics (confidence scores, recipe diversity)
+- [ ] T064 Code cleanup: run black formatter on all .py utility modules, flake8 linting, and nbstripout to clear notebook outputs before committing
+- [ ] T065 [P] Create model checkpoint documentation in models/README.md listing each model file, version, training date, performance metrics, and download links for large files (GPT-2 Medium 1.4GB)
+- [ ] T066 [P] Add data versioning manifest in data/processed/manifest.json with dataset checksums (MD5), version dates, train/val/test split ratios, and data source attributions
+- [ ] T067 Create end-to-end test script tests/test_full_pipeline.py using papermill to execute notebooks/pipeline_recipe_app/pipeline_photo_to_recipes.ipynb with sample ingredient photos, validating 5 recipes generated, timing < 5 seconds, and cuisine diversity ≥ 3
+- [ ] T068 [P] Add error handling improvements across all notebooks: validate image formats before CNN, check model file existence before loading, handle GPU OOM gracefully with CPU fallback, and provide helpful error messages per FR-011
+- [ ] T069 Validate quickstart.md instructions by executing each code example, verifying notebook paths, and confirming all dependencies installed correctly
+- [ ] T070 Create demo notebook notebooks/demo_recipe_generator.ipynb with pre-loaded sample images, step-by-step execution cells, and expected outputs for quick demonstration and onboarding
+- [ ] T071 [P] Add constitution compliance verification: check all notebooks execute top-to-bottom without errors, confirm reproducibility with seed=42, validate markdown documentation cells present, ensure PEP 8 compliance with type hints in extracted functions
 
 ---
 
@@ -221,16 +178,15 @@
 
 - **Setup (Phase 1)**: No dependencies - can start immediately
 - **Foundational (Phase 2)**: Depends on Setup completion - BLOCKS all user stories
-- **User Stories (Phases 3-6)**: All depend on Foundational phase completion
-  - User stories can then proceed in parallel (if staffed) or sequentially by priority (P1 → P2 → P3 → P4)
-- **Polish (Phase 7)**: Depends on all desired user stories being complete
+- **User Stories (Phases 3-5)**: All depend on Foundational phase completion
+  - User stories can then proceed in parallel (if staffed) or sequentially by priority (P1 → P2 → P3)
+- **Polish (Phase 6)**: Depends on all desired user stories being complete
 
 ### User Story Dependencies
 
 - **User Story 1 (P1)**: Can start after Foundational (Phase 2) - No dependencies on other stories - MVP target
 - **User Story 2 (P2)**: Can start after Foundational (Phase 2) - Integrates with US1 but independently testable (works without US1 if given ingredient)
-- **User Story 3 (P3)**: Can start after Foundational (Phase 2) - Requires CookingSteps from US1 but independently testable (can test with mock steps)
-- **User Story 4 (P4)**: Can start after Foundational (Phase 2) - Enhances US3 but independently testable (can test tips/timers separately)
+- **User Story 3 (P3)**: Can start after Foundational (Phase 2) - Enhances US1+US2 but independently testable (can test tips/timers separately)
 
 ### Within Each User Story
 
@@ -247,14 +203,9 @@
 3. T041-T045 (Integration) depends on US1 pipeline existing
 
 **User Story 3 (P3) Internal Flow**:
-1. T046-T053 (GAN) can mostly run in parallel [P] except generation loop
-2. T054-T059 (Guide display) sequential
-3. T060-T063 (Integration) depends on US1 pipeline + CookingSteps
-
-**User Story 4 (P4) Internal Flow**:
-1. T064-T065 (Tips database) can run in parallel [P]
-2. T066-T075 (Interactive features) mostly sequential
-3. T076-T078 (Integration) depends on US1+US2+US3
+1. T046-T047 (Tips database) can run in parallel [P]
+2. T048-T057 (Interactive features) mostly sequential
+3. T058-T060 (Integration) depends on US1+US2
 
 ### Parallel Opportunities
 
@@ -263,9 +214,8 @@
 - Once Foundational completes, all user stories can START in parallel (different developers)
 - Within US1: T012-T013 exploration parallel, T018-T022 Transformer can overlap with CNN
 - Within US2: T034-T035 database work parallel
-- Within US3: T046-T048 GAN setup parallel
-- Within US4: T064-T065 tips database parallel
-- Phase 7 polish tasks: T079-T081, T083-T084, T086, T089 all marked [P] can run in parallel
+- Within US3: T046-T047 tips database parallel
+- Phase 6 polish tasks: T061-T063, T065-T066, T068, T071 all marked [P] can run in parallel
 
 ---
 
@@ -293,7 +243,7 @@ Task T020: "Add recipe parsing and structuring cells ..."
 1. Complete Phase 1: Setup (T001-T005)
 2. Complete Phase 2: Foundational (T006-T011) - CRITICAL blocker
 3. Complete Phase 3: User Story 1 (T012-T033)
-4. **STOP and VALIDATE**: Test with multiple ingredient photos (chicken, salmon, vegetables), verify 5 recipes generated in <15 seconds, confirm cuisine diversity ≥ 3
+4. **STOP and VALIDATE**: Test with multiple ingredient photos (chicken, salmon, vegetables), verify 5 recipes generated in <5 seconds, confirm cuisine diversity ≥ 3
 5. Deploy/demo MVP
 
 **MVP Deliverable**: Users can upload ingredient photos and receive 5 diverse recipe suggestions with cooking time and difficulty - core value proposition delivered
@@ -303,9 +253,8 @@ Task T020: "Add recipe parsing and structuring cells ..."
 1. Complete Setup + Foundational (T001-T011) → Foundation ready
 2. Add User Story 1 (T012-T033) → Test independently → **Deploy MVP!**
 3. Add User Story 2 (T034-T045) → Test independently → Deploy with nutrition
-4. Add User Story 3 (T046-T063) → Test independently → Deploy with illustrations
-5. Add User Story 4 (T064-T078) → Test independently → Deploy full beginner experience
-6. Polish (T079-T089) → Final quality improvements
+4. Add User Story 3 (T046-T060) → Test independently → Deploy full beginner experience
+5. Polish (T061-T071) → Final quality improvements
 
 **Each story adds value without breaking previous stories**
 
@@ -315,7 +264,7 @@ With multiple developers after Foundational phase (T011) completes:
 
 - **Developer A**: User Story 1 (CNN + Transformer + RNN) - Critical path
 - **Developer B**: User Story 2 (PGM nutrition) - Can work independently
-- **Developer C**: User Story 3 (GAN illustrations) - Can work independently
+- **Developer C**: User Story 3 (Interactive guidance) - Can work independently
 - **Developer D**: Foundational utilities refinement
 
 Stories integrate at pipeline level (notebooks/pipeline_recipe_app/) after independent development
@@ -328,8 +277,8 @@ Stories integrate at pipeline level (notebooks/pipeline_recipe_app/) after indep
 - **[Story] labels**: Map tasks to user stories for traceability and independent testing
 - **No test tasks**: Tests not explicitly requested in spec.md, so excluded per template guidance
 - **Notebook-first**: All implementations in Jupyter notebooks per constitution
-- **15-second budget**: Total pipeline time for US1 must be < 15 seconds (CNN 100ms + Transformer 3s + RNN 5×50ms + overhead)
-- **Model sizes**: Total ~1.7GB models, peak 6GB RAM usage within 16GB constraint
+- **5-second budget**: Total pipeline time for US1 must be < 5 seconds (CNN 100ms + Transformer 3s + RNN 5×50ms + overhead)
+- **Model sizes**: Total ~2GB models, peak 4GB RAM usage within 8GB constraint
 - **Reproducibility**: All notebooks use seed=42 for NumPy, PyTorch, TensorFlow
 - **Data versioning**: Track dataset versions, checksums, and splits in manifest
 - **Commit strategy**: Commit after each task or logical group, verify notebook executes top-to-bottom

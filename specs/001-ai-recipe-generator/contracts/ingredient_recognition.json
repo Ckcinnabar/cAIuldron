@@ -1,8 +1,9 @@
 {
   "contract_name": "Ingredient Recognition API",
-  "description": "CNN-based ingredient identification and size estimation from uploaded photos",
-  "version": "1.0.0",
-  "model_component": "CNN (EfficientNetV2-S)",
+  "description": "Roboflow-based ingredient identification and size estimation from uploaded photos using object detection",
+  "version": "2.0.0",
+  "model_component": "Roboflow food-ingredients-dataset v2 (Object Detection via Inference SDK)",
+  "deployment_mode": "serverless",
 
   "input_schema": {
     "type": "object",
@@ -19,8 +20,8 @@
           },
           "format": {
             "type": "string",
-            "enum": ["JPEG", "PNG", "HEIC"],
-            "description": "Image format"
+            "enum": ["JPEG", "PNG", "HEIC", "WebP"],
+            "description": "Image format (Roboflow supports JPEG, PNG, WebP, HEIC)"
           },
           "dimensions": {
             "type": "object",
@@ -31,18 +32,23 @@
           }
         }
       },
-      "preprocessing_options": {
+      "detection_options": {
         "type": "object",
-        "description": "Optional preprocessing parameters",
+        "description": "Optional detection parameters for Roboflow API",
         "properties": {
-          "resize_to": {
-            "type": "integer",
-            "default": 384,
-            "description": "Target size for model input (EfficientNetV2 optimal: 384)"
+          "confidence_threshold": {
+            "type": "number",
+            "default": 0.7,
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "description": "Minimum confidence score for detections"
           },
-          "enhance_contrast": {
-            "type": "boolean",
-            "default": false
+          "overlap_threshold": {
+            "type": "number",
+            "default": 0.3,
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "description": "IOU threshold for non-maximum suppression"
           }
         }
       }
@@ -99,17 +105,24 @@
       "visual_characteristics": {
         "type": "object",
         "properties": {
-          "dominant_color": {
-            "type": "string",
-            "description": "Primary color detected"
+          "bounding_box": {
+            "type": "object",
+            "description": "Detection bounding box coordinates",
+            "properties": {
+              "x": {"type": "number", "description": "Center X coordinate"},
+              "y": {"type": "number", "description": "Center Y coordinate"},
+              "width": {"type": "number", "description": "Box width"},
+              "height": {"type": "number", "description": "Box height"}
+            },
+            "required": ["x", "y", "width", "height"]
           },
-          "texture": {
+          "detection_class": {
             "type": "string",
-            "description": "Surface texture description"
+            "description": "Raw class name from Roboflow model"
           },
-          "shape": {
-            "type": "string",
-            "description": "Basic shape category"
+          "area_ratio": {
+            "type": "number",
+            "description": "Ratio of bounding box area to image area"
           }
         }
       },
@@ -180,21 +193,31 @@
     },
     {
       "error_code": "MODEL_INFERENCE_ERROR",
-      "description": "CNN model inference failed",
+      "description": "Roboflow API inference failed",
       "http_status": 500
+    },
+    {
+      "error_code": "API_CONNECTION_ERROR",
+      "description": "Unable to connect to Roboflow serverless API",
+      "http_status": 503
     }
   ],
 
   "performance_requirements": {
-    "max_inference_time_ms": 100,
-    "max_memory_mb": 500,
-    "accuracy_target": "90% top-1 on common ingredients",
-    "confidence_threshold": 0.7
+    "max_inference_time_ms": 500,
+    "max_memory_mb": 200,
+    "accuracy_target": "Roboflow pre-trained model (version 2)",
+    "confidence_threshold": 0.7,
+    "note": "Serverless deployment - no local model loading overhead"
   },
 
   "notebook_implementation": {
-    "location": "notebooks/model_ingredient_recognition/model_cnn_inference.ipynb",
-    "input_cell": "Process uploaded image through EfficientNetV2",
-    "output_cell": "Return ingredient prediction with confidence and size estimate"
+    "setup_notebook": "notebooks/model_ingredient_recognition/setup_roboflow_model.ipynb",
+    "inference_notebook": "notebooks/model_ingredient_recognition/model_cnn_inference.ipynb",
+    "adapter_notebook": "notebooks/model_ingredient_recognition/adapter_to_recipe_generation.ipynb",
+    "input_cell": "Process uploaded image through Roboflow Inference SDK",
+    "output_cell": "Return ingredient entity with bounding box, confidence, and size estimate",
+    "api_used": "Roboflow Inference SDK (inference-sdk package)",
+    "model_id": "food-ingredients-dataset/2"
   }
 }

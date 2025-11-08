@@ -7,7 +7,7 @@
 
 ## Summary
 
-Transform ingredient photos into personalized cooking plans using a multi-model AI ecosystem. The system uses CNN for ingredient recognition, Transformer models for recipe generation, RNN for cooking sequence refinement, Probabilistic Graphical Models for nutritional estimation, and GAN for line-art illustration generation. Users upload a photo and receive 5+ diverse recipe suggestions with portion estimates, step-by-step illustrated guides, and interactive beginner guidance.
+Transform ingredient photos into personalized cooking plans using a multi-model AI ecosystem. The system uses **Roboflow pre-trained object detection model** (via Inference SDK) for ingredient recognition, Transformer models for recipe generation, RNN for cooking sequence refinement, and Probabilistic Graphical Models for nutritional estimation. Users upload a photo and receive 5+ diverse recipe suggestions with portion estimates, step-by-step guides, and interactive beginner guidance.
 
 ## Technical Context
 
@@ -28,23 +28,23 @@ Transform ingredient photos into personalized cooking plans using a multi-model 
 
 ### Principle I: Notebook-First Development ✅
 - **Status**: PASS
-- **Verification**: All AI models (CNN, Transformer, RNN, PGM, GAN) will be implemented in Jupyter notebooks
-- **Implementation**: Separate notebooks for each model pipeline (explore_ingredient_recognition.ipynb, model_recipe_generation.ipynb, etc.)
+- **Verification**: All AI models (Roboflow integration, Transformer, RNN, PGM) will be implemented in Jupyter notebooks
+- **Implementation**: Separate notebooks for each model pipeline (setup_roboflow_model.ipynb, model_recipe_generation.ipynb, etc.)
 
 ### Principle II: Cell-Based Modularity ✅
 - **Status**: PASS
-- **Verification**: Each AI component (CNN inference, recipe generation, illustration creation) will be in dedicated cells
-- **Implementation**: Import cells at top, model loading cells, inference cells, visualization cells organized sequentially
+- **Verification**: Each AI component (ingredient detection, recipe generation, nutrition estimation) will be in dedicated cells
+- **Implementation**: Import cells at top, API/model initialization cells, inference cells, visualization cells organized sequentially
 
 ### Principle III: Reproducibility & Environment Management ✅
 - **Status**: PASS
-- **Verification**: Random seeds for all models (CNN, RNN, GAN), requirements.txt with pinned versions, documented data sources
-- **Implementation**: Seed setting cells at notebook start, explicit model version tracking, data checksums for training sets
+- **Verification**: Random seeds for generative models (Transformer, RNN), requirements.txt with pinned versions, documented API versions
+- **Implementation**: Seed setting cells at notebook start, explicit model version tracking (e.g., food-ingredients-dataset/2), API configuration documentation
 
 ### Principle IV: Documentation-Driven Notebooks ✅
 - **Status**: PASS
-- **Verification**: Each notebook will include markdown cells explaining AI model architecture, training approach, and inference logic
-- **Implementation**: Title cells with model purpose, section headers for data prep/training/inference, summary cells with performance metrics
+- **Verification**: Each notebook will include markdown cells explaining model integration, API usage, and inference logic
+- **Implementation**: Title cells with model purpose, section headers for setup/inference/validation, summary cells with performance metrics
 
 ### Principle V: Python Best Practices ✅
 - **Status**: PASS
@@ -58,8 +58,8 @@ Transform ingredient photos into personalized cooking plans using a multi-model 
 
 ### Quality Standards: Performance Considerations ✅
 - **Status**: PASS
-- **Verification**: Progress bars for model inference, checkpointing for GAN training, memory profiling for large models
-- **Implementation**: tqdm for batch processing, model checkpoint saving, GPU memory monitoring cells
+- **Verification**: Progress bars for batch processing, efficient API calls, memory profiling for large models
+- **Implementation**: tqdm for batch processing, serverless inference for ingredient detection, GPU memory monitoring cells for Transformer models
 
 **GATE RESULT**: ✅ ALL CHECKS PASSED - Proceed to Phase 0 Research
 
@@ -85,12 +85,10 @@ specs/001-ai-recipe-generator/
 
 ```
 notebooks/
-├── explore_ingredients/          # Exploratory analysis of ingredient dataset
-│   ├── explore_ingredient_dataset.ipynb
-│   └── explore_image_preprocessing.ipynb
-├── model_ingredient_recognition/ # CNN-based ingredient recognition
-│   ├── model_cnn_training.ipynb
-│   └── model_cnn_inference.ipynb
+├── model_ingredient_recognition/ # Roboflow-based ingredient recognition
+│   ├── setup_roboflow_model.ipynb      # Roboflow Inference SDK setup
+│   ├── model_cnn_inference.ipynb       # Ingredient detection pipeline
+│   └── adapter_to_recipe_generation.ipynb  # Detection-to-recipe adapter
 ├── model_recipe_generation/      # Transformer-based recipe generation
 │   ├── model_transformer_training.ipynb
 │   └── model_transformer_inference.ipynb
@@ -98,11 +96,9 @@ notebooks/
 │   ├── model_rnn_training.ipynb
 │   └── model_rnn_inference.ipynb
 ├── model_nutrition_estimation/   # Probabilistic models for nutrition
+│   ├── load_usda_database.ipynb        # USDA nutrition database loader
 │   ├── model_pgm_training.ipynb
 │   └── model_pgm_inference.ipynb
-├── model_illustration_generation/ # GAN for line-art illustrations
-│   ├── model_gan_training.ipynb
-│   └── model_gan_inference.ipynb
 ├── pipeline_recipe_app/          # End-to-end recipe generation pipeline
 │   ├── pipeline_photo_to_recipes.ipynb
 │   └── pipeline_interactive_guide.ipynb
@@ -125,12 +121,12 @@ data/
     ├── illustrations/            # GAN-generated line art
     └── nutrition_estimates/      # Calorie and portion calculations
 
-models/                           # Trained model weights
-├── cnn_ingredient_recognition.h5
+models/                           # Model configurations and weights
+├── ingredient_recognition/       # Roboflow model configuration
+│   └── model_config.json         # API keys, model version, thresholds
 ├── transformer_recipe_generation.pt
 ├── rnn_cooking_refinement.pt
-├── pgm_nutrition_estimation.pkl
-└── gan_illustration_generation.pt
+└── pgm_nutrition_estimation.pkl
 
 tests/
 ├── notebook_tests/               # Automated notebook execution tests
@@ -144,9 +140,10 @@ tests/
 
 **Structure Decision**: Notebook-based Python project (Option 1) selected because:
 - AI/ML development requires iterative experimentation and visualization
-- Each model component (CNN, Transformer, RNN, PGM, GAN) benefits from interactive development
-- Inline visualizations help validate model outputs (ingredient detection, recipe quality, illustration clarity)
+- Each model component (Roboflow integration, Transformer, RNN, PGM) benefits from interactive development
+- Inline visualizations help validate model outputs (ingredient detection, recipe quality, nutrition estimates)
 - Modular notebook organization allows parallel development of different AI components
+- Serverless inference (Roboflow) simplifies deployment while maintaining notebook-first workflow
 - Aligns with project constitution's notebook-first principle
 
 ## Complexity Tracking
@@ -160,16 +157,16 @@ tests/
 ### All Principles: ✅ PASS
 
 **Verification**:
-- **Notebook-First**: All 5 AI models implemented in separate notebooks (explore_, model_, pipeline_, utils_ prefixes)
-- **Cell-Based Modularity**: Clear separation: imports → model loading → inference → validation → save
-- **Reproducibility**: Seeds documented in research.md, requirements.txt with pinned versions, data versioning in contracts
-- **Documentation-Driven**: Each notebook will have markdown cells explaining model architecture (per quickstart guide)
+- **Notebook-First**: All AI components implemented in separate notebooks (setup_, model_, pipeline_, utils_ prefixes)
+- **Cell-Based Modularity**: Clear separation: imports → API/model initialization → inference → validation → save
+- **Reproducibility**: Seeds documented in research.md, requirements.txt with pinned versions (inference-sdk>=0.9.0), API versioning in contracts
+- **Documentation-Driven**: Each notebook has markdown cells explaining integration approach, API usage, and data flow (per quickstart guide)
 - **Python Best Practices**: Type hints in data-model.md, error handling in contracts, PEP 8 compliance enforced
 
 **Design Artifacts Created**:
 - ✅ research.md: Model selection, performance requirements, technology stack
-- ✅ data-model.md: 5 entities with validation rules and relationships
-- ✅ contracts/: 4 API contracts (ingredient, recipe, nutrition, illustration)
+- ✅ data-model.md: 4 entities with validation rules and relationships (Ingredient, Recipe, CookingStep, NutritionInfo)
+- ✅ contracts/: 3 API contracts (ingredient_recognition, recipe_generation, nutrition_estimation)
 - ✅ quickstart.md: Implementation guide with code examples
 
 **FINAL GATE RESULT**: ✅ ALL CHECKS PASSED - Ready for implementation (/speckit.tasks)

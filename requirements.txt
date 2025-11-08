@@ -1,0 +1,41 @@
+# AI-Powered Recipe Generator - Dependencies
+# Python 3.11+
+
+# Deep Learning Frameworks
+torch==2.1.0
+transformers==4.35.0
+
+# Computer Vision & Image Processing
+opencv-python==4.8.1
+pillow==10.1.0
+
+# Roboflow Inference SDK (NEW - lightweight serverless inference)
+inference-sdk>=0.9.0  # Replaces custom CNN training
+
+# Probabilistic Graphical Models
+pgmpy==0.1.23
+
+# Data Science & Visualization
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter & Notebook Tools
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+papermill>=2.4.0
+ipywidgets>=8.0.0
+
+# Utilities
+tqdm>=4.65.0
+requests>=2.31.0
+pyyaml>=6.0
+
+# Testing (optional)
+pytest>=7.4.0
+
+# Code Quality (optional)
+black>=23.0.0
+flake8>=6.0.0
+nbstripout>=0.6.0

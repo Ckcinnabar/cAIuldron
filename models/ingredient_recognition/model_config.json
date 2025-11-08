@@ -1,0 +1,17 @@
+{
+  "model_source": "Roboflow Serverless",
+  "model_id": "food-ingredients-dataset/2",
+  "version": 2,
+  "api_url": "https://serverless.roboflow.com",
+  "deployment_mode": "serverless",
+  "confidence_threshold": 0.7,
+  "overlap_threshold": 0.3,
+  "sdk": "inference-sdk",
+  "notes": [
+    "Using Roboflow Inference SDK for lightweight, fast inference",
+    "Serverless deployment - no local model download needed",
+    "Model detects raw food ingredients (meat, vegetables, fruits)",
+    "Returns bounding boxes, class labels, and confidence scores",
+    "Version 2 of food-ingredients-dataset"
+  ]
+}
