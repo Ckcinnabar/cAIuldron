@@ -19,7 +19,7 @@ Turn a single photo into a full, personalized cooking plan—combining inspirati
 cAIuldron delivers four main user stories, prioritized for incremental development:
 
 ### 🥇 Priority 1: Basic Ingredient Photo to Recipe Suggestions (MVP)
-- **Smart Recognition**: EfficientNetV2 CNN identifies 100+ common ingredients with 90%+ confidence
+- **Smart Recognition**: Roboflow AI identifies 100+ common ingredients with 90%+ confidence via serverless API
 - **5+ Diverse Recipes**: Minimum 5 recipe suggestions per ingredient
 - **Cuisine Diversity**: Asian, Western, Mediterranean, Fusion, and more
 - **Essential Info**: Cooking time, difficulty level (beginner/intermediate/advanced), and ingredient lists
@@ -46,14 +46,14 @@ Photo Upload → CNN Recognition → Recipe Generation → Nutrition Estimation
 
 ### AI Model Ecosystem
 
-| Component | Model | Purpose | Processing Time |
-|-----------|-------|---------|-----------------|
-| Ingredient Recognition | EfficientNetV2-S | Identify ingredient and estimate size | 50-100ms |
-| Recipe Generation | GPT-2 Medium | Create diverse recipes | 2-3s |
-| Cooking Refinement | BiLSTM | Adjust cooking time and step order | <50ms |
-| Nutrition Estimation | Bayesian Network | Calculate calories and portions | <10ms |
+| Component | Model | Purpose | Processing Time | Status |
+|-----------|-------|---------|-----------------|--------|
+| Ingredient Recognition | Roboflow API (food-ingredients-dataset v2) | Identify ingredient and estimate size via serverless inference | <200ms | ✅ Complete |
+| Recipe Generation | GPT-2 Medium (Fine-tuned on RecipeNLG) | Create diverse recipes | <1s (dataset lookup) / 2-3s (generation) | ✅ Complete |
+| Cooking Refinement | BiLSTM | Adjust cooking time and step order | <50ms | 🚧 Planned |
+| Nutrition Estimation | Bayesian Network | Calculate calories and portions | <10ms | 🚧 Planned |
 
-**Total Processing Time**: Target < 5 seconds (typical 3-4 seconds)
+**Total Processing Time**: Target < 5 seconds (current: <3s for P1 features)
 
 ## 🚀 Quick Start
 
@@ -107,31 +107,22 @@ jupyter lab
 ```
 cAIuldron/
 ├── notebooks/                    # Jupyter notebooks (core development environment)
-│   ├── explore_ingredients/      # Exploratory analysis of ingredient dataset
-│   │   ├── explore_ingredient_dataset.ipynb
-│   │   └── explore_image_preprocessing.ipynb
-│   ├── model_ingredient_recognition/  # CNN-based ingredient recognition
-│   │   ├── model_cnn_training.ipynb
-│   │   └── model_cnn_inference.ipynb
-│   ├── model_recipe_generation/       # Transformer-based recipe generation
-│   │   ├── model_transformer_training.ipynb
-│   │   └── model_transformer_inference.ipynb
-│   ├── model_cooking_refinement/      # RNN for cooking sequence optimization
-│   │   ├── model_rnn_training.ipynb
-│   │   └── model_rnn_inference.ipynb
-│   ├── model_nutrition_estimation/    # Probabilistic models for nutrition
-│   │   ├── model_pgm_training.ipynb
-│   │   └── model_pgm_inference.ipynb
-│   ├── pipeline_recipe_app/           # End-to-end recipe generation pipeline
-│   │   ├── pipeline_photo_to_recipes.ipynb
-│   │   └── pipeline_interactive_guide.ipynb
-│   └── utils_recipe/                  # Shared utilities
-│       ├── utils_image_processing.ipynb
-│       ├── utils_model_loading.ipynb
-│       ├── utils_visualization.ipynb
-│       ├── utils_reproducibility.ipynb
-│       ├── utils_validation.ipynb
-│       └── utils_logging.ipynb
+│   ├── model_ingredient_recognition/  # Roboflow API-based ingredient recognition
+│   │   ├── setup_roboflow_model.ipynb          # ✅ Setup Roboflow Inference SDK
+│   │   ├── model_cnn_inference.ipynb           # ✅ Ingredient detection inference
+│   │   ├── adapter_to_recipe_generation.ipynb  # ✅ Adapter to recipe module
+│   │   └── README.md                           # Documentation
+│   ├── model_recipe_generation/       # GPT-2 based recipe generation
+│   │   ├── setup_recipe_transformer.ipynb      # ✅ Setup GPT-2 Medium
+│   │   ├── load_recipe_dataset.ipynb           # ✅ Load RecipeNLG dataset
+│   │   ├── train_recipe_transformer.ipynb      # ✅ Fine-tune GPT-2 on recipes
+│   │   ├── model_gpt2_inference.ipynb          # ✅ Recipe generation inference
+│   │   └── README.md                           # ✅ Documentation
+│   ├── model_nutrition_estimation/    # Bayesian networks for nutrition
+│   │   └── load_usda_database.ipynb            # ✅ Load USDA nutritional data
+│   ├── model_cooking_refinement/      # RNN for cooking sequence optimization (TODO)
+│   ├── pipeline_recipe_app/           # End-to-end pipeline (TODO)
+│   └── utils_recipe/                  # Shared utilities (TODO)
 │
 ├── data/                         # Data directory
 │   ├── raw/                      # Original datasets
@@ -147,10 +138,13 @@ cAIuldron/
 │       └── nutrition_estimates/  # Calorie and portion calculations
 │
 ├── models/                       # Trained model weights
-│   ├── cnn_ingredient_recognition.h5
-│   ├── transformer_recipe_generation.pt
-│   ├── rnn_cooking_refinement.pt
-│   └── pgm_nutrition_estimation.pkl
+│   ├── recipe_generation/
+│   │   ├── finetuned/            # ✅ Fine-tuned GPT-2 (checkpoint-900)
+│   │   ├── checkpoints/          # Training checkpoints
+│   │   └── .cache/               # Hugging Face cache
+│   ├── ingredient_recognition/   # ✅ Roboflow API config (serverless)
+│   ├── cooking_refinement/       # TODO: BiLSTM weights
+│   └── nutrition_estimation/     # TODO: Bayesian network
 │
 ├── tests/                        # Tests
 │   ├── notebook_tests/           # Notebook execution tests
@@ -349,16 +343,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🗺️ Development Roadmap
 
-### Phase 1-2: Foundation (In Progress)
-- [ ] Project setup and infrastructure (Tasks T001-T005)
-- [ ] Core utilities and reproducibility framework (Tasks T006-T011)
+### Phase 1-2: Foundation ✅ Complete
+- [x] Project setup and infrastructure (Tasks T001-T005)
+- [x] Core utilities and reproducibility framework (Tasks T006-T011)
 
-### Phase 3: Priority 1 - MVP (Next)
-- [ ] User Story 1: Basic ingredient photo to recipe suggestions (Tasks T012-T033)
-  - CNN ingredient recognition
-  - Transformer recipe generation (5+ diverse recipes)
-  - RNN cooking refinement
-  - End-to-end pipeline (< 15 seconds)
+### Phase 3: Priority 1 - MVP ⚡ In Progress
+- [x] User Story 1: Basic ingredient photo to recipe suggestions (Tasks T012-T033)
+  - [x] Roboflow API ingredient recognition (T012-T017)
+  - [x] GPT-2 recipe generation with fine-tuning (T018-T021)
+  - [x] RecipeNLG dataset integration (2.23M recipes)
+  - [ ] RNN cooking refinement (TODO)
+  - [ ] End-to-end pipeline (TODO)
 
 ### Phase 4: Priority 2 - Nutrition
 - [ ] User Story 2: Portion size & calorie estimation (Tasks T034-T045)

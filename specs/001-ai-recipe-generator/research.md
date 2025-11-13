@@ -8,75 +8,100 @@
 
 The recipe generator uses a multi-model AI ecosystem with 5 specialized components working together to transform ingredient photos into complete cooking guides.
 
-## 1. CNN: Ingredient Recognition & Measurement
+## 1. Roboflow API: Ingredient Recognition & Measurement
 
 ### Model Selection
 
-**Chosen**: EfficientNetV2-S (pre-trained on ImageNet)
-- **Rationale**: Excellent accuracy/speed tradeoff, optimized for inference on CPU/GPU
-- **Size**: ~21M parameters, ~84MB model file
-- **Inference time**: ~50-100ms per image (within 15-second budget)
+**Chosen**: Roboflow Inference SDK (Serverless API)
+- **Model**: `food-ingredients-dataset/2` (pre-trained object detection)
+- **Rationale**:
+  - No local model training required
+  - Serverless deployment (auto-scaling, no infrastructure management)
+  - Fast inference (<200ms via HTTP API)
+  - Pre-trained on diverse food dataset
+  - Includes bounding box detection for portion estimation
+- **Cost**: Pay-per-use (free tier available)
+- **Inference time**: ~100-200ms per image (including network latency)
 
 **Alternatives Considered**:
-- ResNet50: Heavier (98MB), slower inference
-- MobileNetV3: Faster but lower accuracy for fine-grained ingredient classification
-- Vision Transformer (ViT): Too slow for real-time inference without GPU
+- EfficientNetV2-S: Requires local training, model management, and GPU resources
+- Custom CNN: High development cost, longer time-to-market
+- Cloud Vision APIs: More expensive, less specialized for ingredients
 
 ### Implementation Approach
 
-**Transfer Learning Strategy**:
-- Use EfficientNetV2-S backbone pre-trained on ImageNet
-- Replace final classification layer with custom head for 100+ ingredient classes
-- Fine-tune last 20% of layers on ingredient dataset
+**API Integration Strategy**:
+- Use `inference-sdk` Python package (lightweight HTTP client)
+- Serverless inference via `https://serverless.roboflow.com`
+- No model download or local deployment needed
 
 **Input Specifications**:
-- Image size: 384x384 pixels (EfficientNetV2 optimal input)
-- Preprocessing: Resize, normalize to ImageNet mean/std
-- Augmentation: Random crop, flip, color jitter during training
+- Supported formats: JPEG, PNG, WebP
+- Image size: Flexible (API handles resizing)
+- Preprocessing: Handled automatically by Roboflow API
+
+**Response Structure**:
+```json
+{
+  "predictions": [{
+    "class": "chicken breast",
+    "confidence": 0.87,
+    "x": 320, "y": 240,
+    "width": 200, "height": 150
+  }],
+  "image": {"width": 640, "height": 480}
+}
+```
 
 **Size Estimation Logic**:
-- Extract spatial features from intermediate CNN layers
-- Compare object size to image dimensions
-- Use reference objects (hand, common items) when detected
-- Estimate weight using ingredient density database
+- Use bounding box dimensions from API response
+- Calculate ingredient area percentage: `(bbox_width * bbox_height) / (image_width * image_height)`
+- Estimate weight using ingredient-specific density lookup table
+- Provide confidence intervals based on bbox confidence score
 
-**Training Data Sources**:
-- Food-101 dataset (101k images, 101 classes)
-- Open Images food subset (~50k images)
-- Custom ingredient photos with size annotations
+**Data Source**:
+- Roboflow Universe: `food-ingredients-dataset/2`
+- Pre-trained on 1000+ ingredient images
+- Regular updates and improvements by Roboflow team
 
 ### Performance & Constraints
 
-- **Inference Time**: 50-100ms per image
-- **Memory**: ~500MB RAM for model + inference
-- **GPU**: Optional; CPU inference acceptable for single images
-- **Accuracy Target**: 90% top-1 accuracy on common ingredients
+- **Inference Time**: ~100-200ms per image (HTTP + inference)
+- **Memory**: ~50MB RAM (SDK + HTTP client only)
+- **Network**: Requires internet connection
+- **Accuracy Target**: 85%+ confidence for common ingredients
+- **Rate Limits**: Free tier: 1000 requests/month, Paid: unlimited
 
 ### Best Practices
 
-**Preprocessing Pipeline**:
+**API Usage Pipeline**:
 ```python
-# Standard preprocessing in notebook cells
-1. Load image with Pillow/OpenCV
-2. Resize to 384x384 maintaining aspect ratio
-3. Normalize: (pixel - mean) / std
-4. Convert to tensor format
+# Standard inference in notebook cells
+from inference_sdk import InferenceHTTPClient
+
+1. Initialize client with API key
+2. Send image path or bytes to API
+3. Parse JSON response for predictions
+4. Extract class, confidence, bbox coordinates
+5. Handle low-confidence or no-detection cases
 ```
 
 **Reproducibility**:
-- Set random seed: `np.random.seed(42), torch.manual_seed(42)`
-- Pin TensorFlow/PyTorch version in requirements.txt
-- Document exact model checkpoint used
+- Pin `inference-sdk>=0.9.0` in requirements.txt
+- Document API key management (environment variables)
+- Log API version and model ID in config
 
 **Error Handling**:
-- Validate image format before processing
-- Return confidence scores; threshold at 0.7 for reliable predictions
-- Fallback: Ask user to confirm ingredient if confidence < 0.7
+- Validate image format before API call
+- Handle network errors with retry logic
+- Threshold confidence at 0.7 for reliable predictions
+- Fallback: Request user confirmation if confidence < 0.7
 
 **Monitoring Metrics**:
-- Top-1 and Top-5 accuracy
-- Inference latency (95th percentile)
-- Confusion matrix for common misclassifications
+- API response time (p50, p95, p99)
+- Confidence score distribution
+- Detection rate (% of images with successful detection)
+- Cost per 1000 requests
 
 ## 2. Transformer: Recipe Generation
 
