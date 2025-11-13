@@ -1,0 +1,10 @@
+models/.cache/huggingface/models--gpt2-medium/.no_exist/6dcaa7a952f72f9298047fd5137cd6e4f05f41da/custom_generate/generate.py
+data/processed/recipes/dataset_statistics.json
+data/processed/recipes/recipes_dataset.csv
+data/processed/recipes/full_recipes.json
+data/processed/recipes/train_recipes.json
+data/processed/recipes/val_recipes.json
+data/raw/recipes/dataset.zip
+data/raw/recipes/dataset/full_dataset.csv
+models/.cache/huggingface/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da/merges.txt
+models/.cache/huggingface/models--gpt2-medium/snapshots/6dcaa7a952f72f9298047fd5137cd6e4f05f41da/model.safetensors
