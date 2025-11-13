@@ -25,3 +25,4 @@ models/recipe_generation/checkpoints/checkpoint-700/vocab.json
 models/recipe_generation/checkpoints/checkpoint-800/merges.txt
 /models/recipe_generation/checkpoints/checkpoint-800
 /models/recipe_generation/checkpoints
+/models/recipe_generation/finetuned
