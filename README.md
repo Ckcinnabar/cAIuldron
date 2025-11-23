@@ -59,7 +59,7 @@ CUDA 11.8+ (optional, for GPU acceleration)
 ### Installation
 
 ```bash
-# 1. Clone repository
+# 1. Clone repository (includes Llama 1B via Git LFS)
 git clone https://github.com/yourusername/cAIuldron.git
 cd cAIuldron
 
@@ -68,13 +68,17 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # 3. Install dependencies
-pip install torch transformers peft llama-cpp-python
-pip install gradio pillow pandas numpy
-pip install bitsandbytes accelerate
+pip install -r requirements.txt
 
-# 4. Launch Jupyter
+# 4. (Optional) Download additional models
+# See MODEL_SETUP.md for details
+python scripts/download_models.py --model all
+
+# 5. Launch Jupyter
 jupyter notebook
 ```
+
+**Note**: Llama 1B LoRA (132 MB) is included via Git LFS. GPT-2 and Llama 8B are optional downloads. See [MODEL_SETUP.md](MODEL_SETUP.md) for details.
 
 ### Running the App
 

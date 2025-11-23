@@ -29,3 +29,13 @@ models/recipe_generation/checkpoints/checkpoint-800/merges.txt
 /data/raw
 /models/recipe_generation
 /notebooks/model_nutrition_estimation
+
+# Large model files (use Hugging Face Hub instead)
+models/recipe_generation/finetuned/
+models/recipe_generation/checkpoints/
+models/recipe_generation/*.gguf
+models/.cache/
+
+# Keep only LoRA adapters (< 200 MB)
+# models/recipe_generation/llama3_1b_finetuned/ will be uploaded with Git LFS
+README.md
