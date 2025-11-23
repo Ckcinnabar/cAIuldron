@@ -169,13 +169,7 @@ cAIuldron/
 │       ├── Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf  # Llama 8B GGUF
 │       └── checkpoints/                     # Training checkpoints
 │
-├── specs/                                   # Documentation (optional)
-│   └── 001-ai-recipe-generator/
-│       ├── spec.md                          # Feature specifications
-│       ├── plan.md                          # Implementation plan
-│       ├── research.md                      # Model selection research
-│       └── tasks.md                         # Task breakdown
-│
+
 ├── Deliverable1_Technical_Blueprint_Full.pdf
 ├── Deliverable2_Technical_Blueprint_Full.pdf
 ├── IEEE_Report_cAIuldron.md
