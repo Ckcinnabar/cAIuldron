@@ -26,3 +26,6 @@ models/recipe_generation/checkpoints/checkpoint-800/merges.txt
 /models/recipe_generation/checkpoints/checkpoint-800
 /models/recipe_generation/checkpoints
 /models/recipe_generation/finetuned
+/data/raw
+/models/recipe_generation
+/notebooks/model_nutrition_estimation

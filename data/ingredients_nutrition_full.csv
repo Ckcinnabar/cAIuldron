@@ -1,0 +1,529 @@
+ingredient,fdc_id,description,data_type,calories,protein_g,fat_g,carbs_g,search_term,match_quality
+Chicken breast,171515,"Chicken breast tenders, breaded, uncooked",sr_legacy_food,263.0,14.73,15.75,15.01,chicken breast,exact
+Chicken thigh,2706029,"Chicken thigh, baked, broiled, or roasted, skin eaten, from raw",survey_fndds_food,231.0,23.12,14.62,0.0,chicken thigh,exact
+Chicken drumstick,2706002,"Chicken drumstick, baked, broiled, or roasted, skin eaten, from raw",survey_fndds_food,190.0,23.21,10.09,0.0,chicken drumstick,exact
+Chicken wing,2706057,"Chicken wing, baked, broiled, or roasted, from raw",survey_fndds_food,252.0,23.6,16.74,0.0,chicken wing,exact
+Chicken liver,360612,"SANDERSON FARMS, FRESH CHICKEN LIVERS",branded_food,116.0,16.96,4.46,0.89,chicken liver,exact
+Chicken gizzard,2719261,"Tyson All Natural* Fresh Chicken Gizzards & Hearts, 1.3 lb. (Avg Weight)",branded_food,69.0,13.93,0.91,0.0,chicken gizzard,exact
+Chicken feet,2706085,Chicken feet,survey_fndds_food,215.0,19.4,14.6,0.2,chicken feet,exact
+Ground chicken,2417777,96% LEAN 4% FAT FRESH GROUND CHICKEN,branded_food,107.0,21.43,3.12,0.0,ground chicken,exact
+Turkey breast,808662,3% Fresh Young Bone-In Turkey Breast 3-8 lbs.,branded_food,161.0,20.54,8.04,0.0,turkey breast,exact
+Turkey thigh,2649714,"Turkey Thighs, Bone-in, 3 Count Tray, Fresh, 1.5 - 2.0 lb.",branded_food,195.0,17.0,8.0,0.0,turkey thigh,exact
+Duck breast,1275060,BONELESS DUCK BREAST,branded_food,179.0,15.18,13.39,0.0,duck breast,exact
+Duck leg,1854577,ALL NATURAL DUCK LEGS,branded_food,295.0,14.29,25.89,0.0,duck leg,exact
+Duck liver,2565690,"ALEXIAN DUCK LIVER AND PORK MOUSSE WITH COGNAC, 5 OZ",branded_food,464.0,8.93,44.64,3.57,duck liver,exact
+Quail,172191,"Egg, quail, whole, fresh, raw",sr_legacy_food,158.0,13.05,11.09,0.41,quail,exact
+Goose breast,173634,"Canada Goose, breast meat only, skinless, raw",sr_legacy_food,133.0,24.31,4.02,0.0,goose,partial
+Goose liver,171100,"Pate de foie gras, canned (goose liver pate), smoked",sr_legacy_food,462.0,11.4,43.84,4.67,goose liver,exact
+Cornish hen,2681582,"Tyson Uncooked Cornish Hens, 24 Pieces, 28.5 Lb.",branded_food,178.0,16.94,12.3,0.0,cornish hen,exact
+Pheasant,174474,"Pheasant, breast, meat only, raw",sr_legacy_food,133.0,24.37,3.25,0.0,pheasant,exact
+Guinea fowl,172416,"Guinea hen, meat and skin, raw",sr_legacy_food,158.0,23.4,6.45,0.0,guinea,partial
+Emu meat,168491,"Chrysanthemum leaves, raw",sr_legacy_food,24.0,3.36,0.56,3.01,emu,partial
+Beef ribeye,2642768,100% GRASS FED ANGUS BEEF RIBEYE STEAK,branded_food,252.0,18.75,19.64,0.0,beef ribeye,exact
+Beef sirloin,908616,100% GRASS FED ORGANIC BEEF SIRLOIN STEAK,branded_food,205.0,20.54,12.5,0.0,beef sirloin,exact
+Beef tenderloin,2411625,100% GRASS FED ANGUS BEEF TENDERLOIN STEAK,branded_food,125.0,20.54,5.36,0.0,beef tenderloin,exact
+Beef brisket,2194195,"100% BEEF BRISKET BURGERS, 100% BEEF",branded_food,253.0,17.33,20.0,0.0,beef brisket,exact
+Beef chuck,972401,"100% ANGUS BEEF CHUCK BURGER, ANGUS BEEF",branded_food,285.0,17.22,23.18,0.66,beef chuck,exact
+Beef short ribs,761738,BEEF SHORT RIBS,branded_food,179.0,19.64,10.71,0.0,beef short ribs,exact
+Beef flank,2411622,100% GRASS FED ANGUS BEEF FLANKEN-STYLE SHORT RIBS,branded_food,295.0,16.07,25.89,0.0,beef flank,exact
+Beef shank,171730,"Beef, Australian, imported, Wagyu, external fat, Aust. marble score 4/5, raw",sr_legacy_food,596.0,6.54,63.27,0.0,beef,partial
+Beef oxtail,761860,BEEF OXTAILS CUT,branded_food,250.0,18.75,18.75,0.0,beef oxtail,exact
+Beef tongue,171730,"Beef, Australian, imported, Wagyu, external fat, Aust. marble score 4/5, raw",sr_legacy_food,596.0,6.54,63.27,0.0,beef,partial
+Beef tripe,2552942,"BEEF TRIPE WITH MILK, BEEF WITH MILK",branded_food,106.0,23.53,1.18,0.0,beef tripe,exact
+Ground beef,2630481,75% LEAN/25% FAT UNCOOKED SEASONED GROUND BEEF PATTIES,branded_food,304.0,16.96,25.0,0.89,ground beef,exact
+Beef liver,1829638,100% GRASS FED BEEF LIVER,branded_food,134.0,20.54,3.57,3.57,beef liver,exact
+Beef kidney,171730,"Beef, Australian, imported, Wagyu, external fat, Aust. marble score 4/5, raw",sr_legacy_food,596.0,6.54,63.27,0.0,beef,partial
+Beef heart,2022067,"BEEF HEARTY SOUP WITH COUNTRY VEGETABLES, BEEF WITH COUNTRY VEGETABLES",branded_food,49.0,2.86,1.22,6.94,beef heart,exact
+Beef fat,2552218,"BEEF FAT FREE BROTH, BEEF",branded_food,4.0,0.83,0.0,0.0,beef fat,exact
+Beef marrow bone,2630491,GRASS FED BEEF MARROW BONES,branded_food,301.0,30.09,19.47,0.0,beef marrow bone,exact
+Beef stew meat,2411621,100% GRASS FED ANGUS BEEF STEW MEAT,branded_food,116.0,21.43,2.23,0.0,beef stew meat,exact
+Beef jerky,2377280,"ORIGINAL BEEF JERKY SLOW COOKED AND HARDWOOD SMOKED FRESH-LOCK ZIPPER, ORIGINAL BEEF JERKY",branded_food,250.0,46.43,7.14,0.0,beef jerky,exact
+Corned beef,170199,"Beef, cured, corned beef, brisket, raw",sr_legacy_food,198.0,14.68,14.9,0.14,corned beef,exact
+Roast beef,2615758,DELI FRESH SLOW ROASTED ROAST BEEF SLICED LUNCH MEAT,branded_food,121.0,17.24,4.31,1.72,roast beef,exact
+Beef sausage,2706171,Beef sausage,survey_fndds_food,341.0,13.3,28.7,3.37,beef sausage,exact
+Beef patty,2701404,AdvancePierre Red Label Raw Breaded Naturally Shaped Western Style Beef Patty Fritters,branded_food,220.0,12.24,10.57,19.81,beef patty,exact
+Beef burger,1978246,"FRESH ANGUS GROUND BEEF BURGERS, BEEF",branded_food,293.0,16.0,25.33,0.0,beef burger,exact
+Beef hot dog,1408302,"UNCURED BEEF HOT DOG IN PUFF PASTRY TOPPED WITH A BEND OF PARMESAN CHEESE, SESAME, POPPY & CARAWAY SEEDS, PARMESAN CHEESE",branded_food,311.0,9.46,22.97,20.27,beef hot dog,exact
+Pork belly,1146327,2.67 OZ PORK BELLY SLIDER,branded_food,276.0,23.68,25.0,0.0,pork belly,exact
+Pork loin,168320,"HORMEL ALWAYS TENDER, Boneless Pork Loin, Fresh Pork",sr_legacy_food,145.0,19.02,7.18,0.76,pork loin,exact
+Pork shoulder,1609801,FRESH PORK SHOULDER BRISKET,branded_food,116.0,19.64,4.46,0.0,pork shoulder,exact
+Pork ribs,597796,BABY BACK FULLY COOKED PORK RIBS WITH BARBECUE SAUCE,branded_food,229.0,14.29,14.29,10.71,pork ribs,exact
+Pork tenderloin,765056,Boneless Fresh Pork Tenderloins,branded_food,125.0,20.54,3.57,0.0,pork tenderloin,exact
+Pork chop,1836494,"2 BARBEQUE SEASONED PORK CHOPS MARINATED WITH UP TO 12% ADDED SOLUTION OF PORK BROTH, DRIED VINEGAR, CULTURED DEXTROSE, SEASONING, SALT, FLAVORING RUBBED WITH SEASONING, 2 BARBEQUE SEASONED PORK CHOPS",branded_food,155.0,17.13,6.08,8.29,pork chop,exact
+Pork ham,1759005,Bone In Pork Ham,branded_food,223.0,15.18,16.96,0.0,pork ham,exact
+Pork bacon,2705887,"Pork bacon, NS as to fresh, smoked or cured, cooked",survey_fndds_food,484.0,37.41,35.8,1.9,pork bacon,exact
+Pork sausage,536337,8 FRESH PORK SAUSAGE PATTIES,branded_food,359.0,18.75,31.25,1.56,pork sausage,exact
+Pork salami,372097,"ALMIRANTE, SMOKED COOKED CHICKEN AND PORK SALAMI",branded_food,214.0,14.29,17.86,3.57,pork salami,exact
+Ground pork,2616295,80% LEAN 20% FAT FRESH GROUND PORK,branded_food,224.0,25.88,14.12,0.0,ground pork,exact
+Pork liver,1205081,FRENCH STYLE PORK LIVER CONFIT WITH HERBS OF PROVENCE,branded_food,316.0,15.56,27.78,0.78,pork liver,exact
+Pork kidney,171619,"Bockwurst, pork, veal, raw",sr_legacy_food,301.0,14.03,25.87,2.95,pork,partial
+Pork ear,2192225,"OREJITAS SEASONED PORK EARS, OREJITAS",branded_food,107.0,14.29,5.36,0.0,pork ear,exact
+Pork feet,2593562,CURED PORK FEET,branded_food,202.0,16.67,14.29,0.0,pork feet,exact
+Pork skin,168851,"Snacks, pork skins, barbecue-flavor",sr_legacy_food,538.0,57.9,31.8,1.6,pork skin,exact
+Pork fatback,2495424,"LIGHTLY SEASONED PORK FATBACK CURLS WITH RED PEPPER, RED PEPPER",branded_food,571.0,57.14,32.14,7.14,pork fatback,exact
+Pork jowl,2617307,"BLACK-EYE PEAS WITH PORK JOWL, BLACK-EYE",branded_food,200.0,10.0,6.92,25.38,pork jowl,exact
+Pork blood,171619,"Bockwurst, pork, veal, raw",sr_legacy_food,301.0,14.03,25.87,2.95,pork,partial
+Pork ribs tips,171619,"Bockwurst, pork, veal, raw",sr_legacy_food,301.0,14.03,25.87,2.95,pork,partial
+Pork cutlet,171619,"Bockwurst, pork, veal, raw",sr_legacy_food,301.0,14.03,25.87,2.95,pork,partial
+Pork schnitzel,171619,"Bockwurst, pork, veal, raw",sr_legacy_food,301.0,14.03,25.87,2.95,pork,partial
+Cured pork,1543180,"APPLEWOOD DRY RUBBED UNCURED PORK BACON, APPLEWOOD DRY RUBBED",branded_food,500.0,35.0,40.0,0.0,cured pork,exact
+Pulled pork,173344,Pulled pork in barbecue sauce,sr_legacy_food,168.0,13.19,4.42,18.74,pulled pork,exact
+Pork hot dog,1709852,"BEEF & PORK HOT DOGS, BEEF & PORK",branded_food,280.0,12.0,26.0,4.0,pork hot dog,exact
+Salmon fillet,2473684,"CREOLE SEASONED PREMIUM RAW, SKINLESS, BONELESS SALMON FILLETS, CREOLE SEASONED",branded_food,217.0,20.0,13.33,2.5,salmon fillet,exact
+Salmon steak,1654466,ATLANTIC SALMON STEAKHOUSE,branded_food,246.0,17.61,19.01,2.11,salmon steak,exact
+Salmon belly,168046,"Fish, Salmon, Chum, raw (Alaska Native)",sr_legacy_food,116.0,20.69,3.67,0.0,salmon,partial
+Tuna steak,2473675,"LEMON DIJON SEASONED PREMIUM RAW, SKINLESS, BONELESS TUNA STEAKS, LEMON DIJON SEASONED",branded_food,125.0,23.33,0.83,3.33,tuna steak,exact
+Tuna flakes,400178,LIGHT TUNA FLAKES IN VEGETABLE OIL,branded_food,273.0,20.0,1.82,45.45,tuna flakes,exact
+Cod fillet,1905300,RAW WILD CAUGHT ALASKAN SKINLESS BONELESS COD FILLETS,branded_food,80.0,17.7,0.44,0.0,cod fillet,exact
+Mackerel fillet,2069270,ANDALUSIAN MACKEREL FILLETS IN OLIVE OIL,branded_food,189.0,25.0,10.71,0.0,mackerel fillet,exact
+Sardine,173578,"Fish oil, sardine",sr_legacy_food,902.0,0.0,100.0,0.0,sardine,exact
+Anchovy,174182,"Fish, anchovy, european, raw",sr_legacy_food,131.0,20.35,4.84,0.0,anchovy,exact
+Herring,175116,"Fish, herring, Atlantic, raw",sr_legacy_food,158.0,17.96,9.04,0.0,herring,exact
+Tilapia fillet,2284372,FRESH TILAPIA FILLETS,branded_food,97.0,20.35,1.77,0.0,tilapia fillet,exact
+Catfish fillet,1167775,3/5 OZ CATFISH FILLET,branded_food,142.0,15.04,8.85,0.0,catfish fillet,exact
+Shrimp,174210,"Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",sr_legacy_food,71.0,13.61,1.01,0.91,shrimp,exact
+Prawn,168023,"Fish, salmon, tipnuk, fermented (Alaska Native)",sr_legacy_food,159.0,15.9,10.6,0.0,pn,exact
+Crab meat,549874,FRESH CRAB MEAT,branded_food,106.0,23.53,1.18,0.0,crab meat,exact
+Lobster tail,2602288,COLD WATER RAW WILD CAUGHT LOBSTER TAILS,branded_food,70.0,15.79,0.0,0.0,lobster tail,exact
+Squid,174223,"Mollusks, squid, mixed species, raw",sr_legacy_food,92.0,15.58,1.38,3.08,squid,exact
+Octopus,174218,"Mollusks, octopus, common, raw",sr_legacy_food,82.0,14.91,1.04,2.2,octopus,exact
+Clam,174214,"Mollusks, clam, mixed species, raw",sr_legacy_food,86.0,14.67,0.96,3.57,clam,exact
+Mussel,174216,"Mollusks, mussel, blue, raw",sr_legacy_food,86.0,11.9,2.24,3.69,mussel,exact
+Oyster,174735,"Beef, New Zealand, imported, oyster blade, separable lean and fat, raw",sr_legacy_food,178.0,21.27,10.31,0.0,oyster,exact
+Scallop,174220,"Mollusks, scallop, mixed species, raw",sr_legacy_food,69.0,12.06,0.49,3.18,scallop,exact
+Eel,169225,"Cucumber, peeled, raw",sr_legacy_food,10.0,0.59,0.16,2.16,eel,exact
+Trout fillet,2464030,ANDEAN RAINBOW TROUT FILLETS,branded_food,107.0,14.29,5.36,0.0,trout fillet,exact
+Snapper fillet,1168131,1/3 LB CO SNAPPER FILLET,branded_food,97.0,20.35,1.33,0.27,snapper fillet,exact
+Sole fillet,1022147,FRESH WILD DOVER SOLE FILLETS,branded_food,90.0,4.69,0.27,0.0,sole fillet,exact
+Flounder fillet,1459238,10/UP OZ FLOUNDER FILLETS,branded_food,62.0,12.39,1.77,0.0,flounder fillet,exact
+Halibut fillet,2625073,"ALASKA SKINLESS, BONELESS HALIBUT FILLET, ALASKA",branded_food,91.0,18.69,1.26,0.0,halibut fillet,exact
+Swordfish steak,438099,"RAW SEAFOODS, WILD CAUGHT SWORDFISH STEAKS",branded_food,142.0,19.47,7.08,0.0,swordfish steak,exact
+Sea bass,175142,"Fish, sea bass, mixed species, raw",sr_legacy_food,97.0,18.43,2.0,0.0,sea bass,exact
+Grouper,171962,"Fish, grouper, mixed species, raw",sr_legacy_food,92.0,19.38,1.02,0.0,grouper,exact
+Cuttlefish,174215,"Mollusks, cuttlefish, mixed species, raw",sr_legacy_food,79.0,16.24,0.7,0.82,cuttlefish,exact
+Sea cucumber,167618,"Sea cucumber, yane (Alaska Native)",sr_legacy_food,56.0,13.0,0.4,0.0,sea cucumber,exact
+Abalone,174212,"Mollusks, abalone, mixed species, raw",sr_legacy_food,105.0,17.1,0.76,6.01,abalone,exact
+Whelk,171983,"Mollusks, whelk, unspecified, raw",sr_legacy_food,137.0,23.84,0.4,7.76,whelk,exact
+Conch,1459128,RAW CONCH FRITTER MIX,branded_food,165.0,12.94,2.94,22.35,conch,exact
+Crayfish,175169,"Crustaceans, crayfish, mixed species, farmed, raw",sr_legacy_food,72.0,14.85,0.97,0.0,crayfish,exact
+King crab leg,765114,12/14 KING CRAB LEGS RED,branded_food,95.0,19.05,1.79,0.0,king crab leg,exact
+Blue crab,1244103,"ATLANTIC SHORES, THE BLUE CRAB LUMP CRABMEAT",branded_food,88.0,17.7,1.77,0.0,blue crab,exact
+Canned tuna,168582,"Mushrooms, straw, canned, drained solids",sr_legacy_food,32.0,3.83,0.68,4.64,canned,partial
+Canned sardine,2623639,CANNED SARDINE,branded_food,170.0,15.0,6.0,15.0,canned sardine,exact
+Fish ball,507767,CUTTLEFISH BALLS,branded_food,176.0,17.65,5.88,11.76,fish ball,exact
+Fish cake,2068765,CAJUN-SPICED CRAWFISH CAKES,branded_food,165.0,8.24,10.59,10.59,fish cake,exact
+Imitation crab stick,2303045,"HOT AND CRUNCHY COOKED IMITATION CRAB STICK, CUCUMBER AND AVOCADO ROLLED IN SEAWEES AND SUSHI RICE, TOPPED WITH IMITATION CRAB SALAD, TEMPURA STYLE CRURCHES AND SERVED WITH YUMMI SPICY MAYO AND SRIRACHA HOT CHILL SAUCE ROLL, HOT AND CRUNCHY",branded_food,183.0,4.49,7.37,24.36,imitation crab stick,exact
+Fish roe,1889708,"PACIFIC PLAZA IMPORTS, GOLDEN WHITEFISH ROE",branded_food,167.0,13.33,13.33,6.67,fish roe,exact
+Seaweed,169280,"Seaweed, agar, raw",sr_legacy_food,26.0,0.54,0.03,6.75,seaweed,exact
+Nori,1066887,"MEAT FREE TEMPURA BATTERED PRAWN-STYLE PIECES WITH CHOPPED NORI AND COATED IN A LEMON INFUSED BATTER, MEAT FREE TEMPURA BATTERED PRAWN-STYLE",branded_food,342.0,18.24,18.4,20.8,nori,exact
+Kombu,560852,100% RAW KOMBUCHA,branded_food,12.0,0.0,0.0,3.33,kombu,exact
+Wakame,170496,"Seaweed, wakame, raw",sr_legacy_food,45.0,3.03,0.64,9.14,wakame,exact
+Dried anchovy,2182893,Badaone Dried Anchovy Medium 170g,branded_food,239.0,42.35,5.88,0.88,dried anchovy,exact
+Cabbage,170390,"Cabbage, chinese (pak-choi), raw",sr_legacy_food,13.0,1.5,0.2,2.18,cabbage,exact
+Chinese cabbage,1749666,"VEGETABLE LO MEIN NOODLES, CHINESE CABBAGE, BOK CHOY, CARROTS AND ONION IN STIR FRY SAUCE, VEGETABLE LO MEIN",branded_food,133.0,3.7,7.41,16.3,chinese cabbage,exact
+Spinach,168438,"Mustard spinach, (tendergreen), raw",sr_legacy_food,22.0,2.2,0.3,3.9,spinach,exact
+Lettuce,168429,"Lettuce, butterhead (includes boston and bibb types), raw",sr_legacy_food,13.0,1.35,0.22,2.23,lettuce,exact
+Romaine lettuce,2709590,"Romaine lettuce, raw",survey_fndds_food,21.0,0.98,0.07,4.06,romaine lettuce,exact
+Kale,168421,"Kale, raw",sr_legacy_food,35.0,2.92,1.49,4.42,kale,exact
+Broccoli,170381,"Broccoli raab, raw",sr_legacy_food,22.0,3.17,0.49,2.85,broccoli,exact
+Cauliflower,169389,"Cauliflower, green, raw",sr_legacy_food,31.0,2.95,0.3,6.09,cauliflower,exact
+Carrot,168568,"Carrots, baby, raw",sr_legacy_food,35.0,0.64,0.13,8.24,carrot,exact
+Beetroot,2655163,"ALMONDS, BEETROOT & CINNAMON FRUIT INFUSION TEA BAGS, ALMONDS, BEETROOT & CINNAMON",branded_food,4.0,0.0,0.0,0.83,beetroot,exact
+Turnip,169818,"Prairie Turnips, raw (Northern Plains Indians)",sr_legacy_food,156.0,2.62,0.36,35.67,turnip,exact
+Radish,170095,"Radish seeds, sprouted, raw",sr_legacy_food,43.0,3.81,2.53,3.6,radish,exact
+Daikon,2073137,"BLACK PEARL A UNIQUE WHOLESOME BLEND OF WHOLE GRAIN BROWN RICE, BLACK BARLEY AND DAIKON RADISH SEEDS MEDLEY, BLACK PEARL",branded_food,356.0,13.33,1.11,73.33,daikon,exact
+Onion,170000,"Onions, raw",sr_legacy_food,40.0,1.1,0.1,9.34,onion,exact
+Red onion,2406851,"BRUSCHETTA-INSPIRED FARMERS' TOMATO PIE WITH HOMEMADE TOMATO SAUCE, FRESH PLUM TOMATOES, RED ONION, GARLIC, BASIL, PARSLEY, & BALSAMIC VINEGAR HANDMADE, WOOD-FIRED, THIN & CRISPY PIZZA, BRUSCHETTA-INSPIRED FARMERS' TOMATO PIE",branded_food,171.0,4.29,5.71,25.71,red onion,exact
+Green onion,2576110,"BACKYARD BBQ FRESH BLEND OF ROMAINE LETTUCE, KALE, BROCCOLI, RED CABBAGE, SWEET CARROTS, GREEN ONIONS, AND SAVOY CABBAGE WITH RANCH DRESSING, BBQ SAUCE, CRISPY FRIED ONIONS AND BACON BITS CHOPPED SALAD KIT, BACKYARD BBQ",branded_food,140.0,3.0,9.0,11.0,green onion,exact
+Leek,169246,"Leeks, (bulb and lower leaf-portion), raw",sr_legacy_food,61.0,1.5,0.3,14.15,leek,exact
+Garlic,169230,"Garlic, raw",sr_legacy_food,149.0,6.36,0.5,33.06,garlic,exact
+Ginger,169231,"Ginger root, raw",sr_legacy_food,80.0,1.82,0.75,17.77,ginger,exact
+Celery,169988,"Celery, raw",sr_legacy_food,14.0,0.69,0.17,2.97,celery,exact
+Bell pepper,2194448,"ASIAN-STYLE VEGETABLES & RICE FRESH STEAM MUKIMAME, WHITE LONG GRAIN RICE, CARROTS, RED BELL PEPPERS. MUSHROOMS & WILD RICE WITH TERIYAKI SAUCE, ASIAN-STYLE VEGETABLES & RICE",branded_food,82.0,4.55,1.82,11.82,bell pepper,exact
+Green pepper,1479599,CHICKEN SAUSAGE WITH FRESH RED AND GREEN PEPPERS,branded_food,153.0,16.47,8.24,2.35,green pepper,exact
+Red pepper,1405418,"A SPICY YEMENI STYLE ZHOUG SALSA FEATURING PIQUANT JALAPENO PEPPERS AND RED PEPPER, HEIGHTENED BY REFRESHING CITRUS NOTES OF CILANTRO",branded_food,50.0,0.0,0.0,10.0,red pepper,exact
+Chili pepper,1660408,"CHILI PEPPER COVERED ARTIFICIALLY FLAVORED GUMMY, STRAWBERRY",branded_food,367.0,0.0,0.0,90.0,chili pepper,exact
+Potato,170026,"Potatoes, flesh and skin, raw",sr_legacy_food,77.0,2.05,0.09,17.49,potato,exact
+Sweet potato,169303,"Sweet potato leaves, raw",sr_legacy_food,42.0,2.49,0.51,8.82,sweet potato,exact
+Yam,168432,"Mountain yam, hawaii, raw",sr_legacy_food,67.0,1.34,0.1,16.3,yam,exact
+Pumpkin,175151,"Fish, sunfish, pumpkin seed, raw",sr_legacy_food,89.0,19.4,0.7,0.0,pumpkin,exact
+Zucchini,169291,"Squash, summer, zucchini, includes skin, raw",sr_legacy_food,17.0,1.21,0.32,3.11,zucchini,exact
+Cucumber,169225,"Cucumber, peeled, raw",sr_legacy_food,10.0,0.59,0.16,2.16,cucumber,exact
+Eggplant,169228,"Eggplant, raw",sr_legacy_food,25.0,0.98,0.18,5.88,eggplant,exact
+Okra,169260,"Okra, raw",sr_legacy_food,33.0,1.93,0.19,7.45,okra,exact
+Pea,168391,"Balsam-pear (bitter gourd), leafy tips, raw",sr_legacy_food,30.0,5.3,0.69,3.29,pea,exact
+Snow pea,510656,"FRESH GARDEN STIR FRY, CARROTS, BROCCOLI & SNOW PEAS",branded_food,35.0,2.35,0.0,7.06,snow pea,exact
+Green bean,2709860,"Green beans, fresh, cooked with butter or margarine",survey_fndds_food,61.0,2.0,2.56,7.48,green bean,exact
+String bean,2710009,"Bean salad, yellow and/or green string beans",survey_fndds_food,109.0,3.52,5.0,13.0,string bean,exact
+Bitter melon,2709878,"Bitter melon, cooked",survey_fndds_food,41.0,0.82,2.72,4.19,bitter melon,exact
+Bottle gourd,2330782,17OZ BOTTLE KIWI STRAWBERRY FROST,branded_food,2.0,0.0,0.0,0.39,bottle,partial
+Winter melon,2710004,"Winter melon, cooked",survey_fndds_food,36.0,0.4,2.74,2.95,winter melon,exact
+Tomato,170456,"Tomatoes, green, raw",sr_legacy_food,23.0,1.2,0.2,5.1,tomato,exact
+Cherry tomato,1999223,"ANTIOXIDANT FRESH SPINACH, RED QUINOA, CHERRY TOMATOES, DRIED CRANBERRIES, CRISPY KALE, ORANGE CARROTS, RED CABBAGE, AND ROASTED PECANS WITH BLUEBERRY VINAIGRETTE POWER SALAD, ANTIOXIDANT",branded_food,149.0,2.6,6.69,19.7,cherry tomato,exact
+Corn,170199,"Beef, cured, corned beef, brisket, raw",sr_legacy_food,198.0,14.68,14.9,0.14,corn,exact
+Baby corn,1505642,"GREEN FRESH, BABY CORN NUGGETS",branded_food,19.0,1.54,0.0,3.08,baby corn,exact
+Artichoke,169205,"Artichokes, (globe or french), raw",sr_legacy_food,47.0,3.27,0.15,10.51,artichoke,exact
+Asparagus,168389,"Asparagus, raw",sr_legacy_food,20.0,2.2,0.12,3.88,asparagus,exact
+Mushroom,169376,"Mushroom, white, exposed to ultraviolet light, raw",sr_legacy_food,22.0,3.09,0.34,3.26,mushroom,exact
+Shiitake,169242,"Mushrooms, shiitake, raw",sr_legacy_food,34.0,2.24,0.49,6.79,shiitake,exact
+Enoki mushroom,475604,ENOKI MUSHROOM,branded_food,38.0,2.5,0.0,5.3,enoki mushroom,exact
+Oyster mushroom,404742,"DRAGONFLY, WHOLE IN SALT WATER OYSTER MUSHROOM",branded_food,11.0,0.91,0.0,1.82,oyster mushroom,exact
+Portobello mushroom,357220,"HARRIS TEETER, FRESH FOODS MARKET, PORTOBELLO MUSHROOM & CHEESE TORTELLONI",branded_food,282.0,10.0,4.55,51.82,portobello mushroom,exact
+King oyster mushroom,1888648,DRIED KING OYSTER MUSHROOM,branded_food,320.0,15.0,0.0,65.0,king oyster mushroom,exact
+Lotus root,169250,"Lotus root, raw",sr_legacy_food,74.0,2.6,0.1,17.23,lotus root,exact
+Bamboo shoot,169210,"Bamboo shoots, raw",sr_legacy_food,27.0,2.6,0.3,5.2,bamboo shoot,exact
+Bean sprout,2709768,"Bean sprouts, raw",survey_fndds_food,30.0,3.04,0.18,5.94,bean sprout,exact
+Watercress,170068,"Watercress, raw",sr_legacy_food,11.0,2.3,0.1,1.29,watercress,exact
+Arugula,169387,"Arugula, raw",sr_legacy_food,25.0,2.58,0.66,3.65,arugula,exact
+Endive,168412,"Endive, raw",sr_legacy_food,17.0,1.25,0.2,3.35,endive,exact
+Fennel,169385,"Fennel, bulb, raw",sr_legacy_food,31.0,1.24,0.2,7.3,fennel,exact
+Radicchio,168564,"Radicchio, raw",sr_legacy_food,23.0,1.43,0.25,4.48,radicchio,exact
+Mustard greens,169256,"Mustard greens, raw",sr_legacy_food,27.0,2.86,0.42,4.67,mustard greens,exact
+Collard greens,1566307,POWER GREENS FRESH COLLARD GREENS,branded_food,41.0,3.53,0.59,5.88,collard greens,exact
+Chard,169991,"Chard, swiss, raw",sr_legacy_food,19.0,1.8,0.2,3.74,chard,exact
+Bok choy,1616874,"FRESHLY FROZEN STIR FRY FOR CHOW MEIN WITH NOODLES, BEAN SPROUTS, BOK CHOY, CELERY, CARROTS, ONIONS, MUSHROOMS, PEAS, WATER CHESTNUTS, BAMBOO SHOOTS & RED PEPPERS, STIR FRY FOR CHOW MEIN",branded_food,47.0,1.89,0.0,8.49,bok choy,exact
+Napa cabbage,1376879,"A BLEND OF BROCCOLI STEMS, NAPA CABBAGE, CARROTS, KOHLRABI, AND SUGAR SNAP PEAS WITH INDIVIDUAL PACKET OF COOKED BROWN RICE AND SESAME SRIRACHA SAUCE, SESAME SRIRACHA",branded_food,100.0,2.06,4.41,13.82,napa cabbage,exact
+Water spinach,174184,"Fish, bass, fresh water, mixed species, raw",sr_legacy_food,114.0,18.86,3.69,0.0,water,partial
+Amaranth leaves,168385,"Amaranth leaves, raw",sr_legacy_food,23.0,2.46,0.33,4.02,amaranth leaves,exact
+Mizuna,1744719,"SUPER GREENS ORGANIC TENDER TASTE OF BABY SPINACH, NATURALLY FRESH MIZUNA, BABY CHARD WITH BABY KALE BLEND, SUPER GREENS",branded_food,35.0,3.53,0.0,4.71,mizuna,exact
+Dandelion greens,169226,"Dandelion greens, raw",sr_legacy_food,45.0,2.7,0.7,9.2,dandelion greens,exact
+Celtuce,169990,"Celtuce, raw",sr_legacy_food,18.0,0.85,0.3,3.65,celtuce,exact
+Parsley,170416,"Parsley, fresh",sr_legacy_food,36.0,2.97,0.79,6.33,parsley,exact
+Cilantro,169997,"Coriander (cilantro) leaves, raw",sr_legacy_food,23.0,2.13,0.52,3.67,cilantro,exact
+Basil,172232,"Basil, fresh",sr_legacy_food,23.0,3.15,0.64,2.65,basil,exact
+Mint,173474,"Peppermint, fresh",sr_legacy_food,70.0,3.75,0.94,14.89,mint,exact
+Rosemary,173473,"Rosemary, fresh",sr_legacy_food,131.0,3.31,5.86,20.7,rosemary,exact
+Thyme,173470,"Thyme, fresh",sr_legacy_food,101.0,5.56,1.68,24.45,thyme,exact
+Oregano,2301898,"BLACK OLIVE & OREGANO MEDITERRANEAN FRESH HUMMUS, BLACK OLIVE & OREGANO",branded_food,246.0,5.26,17.54,0.0,oregano,exact
+Sage,171631,"Sausage, Italian, pork, mild, raw",sr_legacy_food,290.0,13.9,24.26,2.97,sage,exact
+Chive,169994,"Chives, raw",sr_legacy_food,30.0,3.27,0.73,4.35,chive,exact
+Dill,172233,"Dill weed, fresh",sr_legacy_food,43.0,3.46,1.12,7.02,dill,exact
+Turmeric root,1989524,"AZTEC VANILLA GRASS-FED BONE BROTH COLLAGEN WITH TURMERIC ROOT, AZTEC VANILLA",branded_food,361.0,88.89,5.56,0.0,turmeric root,exact
+Horseradish,602460,ALL NATURAL OLD FASHIONED PREPARED HORSERADISH FRESH GROUND,branded_food,0.0,0.0,0.0,0.0,horseradish,exact
+Wasabi root,168583,"Wasabi, root, raw",sr_legacy_food,109.0,4.8,0.63,23.54,wasabi,partial
+Taro,168487,"Taro leaves, raw",sr_legacy_food,42.0,4.98,0.74,6.7,taro,exact
+Cassava,169985,"Cassava, raw",sr_legacy_food,160.0,1.36,0.28,38.06,cassava,exact
+Jicama,170073,"Yambean (jicama), raw",sr_legacy_food,38.0,0.72,0.09,8.82,jicama,exact
+Jerusalem artichoke,1914820,"RELISH, JERUSALEM ARTICHOKE",branded_food,105.0,0.0,0.0,21.05,jerusalem artichoke,exact
+Fiddlehead fern,169405,"Fiddlehead ferns, raw",sr_legacy_food,34.0,4.55,0.4,5.54,fiddlehead fern,exact
+Malabar spinach,169400,"Malabar spinach, cooked",sr_legacy_food,23.0,2.98,0.78,2.71,malabar spinach,exact
+Sea asparagus,171731,"Beef, Australian, imported, Wagyu, seam fat, Aust. marble score 4/5, raw",sr_legacy_food,594.0,6.0,63.3,0.0,sea,partial
+Purslane,169274,"Purslane, raw",sr_legacy_food,20.0,2.03,0.36,3.39,purslane,exact
+Pepper leaf,169394,"Pepper, banana, raw",sr_legacy_food,27.0,1.66,0.45,5.35,pepper,partial
+Moringa leaves,2174359,"MORINGA TURMERIC ORANGE BLOSSOM ORGANIC RAW HONEY, MORINGA TURMERIC ORANGE BLOSSOM",branded_food,286.0,4.76,0.0,80.95,moringa,partial
+Microgreens,1549661,"BRIGHTFRESH MICROGREENS, MICRO KALE MIX",branded_food,29.0,0.0,0.0,0.0,microgreens,exact
+Chive flower,169994,"Chives, raw",sr_legacy_food,30.0,3.27,0.73,4.35,chive,partial
+Scallion,170005,"Onions, spring or scallions (includes tops and bulb), raw",sr_legacy_food,32.0,1.83,0.19,7.34,scallion,exact
+Apple,173931,"Apples, dehydrated (low moisture), sulfured, uncooked",sr_legacy_food,346.0,1.32,0.58,93.53,apple,exact
+Green apple,2444343,100ct/2oz Fresh Green Apple Slices,branded_food,53.0,0.0,0.0,14.04,green apple,exact
+Banana,170998,"Babyfood, fruit, banana and strawberry, junior",sr_legacy_food,109.0,0.71,0.37,25.78,banana,exact
+Mango,169910,"Mangos, raw",sr_legacy_food,60.0,0.82,0.38,14.98,mango,exact
+Pineapple,169124,"Pineapple, raw, all varieties",sr_legacy_food,50.0,0.54,0.12,13.12,pineapple,exact
+Orange,175133,"Fish, roughy, orange, raw",sr_legacy_food,76.0,16.41,0.7,0.0,orange,exact
+Mandarin,169105,"Tangerines, (mandarin oranges), raw",sr_legacy_food,53.0,0.81,0.31,13.34,mandarin,exact
+Tangerine,169925,"Tangerine juice, raw",sr_legacy_food,43.0,0.5,0.2,10.1,tangerine,exact
+Lemon,172755,"Danish pastry, fruit, enriched (includes apple, cinnamon, raisin, lemon, raspberry, strawberry)",sr_legacy_food,371.0,5.4,18.5,47.8,lemon,exact
+Lime,168156,"Lime juice, raw",sr_legacy_food,25.0,0.42,0.07,8.42,lime,exact
+Grape,168575,"Grape leaves, raw",sr_legacy_food,93.0,5.6,2.12,17.31,grape,exact
+Red grape,1804303,"100% SQUEEZED JUICE, BLUEBERRY, STRAWBERRY, RED GRAPE",branded_food,62.0,0.42,0.08,14.88,red grape,exact
+White grape,2499848,"CONCORD GRAPE, STRAWBERRY, WHITE GRAPE PEACH, RASPBERRY, CHERRY JELLY HEARTS, CONCORD GRAPE, STRAWBERRY, WHITE GRAPE PEACH, RASPBERRY, CHERRY",branded_food,367.0,0.0,0.0,90.0,white grape,exact
+Watermelon,167765,"Watermelon, raw",sr_legacy_food,30.0,0.61,0.15,7.55,watermelon,exact
+Melon,169092,"Melons, cantaloupe, raw",sr_legacy_food,34.0,0.84,0.19,8.16,melon,exact
+Honeydew,169911,"Melons, honeydew, raw",sr_legacy_food,36.0,0.54,0.14,9.09,honeydew,exact
+Peach,169932,"Peaches, dehydrated (low-moisture), sulfured, uncooked",sr_legacy_food,325.0,4.89,1.03,83.18,peach,exact
+Nectarine,169914,"Nectarines, raw",sr_legacy_food,44.0,1.06,0.32,10.55,nectarine,exact
+Plum,173952,"Carissa, (natal-plum), raw",sr_legacy_food,62.0,0.5,1.3,13.63,plum,exact
+Apricot,171702,"Apricots, dehydrated (low-moisture), sulfured, uncooked",sr_legacy_food,320.0,4.9,0.62,82.89,apricot,exact
+Cherry,171686,"Acerola, (west indian cherry), raw",sr_legacy_food,32.0,0.4,0.3,7.69,cherry,exact
+Blueberry,167927,"Toaster Pastries, fruit, frosted (include apples, blueberry, cherry, strawberry)",sr_legacy_food,385.0,4.01,9.02,71.83,blueberry,exact
+Raspberry,172755,"Danish pastry, fruit, enriched (includes apple, cinnamon, raisin, lemon, raspberry, strawberry)",sr_legacy_food,371.0,5.4,18.5,47.8,raspberry,exact
+Blackberry,2602878,"100% ORGANIC COLD PRESSED PROTEIN BERRY JUICE, APPLE; WATERMELON; BLACKBERRY; STRAWBERRY; RASPBERRY; BLACK MULBERRY; PURPLE CARROT",branded_food,61.0,4.85,0.0,10.0,blackberry,exact
+Cranberry,175189,"Beans, cranberry (roman), mature seeds, raw",sr_legacy_food,335.0,23.03,1.23,60.05,cranberry,exact
+Kiwi,174111,"Beverages, Kiwi Strawberry Juice Drink",sr_legacy_food,47.0,0.0,0.0,12.26,kiwi,exact
+Pomegranate,169134,"Pomegranates, raw",sr_legacy_food,83.0,1.67,1.17,18.7,pomegranate,exact
+Avocado,171706,"Avocados, raw, California",sr_legacy_food,167.0,1.96,15.41,8.64,avocado,exact
+Papaya,169926,"Papayas, raw",sr_legacy_food,43.0,0.47,0.26,10.82,papaya,exact
+Guava,173044,"Guavas, common, raw",sr_legacy_food,68.0,2.55,0.95,14.32,guava,exact
+Lychee,969365,"FRUIT SMOOTHIE, GREENAPPLE, GRAPE, PINEAPPLE, MANGO, STRAWBERRY, LYCHEE",branded_food,81.0,0.0,0.0,20.33,lychee,exact
+Longan,169089,"Longans, raw",sr_legacy_food,60.0,1.31,0.1,15.14,longan,exact
+Durian,168192,"Durian, raw or frozen",sr_legacy_food,147.0,1.47,5.33,27.09,durian,exact
+Jackfruit,174687,"Jackfruit, raw",sr_legacy_food,95.0,1.72,0.64,23.25,jackfruit,exact
+Dragon fruit,2365312,"ASSORTED FLAVORED GOURMET JELLY BEANS, 4TH OF JULY APPLE PIE, BANANA CREAM PIE, VERY BLUEBERRY, CINNAMON FIREBALL, DRAGON FRUIT, GRAPE ESCAPE, GREEN APPLE, SUMMER LEMONADE, MANGO TANGO, PEACHY KEEN, PEACH GREEN TEA, SUCCULENT PEAR, PINA COLADA, BLUE RASPBERRY, FROSTY ROOT BEER, SOUR CHERRY, STRAWBERRY SHAKE, MELON MEDLEY, TANGERINE TWIST, JUICY WATERMELON",branded_food,350.0,0.0,0.0,92.5,dragon fruit,exact
+Star fruit,2368621,"CHERRY, ORANGE, APPLE, STRAWBERRY, BLUE RASPBERRY, GRAPE SUPERSTAR FRUIT FLAVORED SNACKS, CHERRY, ORANGE, APPLE, STRAWBERRY, BLUE RASPBERRY, GRAPE",branded_food,310.0,4.42,0.0,75.22,star fruit,exact
+Mulberry,2602878,"100% ORGANIC COLD PRESSED PROTEIN BERRY JUICE, APPLE; WATERMELON; BLACKBERRY; STRAWBERRY; RASPBERRY; BLACK MULBERRY; PURPLE CARROT",branded_food,61.0,4.85,0.0,10.0,mulberry,exact
+Fig,174665,"Figs, dried, uncooked",sr_legacy_food,249.0,3.3,0.93,63.87,fig,exact
+Date,2554119,"BERRY BERRY APPLE, STRAWBERRY, BLUEBERRY, PUMPKIN SEED, DATE, COCONUT MILK, SWEET POTATO ORGANIC DAIRY-FREE SMOOTHIE, BERRY BERRY",branded_food,88.0,2.65,3.54,13.27,date,exact
+Persimmon,169941,"Persimmons, japanese, raw",sr_legacy_food,70.0,0.58,0.19,18.59,persimmon,exact
+Passion fruit,2709248,"Passion fruit, raw",survey_fndds_food,97.0,2.2,0.7,23.38,passion fruit,exact
+Coconut,170580,"Nuts, coconut cream, raw (liquid expressed from grated meat)",sr_legacy_food,330.0,3.63,34.68,6.65,coconut,exact
+Olive,1774344,100% ORGANIC EXTRA VIRGIN FRESH-PRESSED OLIVE OIL,branded_food,800.0,0.0,93.33,0.0,olive,exact
+Pear,168391,"Balsam-pear (bitter gourd), leafy tips, raw",sr_legacy_food,30.0,5.3,0.69,3.29,pear,exact
+Asian pear,1985609,"8 FLAVOR GUMMI BEARS, ALPHONSO MANGO, AMITY RASPBERRY, ASIAN PEAR, BLACK CURRANT, BLOOD ORANGE, CRIMSON CRANBERRY, FUJI APPLE, QUEEN PINEAPPLE",branded_food,312.0,3.12,0.0,68.75,asian pear,exact
+Custard apple,171725,"Custard-apple, (bullock's-heart), raw",sr_legacy_food,101.0,1.7,0.6,25.2,custard,partial
+Mangosteen,436119,"WHOLE FOODS MARKET, SUPER STARS, ALL NATURAL FLAVORS - TANGERINE, STRAWBERRY, MANGOSTEEN, ACEROLA CHERRY, GOGI BERRY",branded_food,350.0,0.0,0.0,92.5,mangosteen,exact
+Rambutan,168167,"Rambutan, canned, syrup pack",sr_legacy_food,82.0,0.65,0.21,20.87,rambutan,exact
+Pomelo,2520371,1L BOTTLE PINEAPPLE POMELO SELTZER,branded_food,0.0,0.0,0.0,0.0,pomelo,exact
+Kumquat,168154,"Kumquats, raw",sr_legacy_food,71.0,1.88,0.86,15.9,kumquat,exact
+Loquat,169908,"Loquats, raw",sr_legacy_food,47.0,0.43,0.2,12.14,loquat,exact
+Feijoa,168176,"Feijoa, raw",sr_legacy_food,61.0,0.71,0.42,15.21,feijoa,exact
+Carambola,171715,"Carambola, (starfruit), raw",sr_legacy_food,31.0,1.04,0.33,6.73,carambola,exact
+Breadfruit,171714,"Breadfruit, raw",sr_legacy_food,103.0,1.07,0.23,27.12,breadfruit,exact
+Gooseberry,1547668,"BELLVIEW, TASTE THE FRUIT 1ST, PRESERVES, GOOSEBERRY",branded_food,250.0,0.0,0.0,65.0,gooseberry,exact
+Elderberry,2543055,"ELDERBERRY FRESH PRESSED SYRUP, ELDERBERRY",branded_food,167.0,0.0,0.0,46.67,elderberry,exact
+Hawthorn,2162534,"COOLBERRY FREEZE DRIED PITTED & SLICED HAWTHORN BERRY, COOLBERRY",branded_food,1200.0,10.0,0.0,300.0,hawthorn,exact
+Jujube,168152,"Jujube, Chinese, fresh, dried",sr_legacy_food,281.0,4.72,0.5,72.52,jujube,exact
+Prickly pear,167750,"Prickly pears, raw",sr_legacy_food,41.0,0.73,0.51,9.57,prickly pear,exact
+Clementine,168195,"Clementines, raw",sr_legacy_food,47.0,0.85,0.15,12.02,clementine,exact
+Bilberry,861128,"ORGANIC RAW KOMBUCHA, BILBERRY",branded_food,375.0,0.0,0.0,87.5,bilberry,exact
+Currant,173963,"Currants, european black, raw",sr_legacy_food,63.0,1.4,0.41,15.38,currant,exact
+Marionberry,1889795,"100% JUICE, CRANBERRY MARIONBERRY",branded_food,43.0,1.04,0.12,10.0,marionberry,exact
+Ugli fruit,439492,"ARTISAN PUGLIESE BREAD, PUGLIESE",branded_food,304.0,8.93,1.79,60.71,ugli,partial
+Miracle fruit,171004,"Salad dressing, KRAFT MIRACLE WHIP FREE Nonfat Dressing",sr_legacy_food,84.0,0.2,2.7,15.5,miracle,partial
+Quince,168163,"Quinces, raw",sr_legacy_food,57.0,0.4,0.1,15.3,quince,exact
+Soursop,167761,"Soursop, raw",sr_legacy_food,66.0,1.0,0.3,16.84,soursop,exact
+Santol,1256907,SANTOLLA RED CRAB,branded_food,94.0,18.82,1.76,0.0,santol,exact
+Tart cherry,1588921,"CHERIBUNDI, BLACK TEA WITH TART CHERRY REFRESH",branded_food,33.0,0.0,0.0,7.92,tart cherry,exact
+Sea buckthorn,1725458,POTENT-C SEA BUCKTHORN THE ORIGINAL RAW SHOT,branded_food,50.0,0.0,0.0,10.0,sea buckthorn,exact
+Ackee,2422908,ACKEE,branded_food,154.0,2.2,10.99,10.99,ackee,exact
+Plantain,168215,"Plantains, green, raw",sr_legacy_food,152.0,1.25,0.07,36.66,plantain,exact
+Sapodilla,167759,"Sapodilla, raw",sr_legacy_food,83.0,0.44,1.1,19.96,sapodilla,exact
+Cherimoya,173953,"Cherimoya, raw",sr_legacy_food,75.0,1.57,0.68,17.71,cherimoya,exact
+Fig jam,2271511,"STRAWBERRY & FIG JAM, STRAWBERRY & FIG",branded_food,219.0,0.0,0.0,56.25,fig jam,exact
+Rice,169703,"Rice, brown, long-grain, raw (Includes foods for USDA's Food Distribution Program)",sr_legacy_food,367.0,7.54,3.2,76.25,rice,exact
+White rice,1058693,"CHILE VERDE LONG GRAIN WHITE RICE WITH ONIONS, GARLIC, AND A UNIQUE BLEND OF REFRESHING LIME WITH A HINT OF JALAPENO RICE SIDE, CHILE VERDE",branded_food,361.0,8.2,1.64,78.69,white rice,exact
+Brown rice,733138,"KOREAN INSPIRED BEEF FRESH CABBAGE, BABY SPINACH & CARROTS, BROWN RICE, SEASONED BEEF, AND FIRE ROASTED EDAMAME WITH GOCHUJANG SIMMER SAUCE VEGGIE & RICE BOWL",branded_food,116.0,5.04,4.65,15.12,brown rice,exact
+Jasmine rice,2668631,"TERIYAKI & RICE FRESH GREEN CABBAGE, CARROTS, BROCCOLI, KALE WITH JASMINE RICE, CASHEWS & TERIYAKI SAUCE MEAL KIT, TERIYAKI & RICE",branded_food,113.0,2.67,2.33,21.33,jasmine rice,exact
+Basmati rice,1819032,CURRY CHICKEN OVER BASMATI RICE WITH FRESH BROCCOLI INDIAN STYLE CURRY RICE BOWL,branded_food,168.0,10.29,4.71,19.41,basmati rice,exact
+Glutinous rice,2708345,Cake made with glutinous rice,survey_fndds_food,279.0,2.49,6.51,53.57,glutinous rice,exact
+Wild rice,169726,"Wild rice, raw",sr_legacy_food,357.0,14.73,1.08,74.9,wild rice,exact
+Quinoa,168874,"Quinoa, uncooked",sr_legacy_food,368.0,14.12,6.07,64.16,quinoa,exact
+Amaranth,170682,"Amaranth grain, uncooked",sr_legacy_food,371.0,13.56,7.02,65.25,amaranth,exact
+Barley,170284,"Barley, pearled, raw",sr_legacy_food,352.0,9.91,1.16,77.72,barley,exact
+Oats,173019,"Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with real strawberries",sr_legacy_food,399.0,6.7,4.9,83.3,oats,exact
+Rolled oats,2274888,"DARK CHOCOLATE & RED BERRIES FLAVORED ORGANIC GRANOLA WITH WHOLE ROLLED OATS, CHOCOLATE CHIPS, FLAX SEEDS, RASPBERRIES AND STRAWBERRIES, DARK CHOCOLATE & RED BERRIES",branded_food,452.0,9.68,16.13,69.35,rolled oats,exact
+Rye,171077,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",sr_legacy_food,120.0,22.5,2.62,0.0,rye,exact
+Millet,169702,"Millet, raw",sr_legacy_food,378.0,11.02,4.22,72.85,millet,exact
+Sorghum,171863,"Rolls, gluten-free, white, made with brown rice flour, tapioca starch, and sorghum flour",sr_legacy_food,257.0,5.65,8.2,40.24,sorghum,exact
+Cornmeal,167628,"Cornmeal, blue (Navajo)",sr_legacy_food,398.0,10.4,5.44,76.93,cornmeal,exact
+Polenta,390844,"365 EVERYDAY VALUE, YELLOW POLENTA",branded_food,80.0,2.0,0.5,16.0,polenta,exact
+Couscous,356564,"FRESH & EASY, COUSCOUS",branded_food,349.0,13.95,2.33,74.42,couscous,exact
+Bulgur,2080285,"FALAFEL WITH TABBOULEH AND TZATZIKI INCLUDES GARBANZO BEANS, FRESH MEDITERRANEAN VEGETABLES, BULGUR WHEAT, GREEK YOGURT, PANKO BREADCRUMBS, DICED CUCUMBERS, FRESH DILL AND FRESH LEMON, FALAFEL WITH TABBOULEH AND TZATZIKI",branded_food,84.0,4.69,1.37,14.06,bulgur,exact
+Semolina,2688265,"A classic menu item made with quality ingredients and features freshly made elbow macaroni from durum wheat semolina, which is then blended with 100% real cheese and finished with a hint of sea salt",branded_food,142.0,5.78,7.11,13.33,semolina,exact
+Flour,174273,"Soy flour, full-fat, raw",sr_legacy_food,434.0,37.81,20.65,31.92,flour,exact
+Whole wheat flour,1139651,100% ORGANIC ALL PURPOSE WHOLE WHEAT FLOUR,branded_food,360.0,13.33,3.33,73.33,whole wheat flour,exact
+All-purpose flour,392784,100% ORGANIC ALL-PURPOSE FLOUR,branded_food,367.0,13.33,0.0,76.67,all-purpose flour,exact
+Corn flour,169694,"Corn flour, masa, enriched, white",sr_legacy_food,363.0,8.46,3.69,76.59,corn flour,exact
+Rice flour,2678832,"ERAWAN, RICE FLOUR",branded_food,367.0,6.67,0.0,80.0,rice flour,exact
+Almond flour,2386688,RAW ALMOND FLOUR,branded_food,583.0,20.83,50.0,20.83,almond flour,exact
+Buckwheat flour,170687,"Buckwheat flour, whole-groat",sr_legacy_food,335.0,12.62,3.1,70.59,buckwheat flour,exact
+Soy flour,174273,"Soy flour, full-fat, raw",sr_legacy_food,434.0,37.81,20.65,31.92,soy flour,exact
+Wheat bran,173002,"Cereals ready-to-eat, RALSTON Enriched Wheat Bran flakes",sr_legacy_food,390.0,10.21,3.36,79.77,wheat bran,exact
+Wheat germ,171653,"Cereals ready-to-eat, SUN COUNTRY, KRETSCHMER Honey Crunch Wheat Germ",sr_legacy_food,372.0,26.55,7.78,58.11,wheat germ,exact
+Chickpea,173756,"Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",sr_legacy_food,378.0,20.47,6.04,62.95,chickpea,exact
+Lentil,174284,"Lentils, pink or red, raw",sr_legacy_food,358.0,23.91,2.17,63.1,lentil,exact
+Mung bean,174256,"Mung beans, mature seeds, raw",sr_legacy_food,347.0,23.86,1.15,62.62,mung bean,exact
+Kidney bean,356571,"FRESH & EASY, LIGHT RED KIDNEY BEANS",branded_food,333.0,22.22,0.0,62.22,kidney bean,exact
+Black bean,1435787,"BALSAMIC & HERB FLAVORED BLACK BEAN & VEGGIE STRAWS SNACKS, BALSAMIC & HERB",branded_food,500.0,14.29,21.43,60.71,black bean,exact
+Pinto bean,2381650,"BEEF & CHEDDAR PINTO BEANS, GROUND BEEF, & CHEDDAR CHEESE IN A FRESHLY BAKED FLOUR TORTILLA MEXIWRAPS, BEEF & CHEDDAR",branded_food,231.0,10.26,10.26,27.56,pinto bean,exact
+Navy bean,1800209,100% ORGANIC NAVY BEANS,branded_food,100.0,7.69,0.77,14.62,navy bean,exact
+Pea,168391,"Balsam-pear (bitter gourd), leafy tips, raw",sr_legacy_food,30.0,5.3,0.69,3.29,pea,exact
+Adzuki bean,173730,"Yokan, prepared from adzuki beans and sugar",sr_legacy_food,260.0,3.29,0.12,60.72,adzuki bean,exact
+Soybean,169282,"Soybeans, green, raw",sr_legacy_food,147.0,12.95,6.8,11.05,soybean,exact
+Edamame,2619965,"EDAMAME FUSION CRANBERRIES, EDAMAME BEANS, ROASTED ALMONDS, FAVA BEANS, RAW PEPITAS, MULBERRIES & ROASTED CASHEWS TRAIL MIX, EDAMAME FUSION",branded_food,441.0,20.59,20.59,47.06,edamame,exact
+Split pea,356576,"FRESH & EASY, GREEN SPLIT PEAS",branded_food,347.0,24.49,1.02,61.22,split pea,exact
+Peanut,172430,"Peanuts, all types, raw",sr_legacy_food,567.0,25.8,49.24,16.13,peanut,exact
+Cashew,170162,"Nuts, cashew nuts, raw",sr_legacy_food,553.0,18.22,43.85,30.19,cashew,exact
+Almond,1811670,100% RAW ALMONDS,branded_food,533.0,20.0,46.67,20.0,almond,exact
+Walnut,2544287,"ALMONDS, PECANS, WALNUTS KETO RAW MIX, ALMONDS, PECANS, WALNUTS",branded_food,635.0,14.12,63.53,16.47,walnut,exact
+Hazelnut,1865701,"ALL NATURAL CHOCOLATE-HAZELNUT SPREAD, CHOCOLATE STRAWBERRY",branded_food,541.0,5.41,32.43,59.46,hazelnut,exact
+Pistachio,170184,"Nuts, pistachio nuts, raw",sr_legacy_food,560.0,20.16,45.32,27.17,pistachio,exact
+Macadamia,170178,"Nuts, macadamia nuts, raw",sr_legacy_food,718.0,7.91,75.77,13.82,macadamia,exact
+Brazil nut,2429287,BRAZIL NUTS RAW,branded_food,657.0,14.29,67.86,10.71,brazil nut,exact
+Chestnut,170164,"Nuts, chestnuts, chinese, raw",sr_legacy_food,224.0,4.2,1.11,49.07,chestnut,exact
+Coconut meat,170169,"Nuts, coconut meat, raw",sr_legacy_food,354.0,3.33,33.49,15.23,coconut meat,exact
+Pine nut,407685,"FERRIS, RAW PINE NUTS",branded_food,679.0,14.29,67.86,14.29,pine nut,exact
+Chia seed,2284149,100% RAW ORGANIC CHIA SEEDS,branded_food,500.0,16.67,29.17,41.67,chia seed,exact
+Flaxseed,2284148,100% RAW ORGANIC COLD MILLED GROUND FLAXSEED,branded_food,500.0,16.67,33.33,33.33,flaxseed,exact
+Sesame seed,2222743,"7205: Croissants, Strawberry Cheese Filled, Freezer-to-Oven. Contains egg, milk, and wheat ingredients. This product is processed on a line that produces products with almonds and pecans and sesame seeds. This product is processed in a facility that produces products with soy. Kosher: Kof-K-D",branded_food,303.0,7.07,15.15,35.35,sesame seed,exact
+Sunflower seed,374919,"BRAD'S RAW, RAW CRUNCHY KALE, NAKED SUNFLOWER SEED & CASHEW VEGAN CHEEZE",branded_food,471.0,17.86,32.14,39.29,sunflower seed,exact
+Pumpkin seed,175151,"Fish, sunfish, pumpkin seed, raw",sr_legacy_food,89.0,19.4,0.7,0.0,pumpkin seed,exact
+Hemp seed,436596,"365 EVERYDAY VALUE, ORGANIC RAW & HULLED HEMP SEED",branded_food,600.0,33.33,50.0,6.67,hemp seed,exact
+Water chestnut,2702108,"Birds Eye Steamfresh Broccoli, Carrots, Sugar Snap Peas, Water Chestnuts, Frozen Vegetables, 10.8 oz",branded_food,46.0,2.3,0.0,9.2,water chestnut,exact
+Lotus seed,168591,"Seeds, lotus seeds, raw",sr_legacy_food,89.0,4.13,0.53,17.28,lotus seed,exact
+Tapioca,364844,"ERAWAN, TAPIOCA STARCH",branded_food,350.0,0.0,0.0,90.0,tapioca,exact
+Tofu,172475,"Tofu, raw, firm, prepared with calcium sulfate",sr_legacy_food,144.0,17.27,8.72,2.78,tofu,exact
+Tempeh,174272,Tempeh,sr_legacy_food,192.0,20.29,10.8,7.64,tempeh,exact
+Soy milk,2481924,"STRAWBERRY GUMMY BOBA SOY MILK, STRAWBERRY",branded_food,48.0,2.22,1.27,6.98,soy milk,exact
+Soy protein,174813,"Beverages, ABBOTT, EAS soy protein powder",sr_legacy_food,405.0,47.62,3.57,43.94,soy protein,exact
+Cereal,173019,"Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with real strawberries",sr_legacy_food,399.0,6.7,4.9,83.3,cereal,exact
+Granola,2537159,100% REAL STRAWBERRIES CHEWY GRANOLA BARS,branded_food,419.0,6.45,12.9,67.74,granola,exact
+Oatmeal,1240232,"7-ELEVEN FRESH TO GO, OATMEAL RAISIN COOKIE",branded_food,392.0,5.88,11.76,62.75,oatmeal,exact
+Bread,173093,"Beef, New Zealand, imported, sweetbread, raw",sr_legacy_food,303.0,11.51,28.6,0.0,bread,exact
+White bread,1245356,"BAKERY FRESH GOODNESS, WHITE BREAD",branded_food,280.0,8.0,4.0,56.0,white bread,exact
+Whole wheat bread,2501913,"PEANUT BUTTER & STRAWBERRY SPREAD SANDWICH ON WHOLE WHEAT BREAD, PEANUT BUTTER & STRAWBERRY",branded_food,328.0,12.07,15.52,37.93,whole wheat bread,exact
+Baguette,549842,FRESH BAKE BAGUETTE,branded_food,196.0,7.14,0.0,42.86,baguette,exact
+Croissant,1143795,"5 CROISSANTS WITH STRAWBERRY FILLING, STRAWBERRY",branded_food,375.0,4.17,14.58,52.08,croissant,exact
+Pasta,169727,"Pasta, fresh-refrigerated, plain, as purchased",sr_legacy_food,288.0,11.31,2.3,54.73,pasta,exact
+Spaghetti,169298,"Squash, winter, spaghetti, raw",sr_legacy_food,31.0,0.64,0.57,6.91,spaghetti,exact
+Macaroni,173340,"Macaroni and cheese dinner with dry sauce mix, boxed, uncooked",sr_legacy_food,379.0,13.86,4.82,70.12,macaroni,exact
+Ravioli,716418,"CHEESE MICROWAVEABLE RAVIOLI PREMIUM PASTA STUFFED WITH A SMOOTH BLEND OF FRESH RICOTTA CHEESE & SEASONINGS, CHEESE",branded_food,175.0,6.99,3.5,29.37,ravioli,exact
+Lasagna noodles,976189,"FRESHLY MADE MINI LASAGNA NOODLES IN A MEAT SAUCE MADE WITH 100% GROUND BEEF & REAL MOZZARELLA CHEESE LASAGNA-STYLE PASTA & BEEF, LASAGNA-STYLE PASTA & BEEF",branded_food,119.0,5.11,4.26,14.89,lasagna noodles,exact
+Noodles,2535300,BASIL PESTO FRESH VEGGIE NOODLES,branded_food,111.0,6.56,7.21,6.89,noodles,exact
+Ramen,2183072,Club Ramen Pork Tonkotsu Fresh Noodles 205g,branded_food,237.0,7.46,5.46,38.83,ramen,exact
+Udon,2655420,"FRESH JAPANESE STYLE SANUKIYA UDON, FRESH JAPANESE STYLE",branded_food,182.0,4.42,1.47,38.82,udon,exact
+Soba,168907,"Noodles, japanese, soba, cooked",sr_legacy_food,99.0,5.06,0.1,21.44,soba,exact
+Rice noodle,360980,FRESH RICE NOODLES,branded_food,211.0,3.51,0.0,49.12,rice noodle,exact
+Instant noodle,456762,ASIAN STYLE INSTANT NOODLE,branded_food,417.0,8.33,13.33,66.67,instant noodle,exact
+Tortilla,580740,100% WHOLE WHEAT FRESH TORTILLAS,branded_food,267.0,8.89,7.78,48.89,tortilla,exact
+Pita bread,525046,100% WHOLE WHEAT PITA BREAD,branded_food,263.0,10.53,1.75,49.12,pita bread,exact
+Pizza dough,2681742,16'' FRESH 'N READY WGR OVEN RISING SHEETED PIZZA DOUGH W/ SAUCE RING,branded_food,232.0,9.33,4.18,40.25,pizza dough,exact
+Pie crust,1540949,"MORNING FRESH FARMS, PIE CRUST SHELLS",branded_food,429.0,4.76,23.81,52.38,pie crust,exact
+Cereal bar,1893183,"CEREAL BAR, FRUIT & GRAIN STRAWBERRY",branded_food,324.0,2.7,8.11,67.57,cereal bar,exact
+Cracker,2470196,"BACON SEASONED WITH BLACK PEPPER FRESH STACKS CRACKERS, BACON SEASONED WITH BLACK PEPPER",branded_food,500.0,6.25,25.0,62.5,cracker,exact
+Biscuit,1998614,"""""LUMBER JACK"""" CENTER-CUT SMOKED SAUSAGE, FRESH BUTTERMILK BISCUIT, EGG & CHEESE SUPER-SIZE SANDWICHES, """"LUMBER JACK""""",branded_food,250.0,10.26,17.31,13.46,biscuit,exact
+Cookie,175076,"Archway Home Style Cookies, Strawberry Filled",sr_legacy_food,400.0,4.35,13.26,65.92,cookie,exact
+Muffin,2036265,"BAKED FRESH GOODNESS, HONEY RAISIN BRAN MUFFINS",branded_food,443.0,4.72,23.58,53.77,muffin,exact
+Cake,172704,"Cake, pound, commercially prepared, butter (includes fresh and frozen)",sr_legacy_food,353.0,5.0,13.96,53.64,cake,exact
+Donut,439058,"BAKERY FRESH GOODNESS, CAKE DONUTS, S'MORES",branded_food,403.0,3.23,20.97,51.61,donut,exact
+Bagel,1252154,"BAGELS BY BELL, FRESH BAKE SHOP PLAIN MINI BAGEL",branded_food,314.0,11.76,0.98,68.63,bagel,exact
+Pretzel,1240463,"AMERICAN IMPORTING COMPANY, INC., YOGURT PRETZELS, STRAWBERRY",branded_food,475.0,2.5,15.0,77.5,pretzel,exact
+Pancake,2223006,"1701: Pancakes, Whole Grain, Strawberry, Bulk. Produced in a nut-free facility.",branded_food,216.0,5.41,4.73,43.24,pancake,exact
+Waffle,2209232,"1704: Waffles, Whole Grain, Strawberry 2 Pack. Contains egg, milk, soy, and wheat ingredients. Produced in a nut-free facility.",branded_food,230.0,5.41,4.73,41.89,waffle,exact
+Pastry,172755,"Danish pastry, fruit, enriched (includes apple, cinnamon, raisin, lemon, raspberry, strawberry)",sr_legacy_food,371.0,5.4,18.5,47.8,pastry,exact
+Milk,174870,"Beverages, Strawberry-flavor beverage mix, powder, prepared with whole milk",sr_legacy_food,88.0,3.0,3.1,12.3,milk,exact
+Whole milk,174870,"Beverages, Strawberry-flavor beverage mix, powder, prepared with whole milk",sr_legacy_food,88.0,3.0,3.1,12.3,whole milk,exact
+Skim milk,2125925,"FRESH!, FAT FREE SKIM MILK",branded_food,33.0,3.33,0.0,4.58,skim milk,exact
+Goat milk,1988588,"BLOODY MARY FRESH GOAT MILK CHEESE WITH TOMATO, HORSERADISH, AND SPICES, BLOODY MARY",branded_food,286.0,17.86,21.43,3.57,goat milk,exact
+Condensed milk,2486990,"7 LAYER SQUARE LAYERS OF GRAHAM CRUMBS, CONDENSED MILK, BUTTERSCOTCH CHIPS, SEMI-SWEET CHOCOLATE CHIPS, COCONUT FLAKES, PECANS, 7 LAYER",branded_food,460.0,4.0,28.0,54.0,condensed milk,exact
+Evaporated milk,2085859,"CALIFORNIA FARMS, EVAPORATED MILK",branded_food,133.0,6.67,6.67,10.0,evaporated milk,exact
+Powdered milk,862658,"CHOCOLATE FLAVOR POWDERED MILK, CHOCOLATE",branded_food,357.0,7.14,0.0,85.71,powdered milk,exact
+Butter,170385,"Butterbur, (fuki), raw",sr_legacy_food,14.0,0.39,0.04,3.61,butter,exact
+Clarified butter,171314,"Butter, Clarified butter (ghee)",sr_legacy_food,900.0,0.0,100.0,0.0,clarified butter,exact
+Ghee,171314,"Butter, Clarified butter (ghee)",sr_legacy_food,900.0,0.0,100.0,0.0,ghee,exact
+Cream,170662,"Ice creams, BREYERS, All Natural Light Vanilla Chocolate Strawberry",sr_legacy_food,161.0,4.69,4.35,26.06,cream,exact
+Whipping cream,2303208,FRESH 40% HEAVY WHIPPING CREAM,branded_food,400.0,0.0,40.0,0.0,whipping cream,exact
+Sour cream,1217716,"BAKERY FRESH GOODNESS, ANGEL FOOD CAKE, SOUR CREAM",branded_food,304.0,6.52,0.0,67.39,sour cream,exact
+Yogurt,170775,"Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",sr_legacy_food,65.0,0.86,0.14,15.05,yogurt,exact
+Greek yogurt,1243270,"365 EVERYDAY VALUE, ORGANIC LOW FAT GREEK YOGURT DESSERT BARS, STRAWBERRY",branded_food,133.0,6.67,1.67,25.0,greek yogurt,exact
+Cheese,173413,"Cheese, caraway",sr_legacy_food,376.0,25.18,29.2,3.06,cheese,exact
+Cheddar cheese,531299,AGED RAW MILK CHEDDAR CHEESE,branded_food,429.0,25.0,32.14,3.57,cheddar cheese,exact
+Mozzarella cheese,1661908,"AGED ASIAGO FRESHLY MADE HAND-LAYERED PASTA WITH ASIAGO, CREAMY RICOTTA & MOZZARELLA CHEESE & A HEARTY TOMATO MEAT SAUCE LASAGNA, AGED ASIAGO",branded_food,124.0,7.42,4.24,14.13,mozzarella cheese,exact
+Parmesan cheese,1539461,"BEL GIOIOSO, FRESHLY SHAVED PARMESAN CHEESE",branded_food,400.0,40.0,20.0,0.0,parmesan cheese,exact
+Swiss cheese,1884553,"ACME FRESH MARKET, CUBED SWISS CHEESE, WISCONSIN CHEESE",branded_food,429.0,21.43,35.71,0.0,swiss cheese,exact
+Blue cheese,1111448,"BLUE CHEESE CRUMBLES RAW MILK CHEESE, BLUE CHEESE CRUMBLES",branded_food,357.0,21.43,28.57,3.57,blue cheese,exact
+Cream cheese,2483925,"ASSORTED MINI DANISH WITH CREAM CHEESE, APPLE, LEMON, CHERRY OR STRAWBERRY FILLING, ASSORTED WITH CREAM CHEESE, APPLE, LEMON, CHERRY OR STRAWBERRY",branded_food,324.0,2.94,14.71,44.12,cream cheese,exact
+Cottage cheese,2112673,"2% LOW FAT SMALL CURD COTTAGE CHEESE WITH STRAWBERRY ON THE BOTTOM, STRAWBERRY ON THE BOTTOM",branded_food,92.0,8.45,1.76,9.86,cottage cheese,exact
+Ricotta cheese,716418,"CHEESE MICROWAVEABLE RAVIOLI PREMIUM PASTA STUFFED WITH A SMOOTH BLEND OF FRESH RICOTTA CHEESE & SEASONINGS, CHEESE",branded_food,175.0,6.99,3.5,29.37,ricotta cheese,exact
+Feta cheese,1249647,"DAIRY FRESH, PREMIUM CRUMBLED FETA CHEESE",branded_food,286.0,17.86,21.43,3.57,feta cheese,exact
+Goat cheese,952813,"BLACK TRUFFLE FRESH GOAT CHEESE, BLACK TRUFFLE",branded_food,250.0,14.29,17.86,3.57,goat cheese,exact
+Egg,172189,"Egg, duck, whole, fresh, raw",sr_legacy_food,185.0,12.81,13.77,1.45,egg,exact
+Duck egg,2707176,"Duck egg, cooked",survey_fndds_food,224.0,11.96,18.55,1.36,duck egg,exact
+Quail egg,2707178,"Quail egg, canned",survey_fndds_food,158.0,13.01,11.06,0.41,quail egg,exact
+Salted egg,2708049,"Pastry, made with bean paste and salted egg yolk filling, baked",survey_fndds_food,339.0,8.59,8.61,56.98,salted egg,exact
+Century egg,1771795,"NEW CENTURY SNACKS, RAW ALMONDS",branded_food,567.0,20.0,50.0,23.33,century,partial
+Powdered egg,2671359,DRIED EGG PRODUCT POWDERED EGGS,branded_food,615.0,46.15,46.15,0.0,powdered egg,exact
+Mayonnaise,1127890,"FRESH TENDER TURKEY BREAST ,SAVORY STUFFING AND SWEET CRANBERRY MAYONNAISE WRAPPED TOGETHER IN A SOFT FLOUR TORTILLA, THANKSGIVING TURKEY TWISTER",branded_food,272.0,10.29,8.09,30.88,mayonnaise,exact
+Custard,171725,"Custard-apple, (bullock's-heart), raw",sr_legacy_food,101.0,1.7,0.6,25.2,custard,exact
+Ice cream,170662,"Ice creams, BREYERS, All Natural Light Vanilla Chocolate Strawberry",sr_legacy_food,161.0,4.69,4.35,26.06,ice cream,exact
+Frozen yogurt,389715,"BEN & JERRY'S, GREEK, FROZEN YOGURT, STRAWBERRY SHORTCAKE",branded_food,175.0,4.12,5.15,26.8,frozen yogurt,exact
+Butter oil,173412,"Butter oil, anhydrous",sr_legacy_food,876.0,0.28,99.48,0.0,butter oil,exact
+Milkshake,1061405,"BANANA SPLIT BERRY STRAWBERRY BANANA LOW-FAT YOGURT MILKSHAKE DRINK, BANANA SPLIT BERRY",branded_food,76.0,5.08,1.69,9.32,milkshake,exact
+Whey protein,2592622,"100% WHEY PROTEIN PLUS 60 G POWDER, STRAWBERRY SMOOTHIE, STRAWBERRY SMOOTHIE",branded_food,370.0,65.22,5.43,17.39,whey protein,exact
+Protein powder,553625,"BODYLOGIX, PROTEIN POWDER, NATURAL STRAWBERRY",branded_food,387.0,77.42,6.45,9.68,protein powder,exact
+Coffee creamer,2413012,"FRESH VANILLA FLAVORED COFFEE CREAMER, FRESH VANILLA",branded_food,2867.0,73.33,273.33,33.33,coffee creamer,exact
+Toffee,2543619,"ASSORTED MILK & DARK CHOCOLATE, CARAMEL, PEANUT CLUSTER, PECAN DELIGHT, NUT CARAMEL, CASHEW CLUSTER, TOFFEE, ALMONDS, STRAWBERRY CREAM, TRUFFLE",branded_food,469.0,6.25,28.12,53.12,toffee,exact
+Chocolate,170662,"Ice creams, BREYERS, All Natural Light Vanilla Chocolate Strawberry",sr_legacy_food,161.0,4.69,4.35,26.06,chocolate,exact
+White chocolate,2572808,"12 FLAVOR VARIETY CHEESECAKE PLATTER, NY STYLE, CHOCOLATE CHERRY, CHOCOLATE MARBLE, STRAWBERRY SWIRL, CHOCOLATE CHIP, RASPBERRY WHITE CHOCOLATE, BROWNIE, BLUEBERRY SWIRL, VANILLA BEAN, TURTLE, CHOCOLATE, RASPBERRY SWIRL",branded_food,372.0,4.26,22.34,40.43,white chocolate,exact
+Cocoa powder,1793831,RAW COCOA POWDER,branded_food,525.0,25.0,25.0,50.0,cocoa powder,exact
+Milk chocolate,2659078,"24 DAYS OF CHOCOLATE BLISS, CARAMEL FLAVORED MILK CHOCOLATE, COCONUT CREME MILK CHOCOLATE, MILK CHOCOLATE, MILK CHOCOLATE CREME MILK CHOCOLATE, MINT FLAVORED DARK CHOCOLATE, STRAWBERRY ROSE CREME WHITE CHOCOLATE, DARK CHOCOLATE WITH SEA SALT, SEA SALT CREME DARK CHOCOLATE, RASPBERRY FLAVORED DARK CHOCOLATE, ESPRESSO MILK CHOCOLATE, MILK CHOCOLATE GANACHE MILK CHOCOLATE",branded_food,536.0,3.57,32.14,53.57,milk chocolate,exact
+Hot chocolate,1076585,"LIMITED EDITION POPS, BERRY LEMONADE, PEACH-MANGO, BLUEBERRY BURST, SUGAR COOKIE, PINEAPPLE-COCONUT, LEMON-LIME, STRAWBERRY-KIWI, CINNAMON ROLL, HOT CHOCOLATE, BIRTHDAY CAKE, STRAWBERRY MILKSHAKE, COTTON CANDY, BANANA SPLIT, TROPICAL FREEZE, DRAGON FRUIT,",branded_food,400.0,0.0,0.0,100.0,hot chocolate,exact
+Caramel,1317642,"12 SLICE VARIETY CHEESECAKE, CHOCOLATE CHIP, RASPBERRY WHITE CHOCOLATE, FUDGE BROWNIE, BLUEBERRY SWIRL, VANILLA BEAN, CARAMEL TURTLE, CHOCOLATE, RASPBERRY SWIRL, NEW YORK STYLE, CHOCOLATE CHERRY, CHOCOLATE MARBLE, STRAWBERRY SWIRL",branded_food,351.0,4.26,20.21,39.36,caramel,exact
+Candy,167583,"Candies, TWIZZLERS Strawberry Twists Candy",sr_legacy_food,348.0,2.56,2.32,79.16,candy,exact
+Marshmallow,2422076,"30 FLAVORS CANDY, BLUEBERRY, BUBBLE GUM, BUTTERED POPCORN, CAPPUCCINO, CARAMEL CORN, CHOCOLATE PUDDING, COCONUT, COTTON CANDY, A&W CREAM SODA, DR PEPPER, FRENCH VANILLA, GREEN APPLE, JUICY PEAR, SUNKIST LEMON, LEMON LIME, LICORICE, ORANGE SHERBET, PEACH, PINA COLADA, POMEGRANATE, RED APPLE, A&W ROOT BEER, SIZZLING CINNAMON, STRAWBERRY CHEESECAKE, SUNKIST TANGERINE, TOASTED MARSHMALLOW, TOP BANANA, TUTTI-FRUITTI, VERY CHERRY, WATERMELON",branded_food,367.0,0.0,0.0,93.33,marshmallow,exact
+Honey,173019,"Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with real strawberries",sr_legacy_food,399.0,6.7,4.9,83.3,honey,exact
+Maple syrup,2633497,"BRUNCH FAVORITES CANDY CORN, FRENCH TOAST & MAPLE SYRUP, WAFFLES & STRAWBERRY, CHOCOLATE CHIP & PANCAKES",branded_food,359.0,0.0,0.0,92.31,maple syrup,exact
+Corn syrup,2188249,"SLICED STRAWBERRIES SWEETENED WITH SUGAR NO HIGH FRICTOSE CORN SYRUP, STRAWBERRIES SWEETENED WITH SUGAR",branded_food,86.0,0.72,0.0,21.58,corn syrup,exact
+Molasses,1919935,"HAY MAKERS CIDER, STRAWBERRY WITH GINGER, HONEY, MOLASSES & VINEGAR",branded_food,46.0,0.0,0.0,11.67,molasses,exact
+Salt,170893,"Egg, whole, raw, frozen, salted, pasteurized",sr_legacy_food,138.0,10.97,10.07,0.83,salt,exact
+Sea salt,2659078,"24 DAYS OF CHOCOLATE BLISS, CARAMEL FLAVORED MILK CHOCOLATE, COCONUT CREME MILK CHOCOLATE, MILK CHOCOLATE, MILK CHOCOLATE CREME MILK CHOCOLATE, MINT FLAVORED DARK CHOCOLATE, STRAWBERRY ROSE CREME WHITE CHOCOLATE, DARK CHOCOLATE WITH SEA SALT, SEA SALT CREME DARK CHOCOLATE, RASPBERRY FLAVORED DARK CHOCOLATE, ESPRESSO MILK CHOCOLATE, MILK CHOCOLATE GANACHE MILK CHOCOLATE",branded_food,536.0,3.57,32.14,53.57,sea salt,exact
+Kosher salt,450292,"CLOVER VALLEY, COARSE KOSHER SALT",branded_food,0.0,0.0,0.0,0.0,kosher salt,exact
+Soy sauce,2297670,"RAW HOSO MAKI COMBO 1/2 ROLL OF HOSO MAKI TUNA AND 1/2 ROLL HOSO MAKI SALMON AND 3 PIECES OF TUNA NIGIRI, 3 PIECES OF SALMON NIGIRI GARNISHED WITH GINGER, WASABI AND SOY SAUCE",branded_food,143.0,8.84,1.36,22.45,soy sauce,exact
+Tamari,167763,"Tamarinds, raw",sr_legacy_food,239.0,2.8,0.6,62.5,tamari,exact
+Teriyaki sauce,2194448,"ASIAN-STYLE VEGETABLES & RICE FRESH STEAM MUKIMAME, WHITE LONG GRAIN RICE, CARROTS, RED BELL PEPPERS. MUSHROOMS & WILD RICE WITH TERIYAKI SAUCE, ASIAN-STYLE VEGETABLES & RICE",branded_food,82.0,4.55,1.82,11.82,teriyaki sauce,exact
+Worcestershire sauce,2707447,Worcestershire sauce,survey_fndds_food,77.0,0.0,0.0,19.17,worcestershire sauce,exact
+Vinegar,1834004,"ACTIVATED CHARCOAL WITH RAW & UNFILTERED APPLE CIDER VINEGAR, APPLE CIDER",branded_food,117.0,0.0,0.0,30.0,vinegar,exact
+Apple cider vinegar,1834004,"ACTIVATED CHARCOAL WITH RAW & UNFILTERED APPLE CIDER VINEGAR, APPLE CIDER",branded_food,117.0,0.0,0.0,30.0,apple cider vinegar,exact
+Rice vinegar,499016,100% NATURAL RICE VINEGAR,branded_food,0.0,0.0,0.0,0.0,rice vinegar,exact
+Balsamic vinegar,1156513,"BALSAMIC VINEGAR, STRAWBERRY",branded_food,200.0,0.0,0.0,46.67,balsamic vinegar,exact
+White vinegar,2579803,BIANCA SWEET WHITE VINEGAR,branded_food,333.0,0.0,0.0,86.67,white vinegar,exact
+Mustard,169256,"Mustard greens, raw",sr_legacy_food,27.0,2.86,0.42,4.67,mustard,exact
+Ketchup,747693,"Ketchup, restaurant",foundation_food,117.0,1.11,0.55,26.8,ketchup,exact
+Mayonnaise,1127890,"FRESH TENDER TURKEY BREAST ,SAVORY STUFFING AND SWEET CRANBERRY MAYONNAISE WRAPPED TOGETHER IN A SOFT FLOUR TORTILLA, THANKSGIVING TURKEY TWISTER",branded_food,272.0,10.29,8.09,30.88,mayonnaise,exact
+Hot sauce,1306902,FARM FRESH HOT SAUCES,branded_food,0.0,0.0,0.0,0.0,hot sauce,exact
+Chili sauce,171595,"Sauce, tomato chili sauce, bottled, with salt",sr_legacy_food,92.0,2.5,0.3,19.79,chili sauce,exact
+Sriracha,1530399,"BRAD'S, RAW CRUNCHY KALE, FRANK SRIRACHA",branded_food,464.0,14.29,25.0,46.43,sriracha,exact
+BBQ sauce,2576110,"BACKYARD BBQ FRESH BLEND OF ROMAINE LETTUCE, KALE, BROCCOLI, RED CABBAGE, SWEET CARROTS, GREEN ONIONS, AND SAVOY CABBAGE WITH RANCH DRESSING, BBQ SAUCE, CRISPY FRIED ONIONS AND BACON BITS CHOPPED SALAD KIT, BACKYARD BBQ",branded_food,140.0,3.0,9.0,11.0,bbq sauce,exact
+Oyster sauce,2707150,Oyster sauce,survey_fndds_food,51.0,1.35,0.25,10.92,oyster sauce,exact
+Fish sauce,2706457,Fish sauce,survey_fndds_food,35.0,5.06,0.01,3.64,fish sauce,exact
+Hoisin sauce,2707441,Hoisin sauce,survey_fndds_food,220.0,3.31,3.39,44.08,hoisin sauce,exact
+Black bean sauce,2707404,Black bean sauce,survey_fndds_food,168.0,6.28,8.45,17.36,black bean sauce,exact
+Curry paste,619530,"GREEN CURRY PASTE, FRESH GREEN CHILIES & SPICES",branded_food,83.0,0.0,0.0,16.67,curry paste,exact
+Curry powder,372688,"FRESH FINDS, CURRY POWDER",branded_food,0.0,0.0,0.0,0.0,curry powder,exact
+Chili powder,371931,"FRESH FINDS, CHILI POWDER",branded_food,0.0,0.0,0.0,0.0,chili powder,exact
+Paprika,371914,"FRESH FINDS, PAPRIKA",branded_food,0.0,0.0,0.0,0.0,paprika,exact
+Cumin,438202,"SHY BROTHERS FARM, CLOUMAGE, CREAMY FRESH CHEESE, ROSEMARY + CUMIN",branded_food,69.0,3.45,3.45,3.45,cumin,exact
+Coriander,169997,"Coriander (cilantro) leaves, raw",sr_legacy_food,23.0,2.13,0.52,3.67,coriander,exact
+Turmeric,1568539,AMBA HALDAR FRESH TURMERIC PICKLE,branded_food,62.0,0.0,0.0,12.5,turmeric,exact
+Black pepper,2689801,AdvancePierre Blue Label Raw Breaded Black Pepper Western Style Country Fried Beef Steak Fritters,branded_food,300.0,12.77,17.75,21.78,black pepper,exact
+White pepper,2367163,"ASSORTED CHOCOLATE TRUFFLES, WHITE PEPPERMINT, MILK PEPPERMINT COOKIE",branded_food,611.0,5.56,47.22,44.44,white pepper,exact
+Garlic powder,171325,"Spices, garlic powder",sr_legacy_food,331.0,16.55,0.73,72.73,garlic powder,exact
+Onion powder,171327,"Spices, onion powder",sr_legacy_food,341.0,10.41,1.04,79.12,onion powder,exact
+Ginger powder,557638,"BUTTERFLY, GINGER POWDER",branded_food,20.0,1.0,0.0,4.0,ginger powder,exact
+Five-spice powder,516962,ORGANIC NON-GMO BRAISED TOFU PUFFS FIVE-SPICE TOFU NUGGETS,branded_food,212.0,18.82,8.24,14.12,five-spice,partial
+Cinnamon,172755,"Danish pastry, fruit, enriched (includes apple, cinnamon, raisin, lemon, raspberry, strawberry)",sr_legacy_food,371.0,5.4,18.5,47.8,cinnamon,exact
+Nutmeg,2295496,"CARROT CAKE COCONUT, RAW HONEY, RAISINS, CINNAMON, NUTMEG AND WALNUTS BLONDE TRUFFLE BAR, CARROT CAKE",branded_food,529.0,4.17,41.67,41.67,nutmeg,exact
+Clove,1708566,100% RAW CLOVER HONEY,branded_food,286.0,0.0,0.0,80.95,clove,exact
+Cardamom,2295486,"GINGER CARDAMOM DARK COCOA, RAW HONEY, COCONUT, GINGER AND CARDAMOM COCOA TRUFFLE BAR, GINGER CARDAMOM",branded_food,508.0,4.17,41.67,41.67,cardamom,exact
+Star anise,596000,100% ORGANIC STAR ANISE,branded_food,0.0,0.0,0.0,0.0,star anise,exact
+Bay leaf,170917,"Spices, bay leaf",sr_legacy_food,313.0,7.61,8.36,74.97,bay leaf,exact
+Dried basil,1041603,LIGHTLY DRIED BASIL,branded_food,0.0,0.0,0.0,0.0,dried basil,exact
+Dried oregano,171691,"Apples, dried, sulfured, uncooked",sr_legacy_food,243.0,0.93,0.32,65.89,dried,partial
+Dried thyme,2439630,"K.L.V., DRIED THYME LEAVES",branded_food,83.0,0.0,0.0,16.67,dried thyme,exact
+Dried rosemary,1867561,"K.L.V., DRIED ROSEMARY LEAVES",branded_food,83.0,0.0,0.0,16.67,dried rosemary,exact
+Parsley flakes,2577685,"PARMESAN FETTUCCINI PASTA WITH PARSLEY FLAKES IN A CREAMY PARMESAN CHEESE FLAVORED SAUCE EASY SIDES, PARMESAN",branded_food,390.0,11.86,10.17,64.41,parsley flakes,exact
+Cayenne pepper,372514,"FRESH FINDS, CAYENNE PEPPER",branded_food,0.0,0.0,0.0,0.0,cayenne pepper,exact
+Sugar,173422,"Egg, yolk, raw, frozen, sugared, pasteurized",sr_legacy_food,307.0,13.87,22.82,10.95,sugar,exact
+Brown sugar,1744711,"APPLE BERRY CRISP FRESHLY PEELED APPLES, JUICY WILD BLUEBERRIES FROZEN AT PEAK RIPENESS, RASPBERRIES, BLACKBERRIES & RHUBARB, TOPPED WITH A DELICIOUS BROWN SUGAR & BUTTERY OAT CRUMBLE OAT CRUMBLE, APPLE BERRY",branded_food,75.0,0.44,1.55,14.6,brown sugar,exact
+Powdered sugar,643856,"MRS. FRESHLEY'S, DELICIOUS DEALS POWDERED SUGAR MINI DONUTS",branded_food,420.0,4.0,20.0,58.0,powdered sugar,exact
+Palm sugar,803455,CHOCOLATE WITH COCONUT MILK ORGANIC 55% COCOA AND COCONUT PALM SUGAR,branded_food,600.0,6.67,43.33,46.67,palm sugar,exact
+Vanilla extract,173471,Vanilla extract,sr_legacy_food,288.0,0.06,0.06,12.65,vanilla extract,exact
+Baking soda,175040,"Leavening agents, baking soda",sr_legacy_food,0.0,0.0,0.0,0.0,baking soda,exact
+Baking powder,172803,"Leavening agents, baking powder, double-acting, sodium aluminum sulfate",sr_legacy_food,53.0,0.0,0.0,27.7,baking powder,exact
+Cornstarch,169698,Cornstarch,sr_legacy_food,381.0,0.26,0.05,91.27,cornstarch,exact
+Gelatin,2531667,ALL PINK STRAWBERRY GELATIN,branded_food,368.0,5.26,0.0,84.21,gelatin,exact
+Agar agar,2025109,AGAR AGAR SEA VEGETABLE FLAKES,branded_food,0.0,0.0,0.0,66.67,agar agar,exact
+Olive oil,1774344,100% ORGANIC EXTRA VIRGIN FRESH-PRESSED OLIVE OIL,branded_food,800.0,0.0,93.33,0.0,olive oil,exact
+Canola oil,2192672,"CLASSIC HUMMUS A TRADITIONAL BLEND OF FRESH STEAMED CHICKPEAS, SESAME TAHINI, SALT, CANOLA OIL, AND A TOUCH OF GARLIC, CLASSIC",branded_food,267.0,6.67,16.67,20.0,canola oil,exact
+Coconut oil,1490004,"FRESH COCONUT FLAVOR 100% ORGANIC VIRGIN & UNREFINED FRESH COCONUT OIL, FRESH COCONUT",branded_food,857.0,0.0,100.0,0.0,coconut oil,exact
+Sesame oil,2710190,Sesame oil,survey_fndds_food,884.0,0.0,100.0,0.0,sesame oil,exact
+Sunflower oil,2710192,Sunflower oil,survey_fndds_food,900.0,0.0,100.0,0.0,sunflower oil,exact
+Peanut oil,410989,"FRESH & EASY, PEANUT OIL",branded_food,800.0,0.0,93.33,0.0,peanut oil,exact
+Vegetable oil,1492762,"BRUMMEL & BROWN BUTTERY SPREAD, CREAMY STRAWBERRY, 10% NONFAT YOGURT, 34% VEGETABLE OIL SPREAD",branded_food,417.0,0.0,33.33,25.0,vegetable oil,exact
+Butter oil,173412,"Butter oil, anhydrous",sr_legacy_food,876.0,0.28,99.48,0.0,butter oil,exact
+Lard,170406,"Collards, raw",sr_legacy_food,32.0,3.02,0.61,5.42,lard,exact
+Shortening,169823,"Agutuk, fish with shortening (Alaskan ice cream) (Alaska Native)",sr_legacy_food,470.0,9.0,43.5,10.5,shortening,exact
+Cooking wine,1296149,BURGUNDY COOKING WINE,branded_food,100.0,0.0,0.0,10.0,cooking wine,exact
+Soy paste,1496131,"KIMLAN, SOY PASTE",branded_food,107.0,7.33,0.0,20.0,soy paste,exact
+Fermented bean paste,2537140,BAVARIAN FERMENTED WITH CARAWAY SEEDS SAUERKRAUT,branded_food,33.0,0.0,0.0,6.67,fermented,partial
+Kimchi,452647,"BEAGLE BAY ORGANICS, KIMCHI, RAW SAUERKRAUT",branded_food,33.0,3.33,0.0,6.67,kimchi,exact
+Pickles,1768165,"BREAD & BUTTER FRESH PICKLES, BREAD & BUTTER",branded_food,83.0,0.0,0.0,16.67,pickles,exact
+Relish,1744444,"CRANBERRY ORANGE TANGY CRANBERRIES, FRESH ORANGES AND DELICIOUS APPLES SIMMERED WITH CINNAMON AND SUGAR RELISH, CRANBERRY ORANGE",branded_food,169.0,1.54,0.0,41.54,relish,exact
+Miso paste,2030383,"CHIKUMA, MISO PASTE",branded_food,167.0,11.11,5.56,16.67,miso paste,exact
+Tahini,169410,"Seeds, sesame butter, tahini, from raw and stone ground kernels",sr_legacy_food,570.0,17.81,48.0,26.19,tahini,exact
+Peanut butter,433328,"7-ELEVEN, FRESH TO GO, COOKIE, PEANUT BUTTER",branded_food,368.0,7.02,21.05,40.35,peanut butter,exact
+Jam,168150,"Java-plum, (jambolan), raw",sr_legacy_food,60.0,0.72,0.23,15.56,jam,exact
+Marmalade,392857,"FRESH & EASY, DELICIOUS SWEET ORANGE MARMALADE",branded_food,250.0,0.0,0.0,65.0,marmalade,exact
+Tatsoi,0,NOT FOUND: Tatsoi,not_found,0.0,0.0,0.0,0.0,,not_found
+Strawberry,0,NOT FOUND: Strawberry,not_found,0.0,0.0,0.0,0.0,,not_found
+Medlar,0,NOT FOUND: Medlar,not_found,0.0,0.0,0.0,0.0,,not_found
+Salak,0,NOT FOUND: Salak,not_found,0.0,0.0,0.0,0.0,,not_found

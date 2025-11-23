@@ -1,0 +1,176 @@
+{
+  "chicken": {
+    "calories": 297.0,
+    "protein_g": 19.62,
+    "fat_g": 16.24,
+    "carbs_g": 17.98
+  },
+  "beef": {
+    "calories": 242.0,
+    "protein_g": 15.17,
+    "fat_g": 10.3,
+    "carbs_g": 22.21
+  },
+  "pork": {
+    "calories": 124.0,
+    "protein_g": 14.0,
+    "fat_g": 7.1,
+    "carbs_g": 0.0
+  },
+  "salmon": {
+    "calories": 902.0,
+    "protein_g": 0.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0
+  },
+  "tuna": {
+    "calories": 218.0,
+    "protein_g": 12.33,
+    "fat_g": 12.04,
+    "carbs_g": 15.95
+  },
+  "shrimp": {
+    "calories": 323.0,
+    "protein_g": 12.31,
+    "fat_g": 18.9,
+    "carbs_g": 25.96
+  },
+  "egg": {
+    "calories": 283.0,
+    "protein_g": 10.35,
+    "fat_g": 15.78,
+    "carbs_g": 24.79
+  },
+  "milk": {
+    "calories": 84.0,
+    "protein_g": 3.73,
+    "fat_g": 3.26,
+    "carbs_g": 9.94
+  },
+  "cheese": {
+    "calories": 143.0,
+    "protein_g": 5.01,
+    "fat_g": 4.34,
+    "carbs_g": 21.08
+  },
+  "yogurt": {
+    "calories": 93.0,
+    "protein_g": 0.8,
+    "fat_g": 1.6,
+    "carbs_g": 19.5
+  },
+  "rice": {
+    "calories": 134.0,
+    "protein_g": 0.5,
+    "fat_g": 0.0,
+    "carbs_g": 5.0
+  },
+  "pasta": {
+    "calories": 60.0,
+    "protein_g": 1.7,
+    "fat_g": 2.1,
+    "carbs_g": 8.4
+  },
+  "bread": {
+    "calories": 318.0,
+    "protein_g": 12.53,
+    "fat_g": 29.79,
+    "carbs_g": 0.0
+  },
+  "flour": {
+    "calories": 357.0,
+    "protein_g": 0.3,
+    "fat_g": 0.1,
+    "carbs_g": 88.15
+  },
+  "potato": {
+    "calories": 68.0,
+    "protein_g": 1.26,
+    "fat_g": 0.28,
+    "carbs_g": 15.23
+  },
+  "tomato": {
+    "calories": 59.0,
+    "protein_g": 2.5,
+    "fat_g": 1.1,
+    "carbs_g": 9.4
+  },
+  "carrot": {
+    "calories": 64.0,
+    "protein_g": 1.1,
+    "fat_g": 0.0,
+    "carbs_g": 14.82
+  },
+  "broccoli": {
+    "calories": 62.0,
+    "protein_g": 3.59,
+    "fat_g": 2.48,
+    "carbs_g": 6.34
+  },
+  "spinach": {
+    "calories": 37.0,
+    "protein_g": 2.5,
+    "fat_g": 1.3,
+    "carbs_g": 5.7
+  },
+  "lettuce": {
+    "calories": 276.0,
+    "protein_g": 10.94,
+    "fat_g": 13.59,
+    "carbs_g": 27.4
+  },
+  "apple": {
+    "calories": 189.0,
+    "protein_g": 26.85,
+    "fat_g": 9.08,
+    "carbs_g": 0.0
+  },
+  "banana": {
+    "calories": 69.0,
+    "protein_g": 1.06,
+    "fat_g": 0.0,
+    "carbs_g": 20.41
+  },
+  "orange": {
+    "calories": 69.0,
+    "protein_g": 1.06,
+    "fat_g": 0.0,
+    "carbs_g": 20.41
+  },
+  "strawberry": {
+    "calories": 400.0,
+    "protein_g": 4.35,
+    "fat_g": 13.26,
+    "carbs_g": 65.92
+  },
+  "grape": {
+    "calories": 62.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 15.38
+  },
+  "olive oil": {
+    "calories": 361.0,
+    "protein_g": 0.37,
+    "fat_g": 40.0,
+    "carbs_g": 0.0
+  },
+  "butter": {
+    "calories": 480.0,
+    "protein_g": 9.0,
+    "fat_g": 24.28,
+    "carbs_g": 58.48
+  },
+  "sugar": {
+    "calories": 83.0,
+    "protein_g": 0.2,
+    "fat_g": 0.07,
+    "carbs_g": 20.73
+  },
+  "salt": {
+    "calories": 21.0,
+    "protein_g": 2.11,
+    "fat_g": 0.18,
+    "carbs_g": 4.11
+  }
+}

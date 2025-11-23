@@ -1,0 +1,30 @@
+ingredient,fdc_id,description,calories,protein_g,fat_g,carbs_g
+chicken,169841,"APPLEBEE'S, chicken tenders platter",297.0,19.62,16.24,17.98
+beef,170791,"ARBY'S, roast beef sandwich, classic",242.0,15.17,10.3,22.21
+pork,172246,"Babyfood, meat, pork, strained",124.0,14.0,7.1,0.0
+salmon,172343,"Fish oil, salmon",902.0,0.0,100.0,0.0
+tuna,170299,"Fast foods, submarine sandwich, tuna on white bread with lettuce and tomato",218.0,12.33,12.04,15.95
+shrimp,169008,"APPLEBEE'S, Double Crunch Shrimp",323.0,12.31,18.9,25.96
+egg,172076,"BURGER KING, CROISSAN'WICH with Egg and Cheese",283.0,10.35,15.78,24.79
+milk,172296,"Babyfood, cereal, barley, prepared with whole milk",84.0,3.73,3.26,9.94
+cheese,169010,"APPLEBEE'S, KRAFT, Macaroni & Cheese, from kid's menu",143.0,5.01,4.34,21.08
+yogurt,167690,"Babyfood, apple yogurt dessert, strained",93.0,0.8,1.6,19.5
+rice,167723,"Alcoholic beverage, rice (sake)",134.0,0.5,0.0,5.0
+pasta,172266,"Babyfood, dinner, pasta with vegetables",60.0,1.7,2.1,8.4
+bread,173092,"Beef, New Zealand, imported, sweetbread, cooked, boiled",318.0,12.53,29.79,0.0
+flour,170684,Arrowroot flour,357.0,0.3,0.1,88.15
+potato,172317,"Babyfood, corn and sweet potatoes, strained",68.0,1.26,0.28,15.23
+tomato,173491,"Babyfood, dinner, macaroni and tomato and beef, junior",59.0,2.5,1.1,9.4
+carrot,173487,"Babyfood, GERBER, 2nd Foods, apple, carrot and squash, organic",64.0,1.1,0.0,14.82
+broccoli,172288,"Babyfood, dinner, broccoli and chicken, junior",62.0,3.59,2.48,6.34
+spinach,170941,"Babyfood, vegetables, spinach, creamed, strained",37.0,2.5,1.3,5.7
+lettuce,170318,"Fast Foods, crispy chicken filet sandwich, with lettuce and mayonnaise",276.0,10.94,13.59,27.4
+apple,169831,"APPLEBEE'S, 9 oz house sirloin steak",189.0,26.85,9.08,0.0
+banana,169792,"Babyfood, GERBER, Banana with orange medley",69.0,1.06,0.0,20.41
+orange,169792,"Babyfood, GERBER, Banana with orange medley",69.0,1.06,0.0,20.41
+strawberry,175076,"Archway Home Style Cookies, Strawberry Filled",400.0,4.35,13.26,65.92
+grape,168144,"Babyfood, grape juice, no sugar, canned",62.0,0.0,0.0,15.38
+olive oil,171443,"Mayonnaise, reduced fat, with olive oil",361.0,0.37,40.0,0.0
+butter,173252,"Archway Home Style Cookies, Peanut Butter",480.0,9.0,24.28,58.48
+sugar,171693,"Apples, dried, sulfured, stewed, with added sugar",83.0,0.2,0.07,20.73
+salt,168492,"Amaranth leaves, cooked, boiled, drained, with salt",21.0,2.11,0.18,4.11

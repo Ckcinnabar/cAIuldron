@@ -1,0 +1,4202 @@
+{
+  "Chicken breast": {
+    "calories": 263.0,
+    "protein_g": 14.73,
+    "fat_g": 15.75,
+    "carbs_g": 15.01,
+    "description": "Chicken breast tenders, breaded, uncooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Chicken thigh": {
+    "calories": 231.0,
+    "protein_g": 23.12,
+    "fat_g": 14.62,
+    "carbs_g": 0.0,
+    "description": "Chicken thigh, baked, broiled, or roasted, skin eaten, from raw",
+    "data_type": "survey_fndds_food"
+  },
+  "Chicken drumstick": {
+    "calories": 190.0,
+    "protein_g": 23.21,
+    "fat_g": 10.09,
+    "carbs_g": 0.0,
+    "description": "Chicken drumstick, baked, broiled, or roasted, skin eaten, from raw",
+    "data_type": "survey_fndds_food"
+  },
+  "Chicken wing": {
+    "calories": 252.0,
+    "protein_g": 23.6,
+    "fat_g": 16.74,
+    "carbs_g": 0.0,
+    "description": "Chicken wing, baked, broiled, or roasted, from raw",
+    "data_type": "survey_fndds_food"
+  },
+  "Chicken liver": {
+    "calories": 116.0,
+    "protein_g": 16.96,
+    "fat_g": 4.46,
+    "carbs_g": 0.89,
+    "description": "SANDERSON FARMS, FRESH CHICKEN LIVERS",
+    "data_type": "branded_food"
+  },
+  "Chicken gizzard": {
+    "calories": 69.0,
+    "protein_g": 13.93,
+    "fat_g": 0.91,
+    "carbs_g": 0.0,
+    "description": "Tyson All Natural* Fresh Chicken Gizzards & Hearts, 1.3 lb. (Avg Weight)",
+    "data_type": "branded_food"
+  },
+  "Chicken feet": {
+    "calories": 215.0,
+    "protein_g": 19.4,
+    "fat_g": 14.6,
+    "carbs_g": 0.2,
+    "description": "Chicken feet",
+    "data_type": "survey_fndds_food"
+  },
+  "Ground chicken": {
+    "calories": 107.0,
+    "protein_g": 21.43,
+    "fat_g": 3.12,
+    "carbs_g": 0.0,
+    "description": "96% LEAN 4% FAT FRESH GROUND CHICKEN",
+    "data_type": "branded_food"
+  },
+  "Turkey breast": {
+    "calories": 161.0,
+    "protein_g": 20.54,
+    "fat_g": 8.04,
+    "carbs_g": 0.0,
+    "description": "3% Fresh Young Bone-In Turkey Breast 3-8 lbs.",
+    "data_type": "branded_food"
+  },
+  "Turkey thigh": {
+    "calories": 195.0,
+    "protein_g": 17.0,
+    "fat_g": 8.0,
+    "carbs_g": 0.0,
+    "description": "Turkey Thighs, Bone-in, 3 Count Tray, Fresh, 1.5 - 2.0 lb.",
+    "data_type": "branded_food"
+  },
+  "Duck breast": {
+    "calories": 179.0,
+    "protein_g": 15.18,
+    "fat_g": 13.39,
+    "carbs_g": 0.0,
+    "description": "BONELESS DUCK BREAST",
+    "data_type": "branded_food"
+  },
+  "Duck leg": {
+    "calories": 295.0,
+    "protein_g": 14.29,
+    "fat_g": 25.89,
+    "carbs_g": 0.0,
+    "description": "ALL NATURAL DUCK LEGS",
+    "data_type": "branded_food"
+  },
+  "Duck liver": {
+    "calories": 464.0,
+    "protein_g": 8.93,
+    "fat_g": 44.64,
+    "carbs_g": 3.57,
+    "description": "ALEXIAN DUCK LIVER AND PORK MOUSSE WITH COGNAC, 5 OZ",
+    "data_type": "branded_food"
+  },
+  "Quail": {
+    "calories": 158.0,
+    "protein_g": 13.05,
+    "fat_g": 11.09,
+    "carbs_g": 0.41,
+    "description": "Egg, quail, whole, fresh, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Goose breast": {
+    "calories": 133.0,
+    "protein_g": 24.31,
+    "fat_g": 4.02,
+    "carbs_g": 0.0,
+    "description": "Canada Goose, breast meat only, skinless, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Goose liver": {
+    "calories": 462.0,
+    "protein_g": 11.4,
+    "fat_g": 43.84,
+    "carbs_g": 4.67,
+    "description": "Pate de foie gras, canned (goose liver pate), smoked",
+    "data_type": "sr_legacy_food"
+  },
+  "Cornish hen": {
+    "calories": 178.0,
+    "protein_g": 16.94,
+    "fat_g": 12.3,
+    "carbs_g": 0.0,
+    "description": "Tyson Uncooked Cornish Hens, 24 Pieces, 28.5 Lb.",
+    "data_type": "branded_food"
+  },
+  "Pheasant": {
+    "calories": 133.0,
+    "protein_g": 24.37,
+    "fat_g": 3.25,
+    "carbs_g": 0.0,
+    "description": "Pheasant, breast, meat only, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Guinea fowl": {
+    "calories": 158.0,
+    "protein_g": 23.4,
+    "fat_g": 6.45,
+    "carbs_g": 0.0,
+    "description": "Guinea hen, meat and skin, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Emu meat": {
+    "calories": 24.0,
+    "protein_g": 3.36,
+    "fat_g": 0.56,
+    "carbs_g": 3.01,
+    "description": "Chrysanthemum leaves, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Beef ribeye": {
+    "calories": 252.0,
+    "protein_g": 18.75,
+    "fat_g": 19.64,
+    "carbs_g": 0.0,
+    "description": "100% GRASS FED ANGUS BEEF RIBEYE STEAK",
+    "data_type": "branded_food"
+  },
+  "Beef sirloin": {
+    "calories": 205.0,
+    "protein_g": 20.54,
+    "fat_g": 12.5,
+    "carbs_g": 0.0,
+    "description": "100% GRASS FED ORGANIC BEEF SIRLOIN STEAK",
+    "data_type": "branded_food"
+  },
+  "Beef tenderloin": {
+    "calories": 125.0,
+    "protein_g": 20.54,
+    "fat_g": 5.36,
+    "carbs_g": 0.0,
+    "description": "100% GRASS FED ANGUS BEEF TENDERLOIN STEAK",
+    "data_type": "branded_food"
+  },
+  "Beef brisket": {
+    "calories": 253.0,
+    "protein_g": 17.33,
+    "fat_g": 20.0,
+    "carbs_g": 0.0,
+    "description": "100% BEEF BRISKET BURGERS, 100% BEEF",
+    "data_type": "branded_food"
+  },
+  "Beef chuck": {
+    "calories": 285.0,
+    "protein_g": 17.22,
+    "fat_g": 23.18,
+    "carbs_g": 0.66,
+    "description": "100% ANGUS BEEF CHUCK BURGER, ANGUS BEEF",
+    "data_type": "branded_food"
+  },
+  "Beef short ribs": {
+    "calories": 179.0,
+    "protein_g": 19.64,
+    "fat_g": 10.71,
+    "carbs_g": 0.0,
+    "description": "BEEF SHORT RIBS",
+    "data_type": "branded_food"
+  },
+  "Beef flank": {
+    "calories": 295.0,
+    "protein_g": 16.07,
+    "fat_g": 25.89,
+    "carbs_g": 0.0,
+    "description": "100% GRASS FED ANGUS BEEF FLANKEN-STYLE SHORT RIBS",
+    "data_type": "branded_food"
+  },
+  "Beef shank": {
+    "calories": 596.0,
+    "protein_g": 6.54,
+    "fat_g": 63.27,
+    "carbs_g": 0.0,
+    "description": "Beef, Australian, imported, Wagyu, external fat, Aust. marble score 4/5, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Beef oxtail": {
+    "calories": 250.0,
+    "protein_g": 18.75,
+    "fat_g": 18.75,
+    "carbs_g": 0.0,
+    "description": "BEEF OXTAILS CUT",
+    "data_type": "branded_food"
+  },
+  "Beef tongue": {
+    "calories": 596.0,
+    "protein_g": 6.54,
+    "fat_g": 63.27,
+    "carbs_g": 0.0,
+    "description": "Beef, Australian, imported, Wagyu, external fat, Aust. marble score 4/5, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Beef tripe": {
+    "calories": 106.0,
+    "protein_g": 23.53,
+    "fat_g": 1.18,
+    "carbs_g": 0.0,
+    "description": "BEEF TRIPE WITH MILK, BEEF WITH MILK",
+    "data_type": "branded_food"
+  },
+  "Ground beef": {
+    "calories": 304.0,
+    "protein_g": 16.96,
+    "fat_g": 25.0,
+    "carbs_g": 0.89,
+    "description": "75% LEAN/25% FAT UNCOOKED SEASONED GROUND BEEF PATTIES",
+    "data_type": "branded_food"
+  },
+  "Beef liver": {
+    "calories": 134.0,
+    "protein_g": 20.54,
+    "fat_g": 3.57,
+    "carbs_g": 3.57,
+    "description": "100% GRASS FED BEEF LIVER",
+    "data_type": "branded_food"
+  },
+  "Beef kidney": {
+    "calories": 596.0,
+    "protein_g": 6.54,
+    "fat_g": 63.27,
+    "carbs_g": 0.0,
+    "description": "Beef, Australian, imported, Wagyu, external fat, Aust. marble score 4/5, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Beef heart": {
+    "calories": 49.0,
+    "protein_g": 2.86,
+    "fat_g": 1.22,
+    "carbs_g": 6.94,
+    "description": "BEEF HEARTY SOUP WITH COUNTRY VEGETABLES, BEEF WITH COUNTRY VEGETABLES",
+    "data_type": "branded_food"
+  },
+  "Beef fat": {
+    "calories": 4.0,
+    "protein_g": 0.83,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "BEEF FAT FREE BROTH, BEEF",
+    "data_type": "branded_food"
+  },
+  "Beef marrow bone": {
+    "calories": 301.0,
+    "protein_g": 30.09,
+    "fat_g": 19.47,
+    "carbs_g": 0.0,
+    "description": "GRASS FED BEEF MARROW BONES",
+    "data_type": "branded_food"
+  },
+  "Beef stew meat": {
+    "calories": 116.0,
+    "protein_g": 21.43,
+    "fat_g": 2.23,
+    "carbs_g": 0.0,
+    "description": "100% GRASS FED ANGUS BEEF STEW MEAT",
+    "data_type": "branded_food"
+  },
+  "Beef jerky": {
+    "calories": 250.0,
+    "protein_g": 46.43,
+    "fat_g": 7.14,
+    "carbs_g": 0.0,
+    "description": "ORIGINAL BEEF JERKY SLOW COOKED AND HARDWOOD SMOKED FRESH-LOCK ZIPPER, ORIGINAL BEEF JERKY",
+    "data_type": "branded_food"
+  },
+  "Corned beef": {
+    "calories": 198.0,
+    "protein_g": 14.68,
+    "fat_g": 14.9,
+    "carbs_g": 0.14,
+    "description": "Beef, cured, corned beef, brisket, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Roast beef": {
+    "calories": 121.0,
+    "protein_g": 17.24,
+    "fat_g": 4.31,
+    "carbs_g": 1.72,
+    "description": "DELI FRESH SLOW ROASTED ROAST BEEF SLICED LUNCH MEAT",
+    "data_type": "branded_food"
+  },
+  "Beef sausage": {
+    "calories": 341.0,
+    "protein_g": 13.3,
+    "fat_g": 28.7,
+    "carbs_g": 3.37,
+    "description": "Beef sausage",
+    "data_type": "survey_fndds_food"
+  },
+  "Beef patty": {
+    "calories": 220.0,
+    "protein_g": 12.24,
+    "fat_g": 10.57,
+    "carbs_g": 19.81,
+    "description": "AdvancePierre Red Label Raw Breaded Naturally Shaped Western Style Beef Patty Fritters",
+    "data_type": "branded_food"
+  },
+  "Beef burger": {
+    "calories": 293.0,
+    "protein_g": 16.0,
+    "fat_g": 25.33,
+    "carbs_g": 0.0,
+    "description": "FRESH ANGUS GROUND BEEF BURGERS, BEEF",
+    "data_type": "branded_food"
+  },
+  "Beef hot dog": {
+    "calories": 311.0,
+    "protein_g": 9.46,
+    "fat_g": 22.97,
+    "carbs_g": 20.27,
+    "description": "UNCURED BEEF HOT DOG IN PUFF PASTRY TOPPED WITH A BEND OF PARMESAN CHEESE, SESAME, POPPY & CARAWAY SEEDS, PARMESAN CHEESE",
+    "data_type": "branded_food"
+  },
+  "Pork belly": {
+    "calories": 276.0,
+    "protein_g": 23.68,
+    "fat_g": 25.0,
+    "carbs_g": 0.0,
+    "description": "2.67 OZ PORK BELLY SLIDER",
+    "data_type": "branded_food"
+  },
+  "Pork loin": {
+    "calories": 145.0,
+    "protein_g": 19.02,
+    "fat_g": 7.18,
+    "carbs_g": 0.76,
+    "description": "HORMEL ALWAYS TENDER, Boneless Pork Loin, Fresh Pork",
+    "data_type": "sr_legacy_food"
+  },
+  "Pork shoulder": {
+    "calories": 116.0,
+    "protein_g": 19.64,
+    "fat_g": 4.46,
+    "carbs_g": 0.0,
+    "description": "FRESH PORK SHOULDER BRISKET",
+    "data_type": "branded_food"
+  },
+  "Pork ribs": {
+    "calories": 229.0,
+    "protein_g": 14.29,
+    "fat_g": 14.29,
+    "carbs_g": 10.71,
+    "description": "BABY BACK FULLY COOKED PORK RIBS WITH BARBECUE SAUCE",
+    "data_type": "branded_food"
+  },
+  "Pork tenderloin": {
+    "calories": 125.0,
+    "protein_g": 20.54,
+    "fat_g": 3.57,
+    "carbs_g": 0.0,
+    "description": "Boneless Fresh Pork Tenderloins",
+    "data_type": "branded_food"
+  },
+  "Pork chop": {
+    "calories": 155.0,
+    "protein_g": 17.13,
+    "fat_g": 6.08,
+    "carbs_g": 8.29,
+    "description": "2 BARBEQUE SEASONED PORK CHOPS MARINATED WITH UP TO 12% ADDED SOLUTION OF PORK BROTH, DRIED VINEGAR, CULTURED DEXTROSE, SEASONING, SALT, FLAVORING RUBBED WITH SEASONING, 2 BARBEQUE SEASONED PORK CHOPS",
+    "data_type": "branded_food"
+  },
+  "Pork ham": {
+    "calories": 223.0,
+    "protein_g": 15.18,
+    "fat_g": 16.96,
+    "carbs_g": 0.0,
+    "description": "Bone In Pork Ham",
+    "data_type": "branded_food"
+  },
+  "Pork bacon": {
+    "calories": 484.0,
+    "protein_g": 37.41,
+    "fat_g": 35.8,
+    "carbs_g": 1.9,
+    "description": "Pork bacon, NS as to fresh, smoked or cured, cooked",
+    "data_type": "survey_fndds_food"
+  },
+  "Pork sausage": {
+    "calories": 359.0,
+    "protein_g": 18.75,
+    "fat_g": 31.25,
+    "carbs_g": 1.56,
+    "description": "8 FRESH PORK SAUSAGE PATTIES",
+    "data_type": "branded_food"
+  },
+  "Pork salami": {
+    "calories": 214.0,
+    "protein_g": 14.29,
+    "fat_g": 17.86,
+    "carbs_g": 3.57,
+    "description": "ALMIRANTE, SMOKED COOKED CHICKEN AND PORK SALAMI",
+    "data_type": "branded_food"
+  },
+  "Ground pork": {
+    "calories": 224.0,
+    "protein_g": 25.88,
+    "fat_g": 14.12,
+    "carbs_g": 0.0,
+    "description": "80% LEAN 20% FAT FRESH GROUND PORK",
+    "data_type": "branded_food"
+  },
+  "Pork liver": {
+    "calories": 316.0,
+    "protein_g": 15.56,
+    "fat_g": 27.78,
+    "carbs_g": 0.78,
+    "description": "FRENCH STYLE PORK LIVER CONFIT WITH HERBS OF PROVENCE",
+    "data_type": "branded_food"
+  },
+  "Pork kidney": {
+    "calories": 301.0,
+    "protein_g": 14.03,
+    "fat_g": 25.87,
+    "carbs_g": 2.95,
+    "description": "Bockwurst, pork, veal, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Pork ear": {
+    "calories": 107.0,
+    "protein_g": 14.29,
+    "fat_g": 5.36,
+    "carbs_g": 0.0,
+    "description": "OREJITAS SEASONED PORK EARS, OREJITAS",
+    "data_type": "branded_food"
+  },
+  "Pork feet": {
+    "calories": 202.0,
+    "protein_g": 16.67,
+    "fat_g": 14.29,
+    "carbs_g": 0.0,
+    "description": "CURED PORK FEET",
+    "data_type": "branded_food"
+  },
+  "Pork skin": {
+    "calories": 538.0,
+    "protein_g": 57.9,
+    "fat_g": 31.8,
+    "carbs_g": 1.6,
+    "description": "Snacks, pork skins, barbecue-flavor",
+    "data_type": "sr_legacy_food"
+  },
+  "Pork fatback": {
+    "calories": 571.0,
+    "protein_g": 57.14,
+    "fat_g": 32.14,
+    "carbs_g": 7.14,
+    "description": "LIGHTLY SEASONED PORK FATBACK CURLS WITH RED PEPPER, RED PEPPER",
+    "data_type": "branded_food"
+  },
+  "Pork jowl": {
+    "calories": 200.0,
+    "protein_g": 10.0,
+    "fat_g": 6.92,
+    "carbs_g": 25.38,
+    "description": "BLACK-EYE PEAS WITH PORK JOWL, BLACK-EYE",
+    "data_type": "branded_food"
+  },
+  "Pork blood": {
+    "calories": 301.0,
+    "protein_g": 14.03,
+    "fat_g": 25.87,
+    "carbs_g": 2.95,
+    "description": "Bockwurst, pork, veal, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Pork ribs tips": {
+    "calories": 301.0,
+    "protein_g": 14.03,
+    "fat_g": 25.87,
+    "carbs_g": 2.95,
+    "description": "Bockwurst, pork, veal, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Pork cutlet": {
+    "calories": 301.0,
+    "protein_g": 14.03,
+    "fat_g": 25.87,
+    "carbs_g": 2.95,
+    "description": "Bockwurst, pork, veal, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Pork schnitzel": {
+    "calories": 301.0,
+    "protein_g": 14.03,
+    "fat_g": 25.87,
+    "carbs_g": 2.95,
+    "description": "Bockwurst, pork, veal, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Cured pork": {
+    "calories": 500.0,
+    "protein_g": 35.0,
+    "fat_g": 40.0,
+    "carbs_g": 0.0,
+    "description": "APPLEWOOD DRY RUBBED UNCURED PORK BACON, APPLEWOOD DRY RUBBED",
+    "data_type": "branded_food"
+  },
+  "Pulled pork": {
+    "calories": 168.0,
+    "protein_g": 13.19,
+    "fat_g": 4.42,
+    "carbs_g": 18.74,
+    "description": "Pulled pork in barbecue sauce",
+    "data_type": "sr_legacy_food"
+  },
+  "Pork hot dog": {
+    "calories": 280.0,
+    "protein_g": 12.0,
+    "fat_g": 26.0,
+    "carbs_g": 4.0,
+    "description": "BEEF & PORK HOT DOGS, BEEF & PORK",
+    "data_type": "branded_food"
+  },
+  "Salmon fillet": {
+    "calories": 217.0,
+    "protein_g": 20.0,
+    "fat_g": 13.33,
+    "carbs_g": 2.5,
+    "description": "CREOLE SEASONED PREMIUM RAW, SKINLESS, BONELESS SALMON FILLETS, CREOLE SEASONED",
+    "data_type": "branded_food"
+  },
+  "Salmon steak": {
+    "calories": 246.0,
+    "protein_g": 17.61,
+    "fat_g": 19.01,
+    "carbs_g": 2.11,
+    "description": "ATLANTIC SALMON STEAKHOUSE",
+    "data_type": "branded_food"
+  },
+  "Salmon belly": {
+    "calories": 116.0,
+    "protein_g": 20.69,
+    "fat_g": 3.67,
+    "carbs_g": 0.0,
+    "description": "Fish, Salmon, Chum, raw (Alaska Native)",
+    "data_type": "sr_legacy_food"
+  },
+  "Tuna steak": {
+    "calories": 125.0,
+    "protein_g": 23.33,
+    "fat_g": 0.83,
+    "carbs_g": 3.33,
+    "description": "LEMON DIJON SEASONED PREMIUM RAW, SKINLESS, BONELESS TUNA STEAKS, LEMON DIJON SEASONED",
+    "data_type": "branded_food"
+  },
+  "Tuna flakes": {
+    "calories": 273.0,
+    "protein_g": 20.0,
+    "fat_g": 1.82,
+    "carbs_g": 45.45,
+    "description": "LIGHT TUNA FLAKES IN VEGETABLE OIL",
+    "data_type": "branded_food"
+  },
+  "Cod fillet": {
+    "calories": 80.0,
+    "protein_g": 17.7,
+    "fat_g": 0.44,
+    "carbs_g": 0.0,
+    "description": "RAW WILD CAUGHT ALASKAN SKINLESS BONELESS COD FILLETS",
+    "data_type": "branded_food"
+  },
+  "Mackerel fillet": {
+    "calories": 189.0,
+    "protein_g": 25.0,
+    "fat_g": 10.71,
+    "carbs_g": 0.0,
+    "description": "ANDALUSIAN MACKEREL FILLETS IN OLIVE OIL",
+    "data_type": "branded_food"
+  },
+  "Sardine": {
+    "calories": 902.0,
+    "protein_g": 0.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0,
+    "description": "Fish oil, sardine",
+    "data_type": "sr_legacy_food"
+  },
+  "Anchovy": {
+    "calories": 131.0,
+    "protein_g": 20.35,
+    "fat_g": 4.84,
+    "carbs_g": 0.0,
+    "description": "Fish, anchovy, european, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Herring": {
+    "calories": 158.0,
+    "protein_g": 17.96,
+    "fat_g": 9.04,
+    "carbs_g": 0.0,
+    "description": "Fish, herring, Atlantic, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Tilapia fillet": {
+    "calories": 97.0,
+    "protein_g": 20.35,
+    "fat_g": 1.77,
+    "carbs_g": 0.0,
+    "description": "FRESH TILAPIA FILLETS",
+    "data_type": "branded_food"
+  },
+  "Catfish fillet": {
+    "calories": 142.0,
+    "protein_g": 15.04,
+    "fat_g": 8.85,
+    "carbs_g": 0.0,
+    "description": "3/5 OZ CATFISH FILLET",
+    "data_type": "branded_food"
+  },
+  "Shrimp": {
+    "calories": 71.0,
+    "protein_g": 13.61,
+    "fat_g": 1.01,
+    "carbs_g": 0.91,
+    "description": "Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",
+    "data_type": "sr_legacy_food"
+  },
+  "Prawn": {
+    "calories": 159.0,
+    "protein_g": 15.9,
+    "fat_g": 10.6,
+    "carbs_g": 0.0,
+    "description": "Fish, salmon, tipnuk, fermented (Alaska Native)",
+    "data_type": "sr_legacy_food"
+  },
+  "Crab meat": {
+    "calories": 106.0,
+    "protein_g": 23.53,
+    "fat_g": 1.18,
+    "carbs_g": 0.0,
+    "description": "FRESH CRAB MEAT",
+    "data_type": "branded_food"
+  },
+  "Lobster tail": {
+    "calories": 70.0,
+    "protein_g": 15.79,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "COLD WATER RAW WILD CAUGHT LOBSTER TAILS",
+    "data_type": "branded_food"
+  },
+  "Squid": {
+    "calories": 92.0,
+    "protein_g": 15.58,
+    "fat_g": 1.38,
+    "carbs_g": 3.08,
+    "description": "Mollusks, squid, mixed species, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Octopus": {
+    "calories": 82.0,
+    "protein_g": 14.91,
+    "fat_g": 1.04,
+    "carbs_g": 2.2,
+    "description": "Mollusks, octopus, common, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Clam": {
+    "calories": 86.0,
+    "protein_g": 14.67,
+    "fat_g": 0.96,
+    "carbs_g": 3.57,
+    "description": "Mollusks, clam, mixed species, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Mussel": {
+    "calories": 86.0,
+    "protein_g": 11.9,
+    "fat_g": 2.24,
+    "carbs_g": 3.69,
+    "description": "Mollusks, mussel, blue, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Oyster": {
+    "calories": 178.0,
+    "protein_g": 21.27,
+    "fat_g": 10.31,
+    "carbs_g": 0.0,
+    "description": "Beef, New Zealand, imported, oyster blade, separable lean and fat, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Scallop": {
+    "calories": 69.0,
+    "protein_g": 12.06,
+    "fat_g": 0.49,
+    "carbs_g": 3.18,
+    "description": "Mollusks, scallop, mixed species, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Eel": {
+    "calories": 10.0,
+    "protein_g": 0.59,
+    "fat_g": 0.16,
+    "carbs_g": 2.16,
+    "description": "Cucumber, peeled, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Trout fillet": {
+    "calories": 107.0,
+    "protein_g": 14.29,
+    "fat_g": 5.36,
+    "carbs_g": 0.0,
+    "description": "ANDEAN RAINBOW TROUT FILLETS",
+    "data_type": "branded_food"
+  },
+  "Snapper fillet": {
+    "calories": 97.0,
+    "protein_g": 20.35,
+    "fat_g": 1.33,
+    "carbs_g": 0.27,
+    "description": "1/3 LB CO SNAPPER FILLET",
+    "data_type": "branded_food"
+  },
+  "Sole fillet": {
+    "calories": 90.0,
+    "protein_g": 4.69,
+    "fat_g": 0.27,
+    "carbs_g": 0.0,
+    "description": "FRESH WILD DOVER SOLE FILLETS",
+    "data_type": "branded_food"
+  },
+  "Flounder fillet": {
+    "calories": 62.0,
+    "protein_g": 12.39,
+    "fat_g": 1.77,
+    "carbs_g": 0.0,
+    "description": "10/UP OZ FLOUNDER FILLETS",
+    "data_type": "branded_food"
+  },
+  "Halibut fillet": {
+    "calories": 91.0,
+    "protein_g": 18.69,
+    "fat_g": 1.26,
+    "carbs_g": 0.0,
+    "description": "ALASKA SKINLESS, BONELESS HALIBUT FILLET, ALASKA",
+    "data_type": "branded_food"
+  },
+  "Swordfish steak": {
+    "calories": 142.0,
+    "protein_g": 19.47,
+    "fat_g": 7.08,
+    "carbs_g": 0.0,
+    "description": "RAW SEAFOODS, WILD CAUGHT SWORDFISH STEAKS",
+    "data_type": "branded_food"
+  },
+  "Sea bass": {
+    "calories": 97.0,
+    "protein_g": 18.43,
+    "fat_g": 2.0,
+    "carbs_g": 0.0,
+    "description": "Fish, sea bass, mixed species, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Grouper": {
+    "calories": 92.0,
+    "protein_g": 19.38,
+    "fat_g": 1.02,
+    "carbs_g": 0.0,
+    "description": "Fish, grouper, mixed species, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Cuttlefish": {
+    "calories": 79.0,
+    "protein_g": 16.24,
+    "fat_g": 0.7,
+    "carbs_g": 0.82,
+    "description": "Mollusks, cuttlefish, mixed species, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Sea cucumber": {
+    "calories": 56.0,
+    "protein_g": 13.0,
+    "fat_g": 0.4,
+    "carbs_g": 0.0,
+    "description": "Sea cucumber, yane (Alaska Native)",
+    "data_type": "sr_legacy_food"
+  },
+  "Abalone": {
+    "calories": 105.0,
+    "protein_g": 17.1,
+    "fat_g": 0.76,
+    "carbs_g": 6.01,
+    "description": "Mollusks, abalone, mixed species, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Whelk": {
+    "calories": 137.0,
+    "protein_g": 23.84,
+    "fat_g": 0.4,
+    "carbs_g": 7.76,
+    "description": "Mollusks, whelk, unspecified, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Conch": {
+    "calories": 165.0,
+    "protein_g": 12.94,
+    "fat_g": 2.94,
+    "carbs_g": 22.35,
+    "description": "RAW CONCH FRITTER MIX",
+    "data_type": "branded_food"
+  },
+  "Crayfish": {
+    "calories": 72.0,
+    "protein_g": 14.85,
+    "fat_g": 0.97,
+    "carbs_g": 0.0,
+    "description": "Crustaceans, crayfish, mixed species, farmed, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "King crab leg": {
+    "calories": 95.0,
+    "protein_g": 19.05,
+    "fat_g": 1.79,
+    "carbs_g": 0.0,
+    "description": "12/14 KING CRAB LEGS RED",
+    "data_type": "branded_food"
+  },
+  "Blue crab": {
+    "calories": 88.0,
+    "protein_g": 17.7,
+    "fat_g": 1.77,
+    "carbs_g": 0.0,
+    "description": "ATLANTIC SHORES, THE BLUE CRAB LUMP CRABMEAT",
+    "data_type": "branded_food"
+  },
+  "Canned tuna": {
+    "calories": 32.0,
+    "protein_g": 3.83,
+    "fat_g": 0.68,
+    "carbs_g": 4.64,
+    "description": "Mushrooms, straw, canned, drained solids",
+    "data_type": "sr_legacy_food"
+  },
+  "Canned sardine": {
+    "calories": 170.0,
+    "protein_g": 15.0,
+    "fat_g": 6.0,
+    "carbs_g": 15.0,
+    "description": "CANNED SARDINE",
+    "data_type": "branded_food"
+  },
+  "Fish ball": {
+    "calories": 176.0,
+    "protein_g": 17.65,
+    "fat_g": 5.88,
+    "carbs_g": 11.76,
+    "description": "CUTTLEFISH BALLS",
+    "data_type": "branded_food"
+  },
+  "Fish cake": {
+    "calories": 165.0,
+    "protein_g": 8.24,
+    "fat_g": 10.59,
+    "carbs_g": 10.59,
+    "description": "CAJUN-SPICED CRAWFISH CAKES",
+    "data_type": "branded_food"
+  },
+  "Imitation crab stick": {
+    "calories": 183.0,
+    "protein_g": 4.49,
+    "fat_g": 7.37,
+    "carbs_g": 24.36,
+    "description": "HOT AND CRUNCHY COOKED IMITATION CRAB STICK, CUCUMBER AND AVOCADO ROLLED IN SEAWEES AND SUSHI RICE, TOPPED WITH IMITATION CRAB SALAD, TEMPURA STYLE CRURCHES AND SERVED WITH YUMMI SPICY MAYO AND SRIRACHA HOT CHILL SAUCE ROLL, HOT AND CRUNCHY",
+    "data_type": "branded_food"
+  },
+  "Fish roe": {
+    "calories": 167.0,
+    "protein_g": 13.33,
+    "fat_g": 13.33,
+    "carbs_g": 6.67,
+    "description": "PACIFIC PLAZA IMPORTS, GOLDEN WHITEFISH ROE",
+    "data_type": "branded_food"
+  },
+  "Seaweed": {
+    "calories": 26.0,
+    "protein_g": 0.54,
+    "fat_g": 0.03,
+    "carbs_g": 6.75,
+    "description": "Seaweed, agar, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Nori": {
+    "calories": 342.0,
+    "protein_g": 18.24,
+    "fat_g": 18.4,
+    "carbs_g": 20.8,
+    "description": "MEAT FREE TEMPURA BATTERED PRAWN-STYLE PIECES WITH CHOPPED NORI AND COATED IN A LEMON INFUSED BATTER, MEAT FREE TEMPURA BATTERED PRAWN-STYLE",
+    "data_type": "branded_food"
+  },
+  "Kombu": {
+    "calories": 12.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 3.33,
+    "description": "100% RAW KOMBUCHA",
+    "data_type": "branded_food"
+  },
+  "Wakame": {
+    "calories": 45.0,
+    "protein_g": 3.03,
+    "fat_g": 0.64,
+    "carbs_g": 9.14,
+    "description": "Seaweed, wakame, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Dried anchovy": {
+    "calories": 239.0,
+    "protein_g": 42.35,
+    "fat_g": 5.88,
+    "carbs_g": 0.88,
+    "description": "Badaone Dried Anchovy Medium 170g",
+    "data_type": "branded_food"
+  },
+  "Cabbage": {
+    "calories": 13.0,
+    "protein_g": 1.5,
+    "fat_g": 0.2,
+    "carbs_g": 2.18,
+    "description": "Cabbage, chinese (pak-choi), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Chinese cabbage": {
+    "calories": 133.0,
+    "protein_g": 3.7,
+    "fat_g": 7.41,
+    "carbs_g": 16.3,
+    "description": "VEGETABLE LO MEIN NOODLES, CHINESE CABBAGE, BOK CHOY, CARROTS AND ONION IN STIR FRY SAUCE, VEGETABLE LO MEIN",
+    "data_type": "branded_food"
+  },
+  "Spinach": {
+    "calories": 22.0,
+    "protein_g": 2.2,
+    "fat_g": 0.3,
+    "carbs_g": 3.9,
+    "description": "Mustard spinach, (tendergreen), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Lettuce": {
+    "calories": 13.0,
+    "protein_g": 1.35,
+    "fat_g": 0.22,
+    "carbs_g": 2.23,
+    "description": "Lettuce, butterhead (includes boston and bibb types), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Romaine lettuce": {
+    "calories": 21.0,
+    "protein_g": 0.98,
+    "fat_g": 0.07,
+    "carbs_g": 4.06,
+    "description": "Romaine lettuce, raw",
+    "data_type": "survey_fndds_food"
+  },
+  "Kale": {
+    "calories": 35.0,
+    "protein_g": 2.92,
+    "fat_g": 1.49,
+    "carbs_g": 4.42,
+    "description": "Kale, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Broccoli": {
+    "calories": 22.0,
+    "protein_g": 3.17,
+    "fat_g": 0.49,
+    "carbs_g": 2.85,
+    "description": "Broccoli raab, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Cauliflower": {
+    "calories": 31.0,
+    "protein_g": 2.95,
+    "fat_g": 0.3,
+    "carbs_g": 6.09,
+    "description": "Cauliflower, green, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Carrot": {
+    "calories": 35.0,
+    "protein_g": 0.64,
+    "fat_g": 0.13,
+    "carbs_g": 8.24,
+    "description": "Carrots, baby, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Beetroot": {
+    "calories": 4.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.83,
+    "description": "ALMONDS, BEETROOT & CINNAMON FRUIT INFUSION TEA BAGS, ALMONDS, BEETROOT & CINNAMON",
+    "data_type": "branded_food"
+  },
+  "Turnip": {
+    "calories": 156.0,
+    "protein_g": 2.62,
+    "fat_g": 0.36,
+    "carbs_g": 35.67,
+    "description": "Prairie Turnips, raw (Northern Plains Indians)",
+    "data_type": "sr_legacy_food"
+  },
+  "Radish": {
+    "calories": 43.0,
+    "protein_g": 3.81,
+    "fat_g": 2.53,
+    "carbs_g": 3.6,
+    "description": "Radish seeds, sprouted, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Daikon": {
+    "calories": 356.0,
+    "protein_g": 13.33,
+    "fat_g": 1.11,
+    "carbs_g": 73.33,
+    "description": "BLACK PEARL A UNIQUE WHOLESOME BLEND OF WHOLE GRAIN BROWN RICE, BLACK BARLEY AND DAIKON RADISH SEEDS MEDLEY, BLACK PEARL",
+    "data_type": "branded_food"
+  },
+  "Onion": {
+    "calories": 40.0,
+    "protein_g": 1.1,
+    "fat_g": 0.1,
+    "carbs_g": 9.34,
+    "description": "Onions, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Red onion": {
+    "calories": 171.0,
+    "protein_g": 4.29,
+    "fat_g": 5.71,
+    "carbs_g": 25.71,
+    "description": "BRUSCHETTA-INSPIRED FARMERS' TOMATO PIE WITH HOMEMADE TOMATO SAUCE, FRESH PLUM TOMATOES, RED ONION, GARLIC, BASIL, PARSLEY, & BALSAMIC VINEGAR HANDMADE, WOOD-FIRED, THIN & CRISPY PIZZA, BRUSCHETTA-INSPIRED FARMERS' TOMATO PIE",
+    "data_type": "branded_food"
+  },
+  "Green onion": {
+    "calories": 140.0,
+    "protein_g": 3.0,
+    "fat_g": 9.0,
+    "carbs_g": 11.0,
+    "description": "BACKYARD BBQ FRESH BLEND OF ROMAINE LETTUCE, KALE, BROCCOLI, RED CABBAGE, SWEET CARROTS, GREEN ONIONS, AND SAVOY CABBAGE WITH RANCH DRESSING, BBQ SAUCE, CRISPY FRIED ONIONS AND BACON BITS CHOPPED SALAD KIT, BACKYARD BBQ",
+    "data_type": "branded_food"
+  },
+  "Leek": {
+    "calories": 61.0,
+    "protein_g": 1.5,
+    "fat_g": 0.3,
+    "carbs_g": 14.15,
+    "description": "Leeks, (bulb and lower leaf-portion), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Garlic": {
+    "calories": 149.0,
+    "protein_g": 6.36,
+    "fat_g": 0.5,
+    "carbs_g": 33.06,
+    "description": "Garlic, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Ginger": {
+    "calories": 80.0,
+    "protein_g": 1.82,
+    "fat_g": 0.75,
+    "carbs_g": 17.77,
+    "description": "Ginger root, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Celery": {
+    "calories": 14.0,
+    "protein_g": 0.69,
+    "fat_g": 0.17,
+    "carbs_g": 2.97,
+    "description": "Celery, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Bell pepper": {
+    "calories": 82.0,
+    "protein_g": 4.55,
+    "fat_g": 1.82,
+    "carbs_g": 11.82,
+    "description": "ASIAN-STYLE VEGETABLES & RICE FRESH STEAM MUKIMAME, WHITE LONG GRAIN RICE, CARROTS, RED BELL PEPPERS. MUSHROOMS & WILD RICE WITH TERIYAKI SAUCE, ASIAN-STYLE VEGETABLES & RICE",
+    "data_type": "branded_food"
+  },
+  "Green pepper": {
+    "calories": 153.0,
+    "protein_g": 16.47,
+    "fat_g": 8.24,
+    "carbs_g": 2.35,
+    "description": "CHICKEN SAUSAGE WITH FRESH RED AND GREEN PEPPERS",
+    "data_type": "branded_food"
+  },
+  "Red pepper": {
+    "calories": 50.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 10.0,
+    "description": "A SPICY YEMENI STYLE ZHOUG SALSA FEATURING PIQUANT JALAPENO PEPPERS AND RED PEPPER, HEIGHTENED BY REFRESHING CITRUS NOTES OF CILANTRO",
+    "data_type": "branded_food"
+  },
+  "Chili pepper": {
+    "calories": 367.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 90.0,
+    "description": "CHILI PEPPER COVERED ARTIFICIALLY FLAVORED GUMMY, STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "Potato": {
+    "calories": 77.0,
+    "protein_g": 2.05,
+    "fat_g": 0.09,
+    "carbs_g": 17.49,
+    "description": "Potatoes, flesh and skin, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Sweet potato": {
+    "calories": 42.0,
+    "protein_g": 2.49,
+    "fat_g": 0.51,
+    "carbs_g": 8.82,
+    "description": "Sweet potato leaves, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Yam": {
+    "calories": 67.0,
+    "protein_g": 1.34,
+    "fat_g": 0.1,
+    "carbs_g": 16.3,
+    "description": "Mountain yam, hawaii, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Pumpkin": {
+    "calories": 89.0,
+    "protein_g": 19.4,
+    "fat_g": 0.7,
+    "carbs_g": 0.0,
+    "description": "Fish, sunfish, pumpkin seed, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Zucchini": {
+    "calories": 17.0,
+    "protein_g": 1.21,
+    "fat_g": 0.32,
+    "carbs_g": 3.11,
+    "description": "Squash, summer, zucchini, includes skin, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Cucumber": {
+    "calories": 10.0,
+    "protein_g": 0.59,
+    "fat_g": 0.16,
+    "carbs_g": 2.16,
+    "description": "Cucumber, peeled, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Eggplant": {
+    "calories": 25.0,
+    "protein_g": 0.98,
+    "fat_g": 0.18,
+    "carbs_g": 5.88,
+    "description": "Eggplant, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Okra": {
+    "calories": 33.0,
+    "protein_g": 1.93,
+    "fat_g": 0.19,
+    "carbs_g": 7.45,
+    "description": "Okra, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Pea": {
+    "calories": 30.0,
+    "protein_g": 5.3,
+    "fat_g": 0.69,
+    "carbs_g": 3.29,
+    "description": "Balsam-pear (bitter gourd), leafy tips, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Snow pea": {
+    "calories": 35.0,
+    "protein_g": 2.35,
+    "fat_g": 0.0,
+    "carbs_g": 7.06,
+    "description": "FRESH GARDEN STIR FRY, CARROTS, BROCCOLI & SNOW PEAS",
+    "data_type": "branded_food"
+  },
+  "Green bean": {
+    "calories": 61.0,
+    "protein_g": 2.0,
+    "fat_g": 2.56,
+    "carbs_g": 7.48,
+    "description": "Green beans, fresh, cooked with butter or margarine",
+    "data_type": "survey_fndds_food"
+  },
+  "String bean": {
+    "calories": 109.0,
+    "protein_g": 3.52,
+    "fat_g": 5.0,
+    "carbs_g": 13.0,
+    "description": "Bean salad, yellow and/or green string beans",
+    "data_type": "survey_fndds_food"
+  },
+  "Bitter melon": {
+    "calories": 41.0,
+    "protein_g": 0.82,
+    "fat_g": 2.72,
+    "carbs_g": 4.19,
+    "description": "Bitter melon, cooked",
+    "data_type": "survey_fndds_food"
+  },
+  "Bottle gourd": {
+    "calories": 2.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.39,
+    "description": "17OZ BOTTLE KIWI STRAWBERRY FROST",
+    "data_type": "branded_food"
+  },
+  "Winter melon": {
+    "calories": 36.0,
+    "protein_g": 0.4,
+    "fat_g": 2.74,
+    "carbs_g": 2.95,
+    "description": "Winter melon, cooked",
+    "data_type": "survey_fndds_food"
+  },
+  "Tomato": {
+    "calories": 23.0,
+    "protein_g": 1.2,
+    "fat_g": 0.2,
+    "carbs_g": 5.1,
+    "description": "Tomatoes, green, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Cherry tomato": {
+    "calories": 149.0,
+    "protein_g": 2.6,
+    "fat_g": 6.69,
+    "carbs_g": 19.7,
+    "description": "ANTIOXIDANT FRESH SPINACH, RED QUINOA, CHERRY TOMATOES, DRIED CRANBERRIES, CRISPY KALE, ORANGE CARROTS, RED CABBAGE, AND ROASTED PECANS WITH BLUEBERRY VINAIGRETTE POWER SALAD, ANTIOXIDANT",
+    "data_type": "branded_food"
+  },
+  "Corn": {
+    "calories": 198.0,
+    "protein_g": 14.68,
+    "fat_g": 14.9,
+    "carbs_g": 0.14,
+    "description": "Beef, cured, corned beef, brisket, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Baby corn": {
+    "calories": 19.0,
+    "protein_g": 1.54,
+    "fat_g": 0.0,
+    "carbs_g": 3.08,
+    "description": "GREEN FRESH, BABY CORN NUGGETS",
+    "data_type": "branded_food"
+  },
+  "Artichoke": {
+    "calories": 47.0,
+    "protein_g": 3.27,
+    "fat_g": 0.15,
+    "carbs_g": 10.51,
+    "description": "Artichokes, (globe or french), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Asparagus": {
+    "calories": 20.0,
+    "protein_g": 2.2,
+    "fat_g": 0.12,
+    "carbs_g": 3.88,
+    "description": "Asparagus, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Mushroom": {
+    "calories": 22.0,
+    "protein_g": 3.09,
+    "fat_g": 0.34,
+    "carbs_g": 3.26,
+    "description": "Mushroom, white, exposed to ultraviolet light, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Shiitake": {
+    "calories": 34.0,
+    "protein_g": 2.24,
+    "fat_g": 0.49,
+    "carbs_g": 6.79,
+    "description": "Mushrooms, shiitake, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Enoki mushroom": {
+    "calories": 38.0,
+    "protein_g": 2.5,
+    "fat_g": 0.0,
+    "carbs_g": 5.3,
+    "description": "ENOKI MUSHROOM",
+    "data_type": "branded_food"
+  },
+  "Oyster mushroom": {
+    "calories": 11.0,
+    "protein_g": 0.91,
+    "fat_g": 0.0,
+    "carbs_g": 1.82,
+    "description": "DRAGONFLY, WHOLE IN SALT WATER OYSTER MUSHROOM",
+    "data_type": "branded_food"
+  },
+  "Portobello mushroom": {
+    "calories": 282.0,
+    "protein_g": 10.0,
+    "fat_g": 4.55,
+    "carbs_g": 51.82,
+    "description": "HARRIS TEETER, FRESH FOODS MARKET, PORTOBELLO MUSHROOM & CHEESE TORTELLONI",
+    "data_type": "branded_food"
+  },
+  "King oyster mushroom": {
+    "calories": 320.0,
+    "protein_g": 15.0,
+    "fat_g": 0.0,
+    "carbs_g": 65.0,
+    "description": "DRIED KING OYSTER MUSHROOM",
+    "data_type": "branded_food"
+  },
+  "Lotus root": {
+    "calories": 74.0,
+    "protein_g": 2.6,
+    "fat_g": 0.1,
+    "carbs_g": 17.23,
+    "description": "Lotus root, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Bamboo shoot": {
+    "calories": 27.0,
+    "protein_g": 2.6,
+    "fat_g": 0.3,
+    "carbs_g": 5.2,
+    "description": "Bamboo shoots, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Bean sprout": {
+    "calories": 30.0,
+    "protein_g": 3.04,
+    "fat_g": 0.18,
+    "carbs_g": 5.94,
+    "description": "Bean sprouts, raw",
+    "data_type": "survey_fndds_food"
+  },
+  "Watercress": {
+    "calories": 11.0,
+    "protein_g": 2.3,
+    "fat_g": 0.1,
+    "carbs_g": 1.29,
+    "description": "Watercress, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Arugula": {
+    "calories": 25.0,
+    "protein_g": 2.58,
+    "fat_g": 0.66,
+    "carbs_g": 3.65,
+    "description": "Arugula, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Endive": {
+    "calories": 17.0,
+    "protein_g": 1.25,
+    "fat_g": 0.2,
+    "carbs_g": 3.35,
+    "description": "Endive, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Fennel": {
+    "calories": 31.0,
+    "protein_g": 1.24,
+    "fat_g": 0.2,
+    "carbs_g": 7.3,
+    "description": "Fennel, bulb, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Radicchio": {
+    "calories": 23.0,
+    "protein_g": 1.43,
+    "fat_g": 0.25,
+    "carbs_g": 4.48,
+    "description": "Radicchio, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Mustard greens": {
+    "calories": 27.0,
+    "protein_g": 2.86,
+    "fat_g": 0.42,
+    "carbs_g": 4.67,
+    "description": "Mustard greens, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Collard greens": {
+    "calories": 41.0,
+    "protein_g": 3.53,
+    "fat_g": 0.59,
+    "carbs_g": 5.88,
+    "description": "POWER GREENS FRESH COLLARD GREENS",
+    "data_type": "branded_food"
+  },
+  "Chard": {
+    "calories": 19.0,
+    "protein_g": 1.8,
+    "fat_g": 0.2,
+    "carbs_g": 3.74,
+    "description": "Chard, swiss, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Bok choy": {
+    "calories": 47.0,
+    "protein_g": 1.89,
+    "fat_g": 0.0,
+    "carbs_g": 8.49,
+    "description": "FRESHLY FROZEN STIR FRY FOR CHOW MEIN WITH NOODLES, BEAN SPROUTS, BOK CHOY, CELERY, CARROTS, ONIONS, MUSHROOMS, PEAS, WATER CHESTNUTS, BAMBOO SHOOTS & RED PEPPERS, STIR FRY FOR CHOW MEIN",
+    "data_type": "branded_food"
+  },
+  "Napa cabbage": {
+    "calories": 100.0,
+    "protein_g": 2.06,
+    "fat_g": 4.41,
+    "carbs_g": 13.82,
+    "description": "A BLEND OF BROCCOLI STEMS, NAPA CABBAGE, CARROTS, KOHLRABI, AND SUGAR SNAP PEAS WITH INDIVIDUAL PACKET OF COOKED BROWN RICE AND SESAME SRIRACHA SAUCE, SESAME SRIRACHA",
+    "data_type": "branded_food"
+  },
+  "Water spinach": {
+    "calories": 114.0,
+    "protein_g": 18.86,
+    "fat_g": 3.69,
+    "carbs_g": 0.0,
+    "description": "Fish, bass, fresh water, mixed species, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Amaranth leaves": {
+    "calories": 23.0,
+    "protein_g": 2.46,
+    "fat_g": 0.33,
+    "carbs_g": 4.02,
+    "description": "Amaranth leaves, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Mizuna": {
+    "calories": 35.0,
+    "protein_g": 3.53,
+    "fat_g": 0.0,
+    "carbs_g": 4.71,
+    "description": "SUPER GREENS ORGANIC TENDER TASTE OF BABY SPINACH, NATURALLY FRESH MIZUNA, BABY CHARD WITH BABY KALE BLEND, SUPER GREENS",
+    "data_type": "branded_food"
+  },
+  "Dandelion greens": {
+    "calories": 45.0,
+    "protein_g": 2.7,
+    "fat_g": 0.7,
+    "carbs_g": 9.2,
+    "description": "Dandelion greens, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Celtuce": {
+    "calories": 18.0,
+    "protein_g": 0.85,
+    "fat_g": 0.3,
+    "carbs_g": 3.65,
+    "description": "Celtuce, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Parsley": {
+    "calories": 36.0,
+    "protein_g": 2.97,
+    "fat_g": 0.79,
+    "carbs_g": 6.33,
+    "description": "Parsley, fresh",
+    "data_type": "sr_legacy_food"
+  },
+  "Cilantro": {
+    "calories": 23.0,
+    "protein_g": 2.13,
+    "fat_g": 0.52,
+    "carbs_g": 3.67,
+    "description": "Coriander (cilantro) leaves, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Basil": {
+    "calories": 23.0,
+    "protein_g": 3.15,
+    "fat_g": 0.64,
+    "carbs_g": 2.65,
+    "description": "Basil, fresh",
+    "data_type": "sr_legacy_food"
+  },
+  "Mint": {
+    "calories": 70.0,
+    "protein_g": 3.75,
+    "fat_g": 0.94,
+    "carbs_g": 14.89,
+    "description": "Peppermint, fresh",
+    "data_type": "sr_legacy_food"
+  },
+  "Rosemary": {
+    "calories": 131.0,
+    "protein_g": 3.31,
+    "fat_g": 5.86,
+    "carbs_g": 20.7,
+    "description": "Rosemary, fresh",
+    "data_type": "sr_legacy_food"
+  },
+  "Thyme": {
+    "calories": 101.0,
+    "protein_g": 5.56,
+    "fat_g": 1.68,
+    "carbs_g": 24.45,
+    "description": "Thyme, fresh",
+    "data_type": "sr_legacy_food"
+  },
+  "Oregano": {
+    "calories": 246.0,
+    "protein_g": 5.26,
+    "fat_g": 17.54,
+    "carbs_g": 0.0,
+    "description": "BLACK OLIVE & OREGANO MEDITERRANEAN FRESH HUMMUS, BLACK OLIVE & OREGANO",
+    "data_type": "branded_food"
+  },
+  "Sage": {
+    "calories": 290.0,
+    "protein_g": 13.9,
+    "fat_g": 24.26,
+    "carbs_g": 2.97,
+    "description": "Sausage, Italian, pork, mild, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Chive": {
+    "calories": 30.0,
+    "protein_g": 3.27,
+    "fat_g": 0.73,
+    "carbs_g": 4.35,
+    "description": "Chives, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Dill": {
+    "calories": 43.0,
+    "protein_g": 3.46,
+    "fat_g": 1.12,
+    "carbs_g": 7.02,
+    "description": "Dill weed, fresh",
+    "data_type": "sr_legacy_food"
+  },
+  "Turmeric root": {
+    "calories": 361.0,
+    "protein_g": 88.89,
+    "fat_g": 5.56,
+    "carbs_g": 0.0,
+    "description": "AZTEC VANILLA GRASS-FED BONE BROTH COLLAGEN WITH TURMERIC ROOT, AZTEC VANILLA",
+    "data_type": "branded_food"
+  },
+  "Horseradish": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "ALL NATURAL OLD FASHIONED PREPARED HORSERADISH FRESH GROUND",
+    "data_type": "branded_food"
+  },
+  "Wasabi root": {
+    "calories": 109.0,
+    "protein_g": 4.8,
+    "fat_g": 0.63,
+    "carbs_g": 23.54,
+    "description": "Wasabi, root, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Taro": {
+    "calories": 42.0,
+    "protein_g": 4.98,
+    "fat_g": 0.74,
+    "carbs_g": 6.7,
+    "description": "Taro leaves, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Cassava": {
+    "calories": 160.0,
+    "protein_g": 1.36,
+    "fat_g": 0.28,
+    "carbs_g": 38.06,
+    "description": "Cassava, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Jicama": {
+    "calories": 38.0,
+    "protein_g": 0.72,
+    "fat_g": 0.09,
+    "carbs_g": 8.82,
+    "description": "Yambean (jicama), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Jerusalem artichoke": {
+    "calories": 105.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 21.05,
+    "description": "RELISH, JERUSALEM ARTICHOKE",
+    "data_type": "branded_food"
+  },
+  "Fiddlehead fern": {
+    "calories": 34.0,
+    "protein_g": 4.55,
+    "fat_g": 0.4,
+    "carbs_g": 5.54,
+    "description": "Fiddlehead ferns, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Malabar spinach": {
+    "calories": 23.0,
+    "protein_g": 2.98,
+    "fat_g": 0.78,
+    "carbs_g": 2.71,
+    "description": "Malabar spinach, cooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Sea asparagus": {
+    "calories": 594.0,
+    "protein_g": 6.0,
+    "fat_g": 63.3,
+    "carbs_g": 0.0,
+    "description": "Beef, Australian, imported, Wagyu, seam fat, Aust. marble score 4/5, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Purslane": {
+    "calories": 20.0,
+    "protein_g": 2.03,
+    "fat_g": 0.36,
+    "carbs_g": 3.39,
+    "description": "Purslane, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Pepper leaf": {
+    "calories": 27.0,
+    "protein_g": 1.66,
+    "fat_g": 0.45,
+    "carbs_g": 5.35,
+    "description": "Pepper, banana, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Moringa leaves": {
+    "calories": 286.0,
+    "protein_g": 4.76,
+    "fat_g": 0.0,
+    "carbs_g": 80.95,
+    "description": "MORINGA TURMERIC ORANGE BLOSSOM ORGANIC RAW HONEY, MORINGA TURMERIC ORANGE BLOSSOM",
+    "data_type": "branded_food"
+  },
+  "Microgreens": {
+    "calories": 29.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "BRIGHTFRESH MICROGREENS, MICRO KALE MIX",
+    "data_type": "branded_food"
+  },
+  "Chive flower": {
+    "calories": 30.0,
+    "protein_g": 3.27,
+    "fat_g": 0.73,
+    "carbs_g": 4.35,
+    "description": "Chives, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Scallion": {
+    "calories": 32.0,
+    "protein_g": 1.83,
+    "fat_g": 0.19,
+    "carbs_g": 7.34,
+    "description": "Onions, spring or scallions (includes tops and bulb), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Apple": {
+    "calories": 346.0,
+    "protein_g": 1.32,
+    "fat_g": 0.58,
+    "carbs_g": 93.53,
+    "description": "Apples, dehydrated (low moisture), sulfured, uncooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Green apple": {
+    "calories": 53.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 14.04,
+    "description": "100ct/2oz Fresh Green Apple Slices",
+    "data_type": "branded_food"
+  },
+  "Banana": {
+    "calories": 109.0,
+    "protein_g": 0.71,
+    "fat_g": 0.37,
+    "carbs_g": 25.78,
+    "description": "Babyfood, fruit, banana and strawberry, junior",
+    "data_type": "sr_legacy_food"
+  },
+  "Mango": {
+    "calories": 60.0,
+    "protein_g": 0.82,
+    "fat_g": 0.38,
+    "carbs_g": 14.98,
+    "description": "Mangos, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Pineapple": {
+    "calories": 50.0,
+    "protein_g": 0.54,
+    "fat_g": 0.12,
+    "carbs_g": 13.12,
+    "description": "Pineapple, raw, all varieties",
+    "data_type": "sr_legacy_food"
+  },
+  "Orange": {
+    "calories": 76.0,
+    "protein_g": 16.41,
+    "fat_g": 0.7,
+    "carbs_g": 0.0,
+    "description": "Fish, roughy, orange, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Mandarin": {
+    "calories": 53.0,
+    "protein_g": 0.81,
+    "fat_g": 0.31,
+    "carbs_g": 13.34,
+    "description": "Tangerines, (mandarin oranges), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Tangerine": {
+    "calories": 43.0,
+    "protein_g": 0.5,
+    "fat_g": 0.2,
+    "carbs_g": 10.1,
+    "description": "Tangerine juice, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Lemon": {
+    "calories": 371.0,
+    "protein_g": 5.4,
+    "fat_g": 18.5,
+    "carbs_g": 47.8,
+    "description": "Danish pastry, fruit, enriched (includes apple, cinnamon, raisin, lemon, raspberry, strawberry)",
+    "data_type": "sr_legacy_food"
+  },
+  "Lime": {
+    "calories": 25.0,
+    "protein_g": 0.42,
+    "fat_g": 0.07,
+    "carbs_g": 8.42,
+    "description": "Lime juice, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Grape": {
+    "calories": 93.0,
+    "protein_g": 5.6,
+    "fat_g": 2.12,
+    "carbs_g": 17.31,
+    "description": "Grape leaves, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Red grape": {
+    "calories": 62.0,
+    "protein_g": 0.42,
+    "fat_g": 0.08,
+    "carbs_g": 14.88,
+    "description": "100% SQUEEZED JUICE, BLUEBERRY, STRAWBERRY, RED GRAPE",
+    "data_type": "branded_food"
+  },
+  "White grape": {
+    "calories": 367.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 90.0,
+    "description": "CONCORD GRAPE, STRAWBERRY, WHITE GRAPE PEACH, RASPBERRY, CHERRY JELLY HEARTS, CONCORD GRAPE, STRAWBERRY, WHITE GRAPE PEACH, RASPBERRY, CHERRY",
+    "data_type": "branded_food"
+  },
+  "Watermelon": {
+    "calories": 30.0,
+    "protein_g": 0.61,
+    "fat_g": 0.15,
+    "carbs_g": 7.55,
+    "description": "Watermelon, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Melon": {
+    "calories": 34.0,
+    "protein_g": 0.84,
+    "fat_g": 0.19,
+    "carbs_g": 8.16,
+    "description": "Melons, cantaloupe, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Honeydew": {
+    "calories": 36.0,
+    "protein_g": 0.54,
+    "fat_g": 0.14,
+    "carbs_g": 9.09,
+    "description": "Melons, honeydew, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Peach": {
+    "calories": 325.0,
+    "protein_g": 4.89,
+    "fat_g": 1.03,
+    "carbs_g": 83.18,
+    "description": "Peaches, dehydrated (low-moisture), sulfured, uncooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Nectarine": {
+    "calories": 44.0,
+    "protein_g": 1.06,
+    "fat_g": 0.32,
+    "carbs_g": 10.55,
+    "description": "Nectarines, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Plum": {
+    "calories": 62.0,
+    "protein_g": 0.5,
+    "fat_g": 1.3,
+    "carbs_g": 13.63,
+    "description": "Carissa, (natal-plum), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Apricot": {
+    "calories": 320.0,
+    "protein_g": 4.9,
+    "fat_g": 0.62,
+    "carbs_g": 82.89,
+    "description": "Apricots, dehydrated (low-moisture), sulfured, uncooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Cherry": {
+    "calories": 32.0,
+    "protein_g": 0.4,
+    "fat_g": 0.3,
+    "carbs_g": 7.69,
+    "description": "Acerola, (west indian cherry), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Blueberry": {
+    "calories": 385.0,
+    "protein_g": 4.01,
+    "fat_g": 9.02,
+    "carbs_g": 71.83,
+    "description": "Toaster Pastries, fruit, frosted (include apples, blueberry, cherry, strawberry)",
+    "data_type": "sr_legacy_food"
+  },
+  "Raspberry": {
+    "calories": 371.0,
+    "protein_g": 5.4,
+    "fat_g": 18.5,
+    "carbs_g": 47.8,
+    "description": "Danish pastry, fruit, enriched (includes apple, cinnamon, raisin, lemon, raspberry, strawberry)",
+    "data_type": "sr_legacy_food"
+  },
+  "Blackberry": {
+    "calories": 61.0,
+    "protein_g": 4.85,
+    "fat_g": 0.0,
+    "carbs_g": 10.0,
+    "description": "100% ORGANIC COLD PRESSED PROTEIN BERRY JUICE, APPLE; WATERMELON; BLACKBERRY; STRAWBERRY; RASPBERRY; BLACK MULBERRY; PURPLE CARROT",
+    "data_type": "branded_food"
+  },
+  "Cranberry": {
+    "calories": 335.0,
+    "protein_g": 23.03,
+    "fat_g": 1.23,
+    "carbs_g": 60.05,
+    "description": "Beans, cranberry (roman), mature seeds, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Kiwi": {
+    "calories": 47.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 12.26,
+    "description": "Beverages, Kiwi Strawberry Juice Drink",
+    "data_type": "sr_legacy_food"
+  },
+  "Pomegranate": {
+    "calories": 83.0,
+    "protein_g": 1.67,
+    "fat_g": 1.17,
+    "carbs_g": 18.7,
+    "description": "Pomegranates, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Avocado": {
+    "calories": 167.0,
+    "protein_g": 1.96,
+    "fat_g": 15.41,
+    "carbs_g": 8.64,
+    "description": "Avocados, raw, California",
+    "data_type": "sr_legacy_food"
+  },
+  "Papaya": {
+    "calories": 43.0,
+    "protein_g": 0.47,
+    "fat_g": 0.26,
+    "carbs_g": 10.82,
+    "description": "Papayas, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Guava": {
+    "calories": 68.0,
+    "protein_g": 2.55,
+    "fat_g": 0.95,
+    "carbs_g": 14.32,
+    "description": "Guavas, common, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Lychee": {
+    "calories": 81.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 20.33,
+    "description": "FRUIT SMOOTHIE, GREENAPPLE, GRAPE, PINEAPPLE, MANGO, STRAWBERRY, LYCHEE",
+    "data_type": "branded_food"
+  },
+  "Longan": {
+    "calories": 60.0,
+    "protein_g": 1.31,
+    "fat_g": 0.1,
+    "carbs_g": 15.14,
+    "description": "Longans, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Durian": {
+    "calories": 147.0,
+    "protein_g": 1.47,
+    "fat_g": 5.33,
+    "carbs_g": 27.09,
+    "description": "Durian, raw or frozen",
+    "data_type": "sr_legacy_food"
+  },
+  "Jackfruit": {
+    "calories": 95.0,
+    "protein_g": 1.72,
+    "fat_g": 0.64,
+    "carbs_g": 23.25,
+    "description": "Jackfruit, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Dragon fruit": {
+    "calories": 350.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 92.5,
+    "description": "ASSORTED FLAVORED GOURMET JELLY BEANS, 4TH OF JULY APPLE PIE, BANANA CREAM PIE, VERY BLUEBERRY, CINNAMON FIREBALL, DRAGON FRUIT, GRAPE ESCAPE, GREEN APPLE, SUMMER LEMONADE, MANGO TANGO, PEACHY KEEN, PEACH GREEN TEA, SUCCULENT PEAR, PINA COLADA, BLUE RASPBERRY, FROSTY ROOT BEER, SOUR CHERRY, STRAWBERRY SHAKE, MELON MEDLEY, TANGERINE TWIST, JUICY WATERMELON",
+    "data_type": "branded_food"
+  },
+  "Star fruit": {
+    "calories": 310.0,
+    "protein_g": 4.42,
+    "fat_g": 0.0,
+    "carbs_g": 75.22,
+    "description": "CHERRY, ORANGE, APPLE, STRAWBERRY, BLUE RASPBERRY, GRAPE SUPERSTAR FRUIT FLAVORED SNACKS, CHERRY, ORANGE, APPLE, STRAWBERRY, BLUE RASPBERRY, GRAPE",
+    "data_type": "branded_food"
+  },
+  "Mulberry": {
+    "calories": 61.0,
+    "protein_g": 4.85,
+    "fat_g": 0.0,
+    "carbs_g": 10.0,
+    "description": "100% ORGANIC COLD PRESSED PROTEIN BERRY JUICE, APPLE; WATERMELON; BLACKBERRY; STRAWBERRY; RASPBERRY; BLACK MULBERRY; PURPLE CARROT",
+    "data_type": "branded_food"
+  },
+  "Fig": {
+    "calories": 249.0,
+    "protein_g": 3.3,
+    "fat_g": 0.93,
+    "carbs_g": 63.87,
+    "description": "Figs, dried, uncooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Date": {
+    "calories": 88.0,
+    "protein_g": 2.65,
+    "fat_g": 3.54,
+    "carbs_g": 13.27,
+    "description": "BERRY BERRY APPLE, STRAWBERRY, BLUEBERRY, PUMPKIN SEED, DATE, COCONUT MILK, SWEET POTATO ORGANIC DAIRY-FREE SMOOTHIE, BERRY BERRY",
+    "data_type": "branded_food"
+  },
+  "Persimmon": {
+    "calories": 70.0,
+    "protein_g": 0.58,
+    "fat_g": 0.19,
+    "carbs_g": 18.59,
+    "description": "Persimmons, japanese, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Passion fruit": {
+    "calories": 97.0,
+    "protein_g": 2.2,
+    "fat_g": 0.7,
+    "carbs_g": 23.38,
+    "description": "Passion fruit, raw",
+    "data_type": "survey_fndds_food"
+  },
+  "Coconut": {
+    "calories": 330.0,
+    "protein_g": 3.63,
+    "fat_g": 34.68,
+    "carbs_g": 6.65,
+    "description": "Nuts, coconut cream, raw (liquid expressed from grated meat)",
+    "data_type": "sr_legacy_food"
+  },
+  "Olive": {
+    "calories": 800.0,
+    "protein_g": 0.0,
+    "fat_g": 93.33,
+    "carbs_g": 0.0,
+    "description": "100% ORGANIC EXTRA VIRGIN FRESH-PRESSED OLIVE OIL",
+    "data_type": "branded_food"
+  },
+  "Pear": {
+    "calories": 30.0,
+    "protein_g": 5.3,
+    "fat_g": 0.69,
+    "carbs_g": 3.29,
+    "description": "Balsam-pear (bitter gourd), leafy tips, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Asian pear": {
+    "calories": 312.0,
+    "protein_g": 3.12,
+    "fat_g": 0.0,
+    "carbs_g": 68.75,
+    "description": "8 FLAVOR GUMMI BEARS, ALPHONSO MANGO, AMITY RASPBERRY, ASIAN PEAR, BLACK CURRANT, BLOOD ORANGE, CRIMSON CRANBERRY, FUJI APPLE, QUEEN PINEAPPLE",
+    "data_type": "branded_food"
+  },
+  "Custard apple": {
+    "calories": 101.0,
+    "protein_g": 1.7,
+    "fat_g": 0.6,
+    "carbs_g": 25.2,
+    "description": "Custard-apple, (bullock's-heart), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Mangosteen": {
+    "calories": 350.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 92.5,
+    "description": "WHOLE FOODS MARKET, SUPER STARS, ALL NATURAL FLAVORS - TANGERINE, STRAWBERRY, MANGOSTEEN, ACEROLA CHERRY, GOGI BERRY",
+    "data_type": "branded_food"
+  },
+  "Rambutan": {
+    "calories": 82.0,
+    "protein_g": 0.65,
+    "fat_g": 0.21,
+    "carbs_g": 20.87,
+    "description": "Rambutan, canned, syrup pack",
+    "data_type": "sr_legacy_food"
+  },
+  "Pomelo": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "1L BOTTLE PINEAPPLE POMELO SELTZER",
+    "data_type": "branded_food"
+  },
+  "Kumquat": {
+    "calories": 71.0,
+    "protein_g": 1.88,
+    "fat_g": 0.86,
+    "carbs_g": 15.9,
+    "description": "Kumquats, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Loquat": {
+    "calories": 47.0,
+    "protein_g": 0.43,
+    "fat_g": 0.2,
+    "carbs_g": 12.14,
+    "description": "Loquats, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Feijoa": {
+    "calories": 61.0,
+    "protein_g": 0.71,
+    "fat_g": 0.42,
+    "carbs_g": 15.21,
+    "description": "Feijoa, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Carambola": {
+    "calories": 31.0,
+    "protein_g": 1.04,
+    "fat_g": 0.33,
+    "carbs_g": 6.73,
+    "description": "Carambola, (starfruit), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Breadfruit": {
+    "calories": 103.0,
+    "protein_g": 1.07,
+    "fat_g": 0.23,
+    "carbs_g": 27.12,
+    "description": "Breadfruit, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Gooseberry": {
+    "calories": 250.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 65.0,
+    "description": "BELLVIEW, TASTE THE FRUIT 1ST, PRESERVES, GOOSEBERRY",
+    "data_type": "branded_food"
+  },
+  "Elderberry": {
+    "calories": 167.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 46.67,
+    "description": "ELDERBERRY FRESH PRESSED SYRUP, ELDERBERRY",
+    "data_type": "branded_food"
+  },
+  "Hawthorn": {
+    "calories": 1200.0,
+    "protein_g": 10.0,
+    "fat_g": 0.0,
+    "carbs_g": 300.0,
+    "description": "COOLBERRY FREEZE DRIED PITTED & SLICED HAWTHORN BERRY, COOLBERRY",
+    "data_type": "branded_food"
+  },
+  "Jujube": {
+    "calories": 281.0,
+    "protein_g": 4.72,
+    "fat_g": 0.5,
+    "carbs_g": 72.52,
+    "description": "Jujube, Chinese, fresh, dried",
+    "data_type": "sr_legacy_food"
+  },
+  "Prickly pear": {
+    "calories": 41.0,
+    "protein_g": 0.73,
+    "fat_g": 0.51,
+    "carbs_g": 9.57,
+    "description": "Prickly pears, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Clementine": {
+    "calories": 47.0,
+    "protein_g": 0.85,
+    "fat_g": 0.15,
+    "carbs_g": 12.02,
+    "description": "Clementines, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Bilberry": {
+    "calories": 375.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 87.5,
+    "description": "ORGANIC RAW KOMBUCHA, BILBERRY",
+    "data_type": "branded_food"
+  },
+  "Currant": {
+    "calories": 63.0,
+    "protein_g": 1.4,
+    "fat_g": 0.41,
+    "carbs_g": 15.38,
+    "description": "Currants, european black, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Marionberry": {
+    "calories": 43.0,
+    "protein_g": 1.04,
+    "fat_g": 0.12,
+    "carbs_g": 10.0,
+    "description": "100% JUICE, CRANBERRY MARIONBERRY",
+    "data_type": "branded_food"
+  },
+  "Ugli fruit": {
+    "calories": 304.0,
+    "protein_g": 8.93,
+    "fat_g": 1.79,
+    "carbs_g": 60.71,
+    "description": "ARTISAN PUGLIESE BREAD, PUGLIESE",
+    "data_type": "branded_food"
+  },
+  "Miracle fruit": {
+    "calories": 84.0,
+    "protein_g": 0.2,
+    "fat_g": 2.7,
+    "carbs_g": 15.5,
+    "description": "Salad dressing, KRAFT MIRACLE WHIP FREE Nonfat Dressing",
+    "data_type": "sr_legacy_food"
+  },
+  "Quince": {
+    "calories": 57.0,
+    "protein_g": 0.4,
+    "fat_g": 0.1,
+    "carbs_g": 15.3,
+    "description": "Quinces, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Soursop": {
+    "calories": 66.0,
+    "protein_g": 1.0,
+    "fat_g": 0.3,
+    "carbs_g": 16.84,
+    "description": "Soursop, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Santol": {
+    "calories": 94.0,
+    "protein_g": 18.82,
+    "fat_g": 1.76,
+    "carbs_g": 0.0,
+    "description": "SANTOLLA RED CRAB",
+    "data_type": "branded_food"
+  },
+  "Tart cherry": {
+    "calories": 33.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 7.92,
+    "description": "CHERIBUNDI, BLACK TEA WITH TART CHERRY REFRESH",
+    "data_type": "branded_food"
+  },
+  "Sea buckthorn": {
+    "calories": 50.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 10.0,
+    "description": "POTENT-C SEA BUCKTHORN THE ORIGINAL RAW SHOT",
+    "data_type": "branded_food"
+  },
+  "Ackee": {
+    "calories": 154.0,
+    "protein_g": 2.2,
+    "fat_g": 10.99,
+    "carbs_g": 10.99,
+    "description": "ACKEE",
+    "data_type": "branded_food"
+  },
+  "Plantain": {
+    "calories": 152.0,
+    "protein_g": 1.25,
+    "fat_g": 0.07,
+    "carbs_g": 36.66,
+    "description": "Plantains, green, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Sapodilla": {
+    "calories": 83.0,
+    "protein_g": 0.44,
+    "fat_g": 1.1,
+    "carbs_g": 19.96,
+    "description": "Sapodilla, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Cherimoya": {
+    "calories": 75.0,
+    "protein_g": 1.57,
+    "fat_g": 0.68,
+    "carbs_g": 17.71,
+    "description": "Cherimoya, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Fig jam": {
+    "calories": 219.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 56.25,
+    "description": "STRAWBERRY & FIG JAM, STRAWBERRY & FIG",
+    "data_type": "branded_food"
+  },
+  "Rice": {
+    "calories": 367.0,
+    "protein_g": 7.54,
+    "fat_g": 3.2,
+    "carbs_g": 76.25,
+    "description": "Rice, brown, long-grain, raw (Includes foods for USDA's Food Distribution Program)",
+    "data_type": "sr_legacy_food"
+  },
+  "White rice": {
+    "calories": 361.0,
+    "protein_g": 8.2,
+    "fat_g": 1.64,
+    "carbs_g": 78.69,
+    "description": "CHILE VERDE LONG GRAIN WHITE RICE WITH ONIONS, GARLIC, AND A UNIQUE BLEND OF REFRESHING LIME WITH A HINT OF JALAPENO RICE SIDE, CHILE VERDE",
+    "data_type": "branded_food"
+  },
+  "Brown rice": {
+    "calories": 116.0,
+    "protein_g": 5.04,
+    "fat_g": 4.65,
+    "carbs_g": 15.12,
+    "description": "KOREAN INSPIRED BEEF FRESH CABBAGE, BABY SPINACH & CARROTS, BROWN RICE, SEASONED BEEF, AND FIRE ROASTED EDAMAME WITH GOCHUJANG SIMMER SAUCE VEGGIE & RICE BOWL",
+    "data_type": "branded_food"
+  },
+  "Jasmine rice": {
+    "calories": 113.0,
+    "protein_g": 2.67,
+    "fat_g": 2.33,
+    "carbs_g": 21.33,
+    "description": "TERIYAKI & RICE FRESH GREEN CABBAGE, CARROTS, BROCCOLI, KALE WITH JASMINE RICE, CASHEWS & TERIYAKI SAUCE MEAL KIT, TERIYAKI & RICE",
+    "data_type": "branded_food"
+  },
+  "Basmati rice": {
+    "calories": 168.0,
+    "protein_g": 10.29,
+    "fat_g": 4.71,
+    "carbs_g": 19.41,
+    "description": "CURRY CHICKEN OVER BASMATI RICE WITH FRESH BROCCOLI INDIAN STYLE CURRY RICE BOWL",
+    "data_type": "branded_food"
+  },
+  "Glutinous rice": {
+    "calories": 279.0,
+    "protein_g": 2.49,
+    "fat_g": 6.51,
+    "carbs_g": 53.57,
+    "description": "Cake made with glutinous rice",
+    "data_type": "survey_fndds_food"
+  },
+  "Wild rice": {
+    "calories": 357.0,
+    "protein_g": 14.73,
+    "fat_g": 1.08,
+    "carbs_g": 74.9,
+    "description": "Wild rice, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Quinoa": {
+    "calories": 368.0,
+    "protein_g": 14.12,
+    "fat_g": 6.07,
+    "carbs_g": 64.16,
+    "description": "Quinoa, uncooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Amaranth": {
+    "calories": 371.0,
+    "protein_g": 13.56,
+    "fat_g": 7.02,
+    "carbs_g": 65.25,
+    "description": "Amaranth grain, uncooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Barley": {
+    "calories": 352.0,
+    "protein_g": 9.91,
+    "fat_g": 1.16,
+    "carbs_g": 77.72,
+    "description": "Barley, pearled, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Oats": {
+    "calories": 399.0,
+    "protein_g": 6.7,
+    "fat_g": 4.9,
+    "carbs_g": 83.3,
+    "description": "Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with real strawberries",
+    "data_type": "sr_legacy_food"
+  },
+  "Rolled oats": {
+    "calories": 452.0,
+    "protein_g": 9.68,
+    "fat_g": 16.13,
+    "carbs_g": 69.35,
+    "description": "DARK CHOCOLATE & RED BERRIES FLAVORED ORGANIC GRANOLA WITH WHOLE ROLLED OATS, CHOCOLATE CHIPS, FLAX SEEDS, RASPBERRIES AND STRAWBERRIES, DARK CHOCOLATE & RED BERRIES",
+    "data_type": "branded_food"
+  },
+  "Rye": {
+    "calories": 120.0,
+    "protein_g": 22.5,
+    "fat_g": 2.62,
+    "carbs_g": 0.0,
+    "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Millet": {
+    "calories": 378.0,
+    "protein_g": 11.02,
+    "fat_g": 4.22,
+    "carbs_g": 72.85,
+    "description": "Millet, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Sorghum": {
+    "calories": 257.0,
+    "protein_g": 5.65,
+    "fat_g": 8.2,
+    "carbs_g": 40.24,
+    "description": "Rolls, gluten-free, white, made with brown rice flour, tapioca starch, and sorghum flour",
+    "data_type": "sr_legacy_food"
+  },
+  "Cornmeal": {
+    "calories": 398.0,
+    "protein_g": 10.4,
+    "fat_g": 5.44,
+    "carbs_g": 76.93,
+    "description": "Cornmeal, blue (Navajo)",
+    "data_type": "sr_legacy_food"
+  },
+  "Polenta": {
+    "calories": 80.0,
+    "protein_g": 2.0,
+    "fat_g": 0.5,
+    "carbs_g": 16.0,
+    "description": "365 EVERYDAY VALUE, YELLOW POLENTA",
+    "data_type": "branded_food"
+  },
+  "Couscous": {
+    "calories": 349.0,
+    "protein_g": 13.95,
+    "fat_g": 2.33,
+    "carbs_g": 74.42,
+    "description": "FRESH & EASY, COUSCOUS",
+    "data_type": "branded_food"
+  },
+  "Bulgur": {
+    "calories": 84.0,
+    "protein_g": 4.69,
+    "fat_g": 1.37,
+    "carbs_g": 14.06,
+    "description": "FALAFEL WITH TABBOULEH AND TZATZIKI INCLUDES GARBANZO BEANS, FRESH MEDITERRANEAN VEGETABLES, BULGUR WHEAT, GREEK YOGURT, PANKO BREADCRUMBS, DICED CUCUMBERS, FRESH DILL AND FRESH LEMON, FALAFEL WITH TABBOULEH AND TZATZIKI",
+    "data_type": "branded_food"
+  },
+  "Semolina": {
+    "calories": 142.0,
+    "protein_g": 5.78,
+    "fat_g": 7.11,
+    "carbs_g": 13.33,
+    "description": "A classic menu item made with quality ingredients and features freshly made elbow macaroni from durum wheat semolina, which is then blended with 100% real cheese and finished with a hint of sea salt",
+    "data_type": "branded_food"
+  },
+  "Flour": {
+    "calories": 434.0,
+    "protein_g": 37.81,
+    "fat_g": 20.65,
+    "carbs_g": 31.92,
+    "description": "Soy flour, full-fat, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Whole wheat flour": {
+    "calories": 360.0,
+    "protein_g": 13.33,
+    "fat_g": 3.33,
+    "carbs_g": 73.33,
+    "description": "100% ORGANIC ALL PURPOSE WHOLE WHEAT FLOUR",
+    "data_type": "branded_food"
+  },
+  "All-purpose flour": {
+    "calories": 367.0,
+    "protein_g": 13.33,
+    "fat_g": 0.0,
+    "carbs_g": 76.67,
+    "description": "100% ORGANIC ALL-PURPOSE FLOUR",
+    "data_type": "branded_food"
+  },
+  "Corn flour": {
+    "calories": 363.0,
+    "protein_g": 8.46,
+    "fat_g": 3.69,
+    "carbs_g": 76.59,
+    "description": "Corn flour, masa, enriched, white",
+    "data_type": "sr_legacy_food"
+  },
+  "Rice flour": {
+    "calories": 367.0,
+    "protein_g": 6.67,
+    "fat_g": 0.0,
+    "carbs_g": 80.0,
+    "description": "ERAWAN, RICE FLOUR",
+    "data_type": "branded_food"
+  },
+  "Almond flour": {
+    "calories": 583.0,
+    "protein_g": 20.83,
+    "fat_g": 50.0,
+    "carbs_g": 20.83,
+    "description": "RAW ALMOND FLOUR",
+    "data_type": "branded_food"
+  },
+  "Buckwheat flour": {
+    "calories": 335.0,
+    "protein_g": 12.62,
+    "fat_g": 3.1,
+    "carbs_g": 70.59,
+    "description": "Buckwheat flour, whole-groat",
+    "data_type": "sr_legacy_food"
+  },
+  "Soy flour": {
+    "calories": 434.0,
+    "protein_g": 37.81,
+    "fat_g": 20.65,
+    "carbs_g": 31.92,
+    "description": "Soy flour, full-fat, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Wheat bran": {
+    "calories": 390.0,
+    "protein_g": 10.21,
+    "fat_g": 3.36,
+    "carbs_g": 79.77,
+    "description": "Cereals ready-to-eat, RALSTON Enriched Wheat Bran flakes",
+    "data_type": "sr_legacy_food"
+  },
+  "Wheat germ": {
+    "calories": 372.0,
+    "protein_g": 26.55,
+    "fat_g": 7.78,
+    "carbs_g": 58.11,
+    "description": "Cereals ready-to-eat, SUN COUNTRY, KRETSCHMER Honey Crunch Wheat Germ",
+    "data_type": "sr_legacy_food"
+  },
+  "Chickpea": {
+    "calories": 378.0,
+    "protein_g": 20.47,
+    "fat_g": 6.04,
+    "carbs_g": 62.95,
+    "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Lentil": {
+    "calories": 358.0,
+    "protein_g": 23.91,
+    "fat_g": 2.17,
+    "carbs_g": 63.1,
+    "description": "Lentils, pink or red, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Mung bean": {
+    "calories": 347.0,
+    "protein_g": 23.86,
+    "fat_g": 1.15,
+    "carbs_g": 62.62,
+    "description": "Mung beans, mature seeds, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Kidney bean": {
+    "calories": 333.0,
+    "protein_g": 22.22,
+    "fat_g": 0.0,
+    "carbs_g": 62.22,
+    "description": "FRESH & EASY, LIGHT RED KIDNEY BEANS",
+    "data_type": "branded_food"
+  },
+  "Black bean": {
+    "calories": 500.0,
+    "protein_g": 14.29,
+    "fat_g": 21.43,
+    "carbs_g": 60.71,
+    "description": "BALSAMIC & HERB FLAVORED BLACK BEAN & VEGGIE STRAWS SNACKS, BALSAMIC & HERB",
+    "data_type": "branded_food"
+  },
+  "Pinto bean": {
+    "calories": 231.0,
+    "protein_g": 10.26,
+    "fat_g": 10.26,
+    "carbs_g": 27.56,
+    "description": "BEEF & CHEDDAR PINTO BEANS, GROUND BEEF, & CHEDDAR CHEESE IN A FRESHLY BAKED FLOUR TORTILLA MEXIWRAPS, BEEF & CHEDDAR",
+    "data_type": "branded_food"
+  },
+  "Navy bean": {
+    "calories": 100.0,
+    "protein_g": 7.69,
+    "fat_g": 0.77,
+    "carbs_g": 14.62,
+    "description": "100% ORGANIC NAVY BEANS",
+    "data_type": "branded_food"
+  },
+  "Adzuki bean": {
+    "calories": 260.0,
+    "protein_g": 3.29,
+    "fat_g": 0.12,
+    "carbs_g": 60.72,
+    "description": "Yokan, prepared from adzuki beans and sugar",
+    "data_type": "sr_legacy_food"
+  },
+  "Soybean": {
+    "calories": 147.0,
+    "protein_g": 12.95,
+    "fat_g": 6.8,
+    "carbs_g": 11.05,
+    "description": "Soybeans, green, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Edamame": {
+    "calories": 441.0,
+    "protein_g": 20.59,
+    "fat_g": 20.59,
+    "carbs_g": 47.06,
+    "description": "EDAMAME FUSION CRANBERRIES, EDAMAME BEANS, ROASTED ALMONDS, FAVA BEANS, RAW PEPITAS, MULBERRIES & ROASTED CASHEWS TRAIL MIX, EDAMAME FUSION",
+    "data_type": "branded_food"
+  },
+  "Split pea": {
+    "calories": 347.0,
+    "protein_g": 24.49,
+    "fat_g": 1.02,
+    "carbs_g": 61.22,
+    "description": "FRESH & EASY, GREEN SPLIT PEAS",
+    "data_type": "branded_food"
+  },
+  "Peanut": {
+    "calories": 567.0,
+    "protein_g": 25.8,
+    "fat_g": 49.24,
+    "carbs_g": 16.13,
+    "description": "Peanuts, all types, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Cashew": {
+    "calories": 553.0,
+    "protein_g": 18.22,
+    "fat_g": 43.85,
+    "carbs_g": 30.19,
+    "description": "Nuts, cashew nuts, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Almond": {
+    "calories": 533.0,
+    "protein_g": 20.0,
+    "fat_g": 46.67,
+    "carbs_g": 20.0,
+    "description": "100% RAW ALMONDS",
+    "data_type": "branded_food"
+  },
+  "Walnut": {
+    "calories": 635.0,
+    "protein_g": 14.12,
+    "fat_g": 63.53,
+    "carbs_g": 16.47,
+    "description": "ALMONDS, PECANS, WALNUTS KETO RAW MIX, ALMONDS, PECANS, WALNUTS",
+    "data_type": "branded_food"
+  },
+  "Hazelnut": {
+    "calories": 541.0,
+    "protein_g": 5.41,
+    "fat_g": 32.43,
+    "carbs_g": 59.46,
+    "description": "ALL NATURAL CHOCOLATE-HAZELNUT SPREAD, CHOCOLATE STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "Pistachio": {
+    "calories": 560.0,
+    "protein_g": 20.16,
+    "fat_g": 45.32,
+    "carbs_g": 27.17,
+    "description": "Nuts, pistachio nuts, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Macadamia": {
+    "calories": 718.0,
+    "protein_g": 7.91,
+    "fat_g": 75.77,
+    "carbs_g": 13.82,
+    "description": "Nuts, macadamia nuts, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Brazil nut": {
+    "calories": 657.0,
+    "protein_g": 14.29,
+    "fat_g": 67.86,
+    "carbs_g": 10.71,
+    "description": "BRAZIL NUTS RAW",
+    "data_type": "branded_food"
+  },
+  "Chestnut": {
+    "calories": 224.0,
+    "protein_g": 4.2,
+    "fat_g": 1.11,
+    "carbs_g": 49.07,
+    "description": "Nuts, chestnuts, chinese, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Coconut meat": {
+    "calories": 354.0,
+    "protein_g": 3.33,
+    "fat_g": 33.49,
+    "carbs_g": 15.23,
+    "description": "Nuts, coconut meat, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Pine nut": {
+    "calories": 679.0,
+    "protein_g": 14.29,
+    "fat_g": 67.86,
+    "carbs_g": 14.29,
+    "description": "FERRIS, RAW PINE NUTS",
+    "data_type": "branded_food"
+  },
+  "Chia seed": {
+    "calories": 500.0,
+    "protein_g": 16.67,
+    "fat_g": 29.17,
+    "carbs_g": 41.67,
+    "description": "100% RAW ORGANIC CHIA SEEDS",
+    "data_type": "branded_food"
+  },
+  "Flaxseed": {
+    "calories": 500.0,
+    "protein_g": 16.67,
+    "fat_g": 33.33,
+    "carbs_g": 33.33,
+    "description": "100% RAW ORGANIC COLD MILLED GROUND FLAXSEED",
+    "data_type": "branded_food"
+  },
+  "Sesame seed": {
+    "calories": 303.0,
+    "protein_g": 7.07,
+    "fat_g": 15.15,
+    "carbs_g": 35.35,
+    "description": "7205: Croissants, Strawberry Cheese Filled, Freezer-to-Oven. Contains egg, milk, and wheat ingredients. This product is processed on a line that produces products with almonds and pecans and sesame seeds. This product is processed in a facility that produces products with soy. Kosher: Kof-K-D",
+    "data_type": "branded_food"
+  },
+  "Sunflower seed": {
+    "calories": 471.0,
+    "protein_g": 17.86,
+    "fat_g": 32.14,
+    "carbs_g": 39.29,
+    "description": "BRAD'S RAW, RAW CRUNCHY KALE, NAKED SUNFLOWER SEED & CASHEW VEGAN CHEEZE",
+    "data_type": "branded_food"
+  },
+  "Pumpkin seed": {
+    "calories": 89.0,
+    "protein_g": 19.4,
+    "fat_g": 0.7,
+    "carbs_g": 0.0,
+    "description": "Fish, sunfish, pumpkin seed, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Hemp seed": {
+    "calories": 600.0,
+    "protein_g": 33.33,
+    "fat_g": 50.0,
+    "carbs_g": 6.67,
+    "description": "365 EVERYDAY VALUE, ORGANIC RAW & HULLED HEMP SEED",
+    "data_type": "branded_food"
+  },
+  "Water chestnut": {
+    "calories": 46.0,
+    "protein_g": 2.3,
+    "fat_g": 0.0,
+    "carbs_g": 9.2,
+    "description": "Birds Eye Steamfresh Broccoli, Carrots, Sugar Snap Peas, Water Chestnuts, Frozen Vegetables, 10.8 oz",
+    "data_type": "branded_food"
+  },
+  "Lotus seed": {
+    "calories": 89.0,
+    "protein_g": 4.13,
+    "fat_g": 0.53,
+    "carbs_g": 17.28,
+    "description": "Seeds, lotus seeds, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Tapioca": {
+    "calories": 350.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 90.0,
+    "description": "ERAWAN, TAPIOCA STARCH",
+    "data_type": "branded_food"
+  },
+  "Tofu": {
+    "calories": 144.0,
+    "protein_g": 17.27,
+    "fat_g": 8.72,
+    "carbs_g": 2.78,
+    "description": "Tofu, raw, firm, prepared with calcium sulfate",
+    "data_type": "sr_legacy_food"
+  },
+  "Tempeh": {
+    "calories": 192.0,
+    "protein_g": 20.29,
+    "fat_g": 10.8,
+    "carbs_g": 7.64,
+    "description": "Tempeh",
+    "data_type": "sr_legacy_food"
+  },
+  "Soy milk": {
+    "calories": 48.0,
+    "protein_g": 2.22,
+    "fat_g": 1.27,
+    "carbs_g": 6.98,
+    "description": "STRAWBERRY GUMMY BOBA SOY MILK, STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "Soy protein": {
+    "calories": 405.0,
+    "protein_g": 47.62,
+    "fat_g": 3.57,
+    "carbs_g": 43.94,
+    "description": "Beverages, ABBOTT, EAS soy protein powder",
+    "data_type": "sr_legacy_food"
+  },
+  "Cereal": {
+    "calories": 399.0,
+    "protein_g": 6.7,
+    "fat_g": 4.9,
+    "carbs_g": 83.3,
+    "description": "Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with real strawberries",
+    "data_type": "sr_legacy_food"
+  },
+  "Granola": {
+    "calories": 419.0,
+    "protein_g": 6.45,
+    "fat_g": 12.9,
+    "carbs_g": 67.74,
+    "description": "100% REAL STRAWBERRIES CHEWY GRANOLA BARS",
+    "data_type": "branded_food"
+  },
+  "Oatmeal": {
+    "calories": 392.0,
+    "protein_g": 5.88,
+    "fat_g": 11.76,
+    "carbs_g": 62.75,
+    "description": "7-ELEVEN FRESH TO GO, OATMEAL RAISIN COOKIE",
+    "data_type": "branded_food"
+  },
+  "Bread": {
+    "calories": 303.0,
+    "protein_g": 11.51,
+    "fat_g": 28.6,
+    "carbs_g": 0.0,
+    "description": "Beef, New Zealand, imported, sweetbread, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "White bread": {
+    "calories": 280.0,
+    "protein_g": 8.0,
+    "fat_g": 4.0,
+    "carbs_g": 56.0,
+    "description": "BAKERY FRESH GOODNESS, WHITE BREAD",
+    "data_type": "branded_food"
+  },
+  "Whole wheat bread": {
+    "calories": 328.0,
+    "protein_g": 12.07,
+    "fat_g": 15.52,
+    "carbs_g": 37.93,
+    "description": "PEANUT BUTTER & STRAWBERRY SPREAD SANDWICH ON WHOLE WHEAT BREAD, PEANUT BUTTER & STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "Baguette": {
+    "calories": 196.0,
+    "protein_g": 7.14,
+    "fat_g": 0.0,
+    "carbs_g": 42.86,
+    "description": "FRESH BAKE BAGUETTE",
+    "data_type": "branded_food"
+  },
+  "Croissant": {
+    "calories": 375.0,
+    "protein_g": 4.17,
+    "fat_g": 14.58,
+    "carbs_g": 52.08,
+    "description": "5 CROISSANTS WITH STRAWBERRY FILLING, STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "Pasta": {
+    "calories": 288.0,
+    "protein_g": 11.31,
+    "fat_g": 2.3,
+    "carbs_g": 54.73,
+    "description": "Pasta, fresh-refrigerated, plain, as purchased",
+    "data_type": "sr_legacy_food"
+  },
+  "Spaghetti": {
+    "calories": 31.0,
+    "protein_g": 0.64,
+    "fat_g": 0.57,
+    "carbs_g": 6.91,
+    "description": "Squash, winter, spaghetti, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Macaroni": {
+    "calories": 379.0,
+    "protein_g": 13.86,
+    "fat_g": 4.82,
+    "carbs_g": 70.12,
+    "description": "Macaroni and cheese dinner with dry sauce mix, boxed, uncooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Ravioli": {
+    "calories": 175.0,
+    "protein_g": 6.99,
+    "fat_g": 3.5,
+    "carbs_g": 29.37,
+    "description": "CHEESE MICROWAVEABLE RAVIOLI PREMIUM PASTA STUFFED WITH A SMOOTH BLEND OF FRESH RICOTTA CHEESE & SEASONINGS, CHEESE",
+    "data_type": "branded_food"
+  },
+  "Lasagna noodles": {
+    "calories": 119.0,
+    "protein_g": 5.11,
+    "fat_g": 4.26,
+    "carbs_g": 14.89,
+    "description": "FRESHLY MADE MINI LASAGNA NOODLES IN A MEAT SAUCE MADE WITH 100% GROUND BEEF & REAL MOZZARELLA CHEESE LASAGNA-STYLE PASTA & BEEF, LASAGNA-STYLE PASTA & BEEF",
+    "data_type": "branded_food"
+  },
+  "Noodles": {
+    "calories": 111.0,
+    "protein_g": 6.56,
+    "fat_g": 7.21,
+    "carbs_g": 6.89,
+    "description": "BASIL PESTO FRESH VEGGIE NOODLES",
+    "data_type": "branded_food"
+  },
+  "Ramen": {
+    "calories": 237.0,
+    "protein_g": 7.46,
+    "fat_g": 5.46,
+    "carbs_g": 38.83,
+    "description": "Club Ramen Pork Tonkotsu Fresh Noodles 205g",
+    "data_type": "branded_food"
+  },
+  "Udon": {
+    "calories": 182.0,
+    "protein_g": 4.42,
+    "fat_g": 1.47,
+    "carbs_g": 38.82,
+    "description": "FRESH JAPANESE STYLE SANUKIYA UDON, FRESH JAPANESE STYLE",
+    "data_type": "branded_food"
+  },
+  "Soba": {
+    "calories": 99.0,
+    "protein_g": 5.06,
+    "fat_g": 0.1,
+    "carbs_g": 21.44,
+    "description": "Noodles, japanese, soba, cooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Rice noodle": {
+    "calories": 211.0,
+    "protein_g": 3.51,
+    "fat_g": 0.0,
+    "carbs_g": 49.12,
+    "description": "FRESH RICE NOODLES",
+    "data_type": "branded_food"
+  },
+  "Instant noodle": {
+    "calories": 417.0,
+    "protein_g": 8.33,
+    "fat_g": 13.33,
+    "carbs_g": 66.67,
+    "description": "ASIAN STYLE INSTANT NOODLE",
+    "data_type": "branded_food"
+  },
+  "Tortilla": {
+    "calories": 267.0,
+    "protein_g": 8.89,
+    "fat_g": 7.78,
+    "carbs_g": 48.89,
+    "description": "100% WHOLE WHEAT FRESH TORTILLAS",
+    "data_type": "branded_food"
+  },
+  "Pita bread": {
+    "calories": 263.0,
+    "protein_g": 10.53,
+    "fat_g": 1.75,
+    "carbs_g": 49.12,
+    "description": "100% WHOLE WHEAT PITA BREAD",
+    "data_type": "branded_food"
+  },
+  "Pizza dough": {
+    "calories": 232.0,
+    "protein_g": 9.33,
+    "fat_g": 4.18,
+    "carbs_g": 40.25,
+    "description": "16'' FRESH 'N READY WGR OVEN RISING SHEETED PIZZA DOUGH W/ SAUCE RING",
+    "data_type": "branded_food"
+  },
+  "Pie crust": {
+    "calories": 429.0,
+    "protein_g": 4.76,
+    "fat_g": 23.81,
+    "carbs_g": 52.38,
+    "description": "MORNING FRESH FARMS, PIE CRUST SHELLS",
+    "data_type": "branded_food"
+  },
+  "Cereal bar": {
+    "calories": 324.0,
+    "protein_g": 2.7,
+    "fat_g": 8.11,
+    "carbs_g": 67.57,
+    "description": "CEREAL BAR, FRUIT & GRAIN STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "Cracker": {
+    "calories": 500.0,
+    "protein_g": 6.25,
+    "fat_g": 25.0,
+    "carbs_g": 62.5,
+    "description": "BACON SEASONED WITH BLACK PEPPER FRESH STACKS CRACKERS, BACON SEASONED WITH BLACK PEPPER",
+    "data_type": "branded_food"
+  },
+  "Biscuit": {
+    "calories": 250.0,
+    "protein_g": 10.26,
+    "fat_g": 17.31,
+    "carbs_g": 13.46,
+    "description": "\"\"LUMBER JACK\"\" CENTER-CUT SMOKED SAUSAGE, FRESH BUTTERMILK BISCUIT, EGG & CHEESE SUPER-SIZE SANDWICHES, \"\"LUMBER JACK\"\"",
+    "data_type": "branded_food"
+  },
+  "Cookie": {
+    "calories": 400.0,
+    "protein_g": 4.35,
+    "fat_g": 13.26,
+    "carbs_g": 65.92,
+    "description": "Archway Home Style Cookies, Strawberry Filled",
+    "data_type": "sr_legacy_food"
+  },
+  "Muffin": {
+    "calories": 443.0,
+    "protein_g": 4.72,
+    "fat_g": 23.58,
+    "carbs_g": 53.77,
+    "description": "BAKED FRESH GOODNESS, HONEY RAISIN BRAN MUFFINS",
+    "data_type": "branded_food"
+  },
+  "Cake": {
+    "calories": 353.0,
+    "protein_g": 5.0,
+    "fat_g": 13.96,
+    "carbs_g": 53.64,
+    "description": "Cake, pound, commercially prepared, butter (includes fresh and frozen)",
+    "data_type": "sr_legacy_food"
+  },
+  "Donut": {
+    "calories": 403.0,
+    "protein_g": 3.23,
+    "fat_g": 20.97,
+    "carbs_g": 51.61,
+    "description": "BAKERY FRESH GOODNESS, CAKE DONUTS, S'MORES",
+    "data_type": "branded_food"
+  },
+  "Bagel": {
+    "calories": 314.0,
+    "protein_g": 11.76,
+    "fat_g": 0.98,
+    "carbs_g": 68.63,
+    "description": "BAGELS BY BELL, FRESH BAKE SHOP PLAIN MINI BAGEL",
+    "data_type": "branded_food"
+  },
+  "Pretzel": {
+    "calories": 475.0,
+    "protein_g": 2.5,
+    "fat_g": 15.0,
+    "carbs_g": 77.5,
+    "description": "AMERICAN IMPORTING COMPANY, INC., YOGURT PRETZELS, STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "Pancake": {
+    "calories": 216.0,
+    "protein_g": 5.41,
+    "fat_g": 4.73,
+    "carbs_g": 43.24,
+    "description": "1701: Pancakes, Whole Grain, Strawberry, Bulk. Produced in a nut-free facility.",
+    "data_type": "branded_food"
+  },
+  "Waffle": {
+    "calories": 230.0,
+    "protein_g": 5.41,
+    "fat_g": 4.73,
+    "carbs_g": 41.89,
+    "description": "1704: Waffles, Whole Grain, Strawberry 2 Pack. Contains egg, milk, soy, and wheat ingredients. Produced in a nut-free facility.",
+    "data_type": "branded_food"
+  },
+  "Pastry": {
+    "calories": 371.0,
+    "protein_g": 5.4,
+    "fat_g": 18.5,
+    "carbs_g": 47.8,
+    "description": "Danish pastry, fruit, enriched (includes apple, cinnamon, raisin, lemon, raspberry, strawberry)",
+    "data_type": "sr_legacy_food"
+  },
+  "Milk": {
+    "calories": 88.0,
+    "protein_g": 3.0,
+    "fat_g": 3.1,
+    "carbs_g": 12.3,
+    "description": "Beverages, Strawberry-flavor beverage mix, powder, prepared with whole milk",
+    "data_type": "sr_legacy_food"
+  },
+  "Whole milk": {
+    "calories": 88.0,
+    "protein_g": 3.0,
+    "fat_g": 3.1,
+    "carbs_g": 12.3,
+    "description": "Beverages, Strawberry-flavor beverage mix, powder, prepared with whole milk",
+    "data_type": "sr_legacy_food"
+  },
+  "Skim milk": {
+    "calories": 33.0,
+    "protein_g": 3.33,
+    "fat_g": 0.0,
+    "carbs_g": 4.58,
+    "description": "FRESH!, FAT FREE SKIM MILK",
+    "data_type": "branded_food"
+  },
+  "Goat milk": {
+    "calories": 286.0,
+    "protein_g": 17.86,
+    "fat_g": 21.43,
+    "carbs_g": 3.57,
+    "description": "BLOODY MARY FRESH GOAT MILK CHEESE WITH TOMATO, HORSERADISH, AND SPICES, BLOODY MARY",
+    "data_type": "branded_food"
+  },
+  "Condensed milk": {
+    "calories": 460.0,
+    "protein_g": 4.0,
+    "fat_g": 28.0,
+    "carbs_g": 54.0,
+    "description": "7 LAYER SQUARE LAYERS OF GRAHAM CRUMBS, CONDENSED MILK, BUTTERSCOTCH CHIPS, SEMI-SWEET CHOCOLATE CHIPS, COCONUT FLAKES, PECANS, 7 LAYER",
+    "data_type": "branded_food"
+  },
+  "Evaporated milk": {
+    "calories": 133.0,
+    "protein_g": 6.67,
+    "fat_g": 6.67,
+    "carbs_g": 10.0,
+    "description": "CALIFORNIA FARMS, EVAPORATED MILK",
+    "data_type": "branded_food"
+  },
+  "Powdered milk": {
+    "calories": 357.0,
+    "protein_g": 7.14,
+    "fat_g": 0.0,
+    "carbs_g": 85.71,
+    "description": "CHOCOLATE FLAVOR POWDERED MILK, CHOCOLATE",
+    "data_type": "branded_food"
+  },
+  "Butter": {
+    "calories": 14.0,
+    "protein_g": 0.39,
+    "fat_g": 0.04,
+    "carbs_g": 3.61,
+    "description": "Butterbur, (fuki), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Clarified butter": {
+    "calories": 900.0,
+    "protein_g": 0.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0,
+    "description": "Butter, Clarified butter (ghee)",
+    "data_type": "sr_legacy_food"
+  },
+  "Ghee": {
+    "calories": 900.0,
+    "protein_g": 0.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0,
+    "description": "Butter, Clarified butter (ghee)",
+    "data_type": "sr_legacy_food"
+  },
+  "Cream": {
+    "calories": 161.0,
+    "protein_g": 4.69,
+    "fat_g": 4.35,
+    "carbs_g": 26.06,
+    "description": "Ice creams, BREYERS, All Natural Light Vanilla Chocolate Strawberry",
+    "data_type": "sr_legacy_food"
+  },
+  "Whipping cream": {
+    "calories": 400.0,
+    "protein_g": 0.0,
+    "fat_g": 40.0,
+    "carbs_g": 0.0,
+    "description": "FRESH 40% HEAVY WHIPPING CREAM",
+    "data_type": "branded_food"
+  },
+  "Sour cream": {
+    "calories": 304.0,
+    "protein_g": 6.52,
+    "fat_g": 0.0,
+    "carbs_g": 67.39,
+    "description": "BAKERY FRESH GOODNESS, ANGEL FOOD CAKE, SOUR CREAM",
+    "data_type": "branded_food"
+  },
+  "Yogurt": {
+    "calories": 65.0,
+    "protein_g": 0.86,
+    "fat_g": 0.14,
+    "carbs_g": 15.05,
+    "description": "Fast foods, strawberry banana smoothie made with ice and low-fat yogurt",
+    "data_type": "sr_legacy_food"
+  },
+  "Greek yogurt": {
+    "calories": 133.0,
+    "protein_g": 6.67,
+    "fat_g": 1.67,
+    "carbs_g": 25.0,
+    "description": "365 EVERYDAY VALUE, ORGANIC LOW FAT GREEK YOGURT DESSERT BARS, STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "Cheese": {
+    "calories": 376.0,
+    "protein_g": 25.18,
+    "fat_g": 29.2,
+    "carbs_g": 3.06,
+    "description": "Cheese, caraway",
+    "data_type": "sr_legacy_food"
+  },
+  "Cheddar cheese": {
+    "calories": 429.0,
+    "protein_g": 25.0,
+    "fat_g": 32.14,
+    "carbs_g": 3.57,
+    "description": "AGED RAW MILK CHEDDAR CHEESE",
+    "data_type": "branded_food"
+  },
+  "Mozzarella cheese": {
+    "calories": 124.0,
+    "protein_g": 7.42,
+    "fat_g": 4.24,
+    "carbs_g": 14.13,
+    "description": "AGED ASIAGO FRESHLY MADE HAND-LAYERED PASTA WITH ASIAGO, CREAMY RICOTTA & MOZZARELLA CHEESE & A HEARTY TOMATO MEAT SAUCE LASAGNA, AGED ASIAGO",
+    "data_type": "branded_food"
+  },
+  "Parmesan cheese": {
+    "calories": 400.0,
+    "protein_g": 40.0,
+    "fat_g": 20.0,
+    "carbs_g": 0.0,
+    "description": "BEL GIOIOSO, FRESHLY SHAVED PARMESAN CHEESE",
+    "data_type": "branded_food"
+  },
+  "Swiss cheese": {
+    "calories": 429.0,
+    "protein_g": 21.43,
+    "fat_g": 35.71,
+    "carbs_g": 0.0,
+    "description": "ACME FRESH MARKET, CUBED SWISS CHEESE, WISCONSIN CHEESE",
+    "data_type": "branded_food"
+  },
+  "Blue cheese": {
+    "calories": 357.0,
+    "protein_g": 21.43,
+    "fat_g": 28.57,
+    "carbs_g": 3.57,
+    "description": "BLUE CHEESE CRUMBLES RAW MILK CHEESE, BLUE CHEESE CRUMBLES",
+    "data_type": "branded_food"
+  },
+  "Cream cheese": {
+    "calories": 324.0,
+    "protein_g": 2.94,
+    "fat_g": 14.71,
+    "carbs_g": 44.12,
+    "description": "ASSORTED MINI DANISH WITH CREAM CHEESE, APPLE, LEMON, CHERRY OR STRAWBERRY FILLING, ASSORTED WITH CREAM CHEESE, APPLE, LEMON, CHERRY OR STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "Cottage cheese": {
+    "calories": 92.0,
+    "protein_g": 8.45,
+    "fat_g": 1.76,
+    "carbs_g": 9.86,
+    "description": "2% LOW FAT SMALL CURD COTTAGE CHEESE WITH STRAWBERRY ON THE BOTTOM, STRAWBERRY ON THE BOTTOM",
+    "data_type": "branded_food"
+  },
+  "Ricotta cheese": {
+    "calories": 175.0,
+    "protein_g": 6.99,
+    "fat_g": 3.5,
+    "carbs_g": 29.37,
+    "description": "CHEESE MICROWAVEABLE RAVIOLI PREMIUM PASTA STUFFED WITH A SMOOTH BLEND OF FRESH RICOTTA CHEESE & SEASONINGS, CHEESE",
+    "data_type": "branded_food"
+  },
+  "Feta cheese": {
+    "calories": 286.0,
+    "protein_g": 17.86,
+    "fat_g": 21.43,
+    "carbs_g": 3.57,
+    "description": "DAIRY FRESH, PREMIUM CRUMBLED FETA CHEESE",
+    "data_type": "branded_food"
+  },
+  "Goat cheese": {
+    "calories": 250.0,
+    "protein_g": 14.29,
+    "fat_g": 17.86,
+    "carbs_g": 3.57,
+    "description": "BLACK TRUFFLE FRESH GOAT CHEESE, BLACK TRUFFLE",
+    "data_type": "branded_food"
+  },
+  "Egg": {
+    "calories": 185.0,
+    "protein_g": 12.81,
+    "fat_g": 13.77,
+    "carbs_g": 1.45,
+    "description": "Egg, duck, whole, fresh, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Duck egg": {
+    "calories": 224.0,
+    "protein_g": 11.96,
+    "fat_g": 18.55,
+    "carbs_g": 1.36,
+    "description": "Duck egg, cooked",
+    "data_type": "survey_fndds_food"
+  },
+  "Quail egg": {
+    "calories": 158.0,
+    "protein_g": 13.01,
+    "fat_g": 11.06,
+    "carbs_g": 0.41,
+    "description": "Quail egg, canned",
+    "data_type": "survey_fndds_food"
+  },
+  "Salted egg": {
+    "calories": 339.0,
+    "protein_g": 8.59,
+    "fat_g": 8.61,
+    "carbs_g": 56.98,
+    "description": "Pastry, made with bean paste and salted egg yolk filling, baked",
+    "data_type": "survey_fndds_food"
+  },
+  "Century egg": {
+    "calories": 567.0,
+    "protein_g": 20.0,
+    "fat_g": 50.0,
+    "carbs_g": 23.33,
+    "description": "NEW CENTURY SNACKS, RAW ALMONDS",
+    "data_type": "branded_food"
+  },
+  "Powdered egg": {
+    "calories": 615.0,
+    "protein_g": 46.15,
+    "fat_g": 46.15,
+    "carbs_g": 0.0,
+    "description": "DRIED EGG PRODUCT POWDERED EGGS",
+    "data_type": "branded_food"
+  },
+  "Mayonnaise": {
+    "calories": 272.0,
+    "protein_g": 10.29,
+    "fat_g": 8.09,
+    "carbs_g": 30.88,
+    "description": "FRESH TENDER TURKEY BREAST ,SAVORY STUFFING AND SWEET CRANBERRY MAYONNAISE WRAPPED TOGETHER IN A SOFT FLOUR TORTILLA, THANKSGIVING TURKEY TWISTER",
+    "data_type": "branded_food"
+  },
+  "Custard": {
+    "calories": 101.0,
+    "protein_g": 1.7,
+    "fat_g": 0.6,
+    "carbs_g": 25.2,
+    "description": "Custard-apple, (bullock's-heart), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Ice cream": {
+    "calories": 161.0,
+    "protein_g": 4.69,
+    "fat_g": 4.35,
+    "carbs_g": 26.06,
+    "description": "Ice creams, BREYERS, All Natural Light Vanilla Chocolate Strawberry",
+    "data_type": "sr_legacy_food"
+  },
+  "Frozen yogurt": {
+    "calories": 175.0,
+    "protein_g": 4.12,
+    "fat_g": 5.15,
+    "carbs_g": 26.8,
+    "description": "BEN & JERRY'S, GREEK, FROZEN YOGURT, STRAWBERRY SHORTCAKE",
+    "data_type": "branded_food"
+  },
+  "Butter oil": {
+    "calories": 876.0,
+    "protein_g": 0.28,
+    "fat_g": 99.48,
+    "carbs_g": 0.0,
+    "description": "Butter oil, anhydrous",
+    "data_type": "sr_legacy_food"
+  },
+  "Milkshake": {
+    "calories": 76.0,
+    "protein_g": 5.08,
+    "fat_g": 1.69,
+    "carbs_g": 9.32,
+    "description": "BANANA SPLIT BERRY STRAWBERRY BANANA LOW-FAT YOGURT MILKSHAKE DRINK, BANANA SPLIT BERRY",
+    "data_type": "branded_food"
+  },
+  "Whey protein": {
+    "calories": 370.0,
+    "protein_g": 65.22,
+    "fat_g": 5.43,
+    "carbs_g": 17.39,
+    "description": "100% WHEY PROTEIN PLUS 60 G POWDER, STRAWBERRY SMOOTHIE, STRAWBERRY SMOOTHIE",
+    "data_type": "branded_food"
+  },
+  "Protein powder": {
+    "calories": 387.0,
+    "protein_g": 77.42,
+    "fat_g": 6.45,
+    "carbs_g": 9.68,
+    "description": "BODYLOGIX, PROTEIN POWDER, NATURAL STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "Coffee creamer": {
+    "calories": 2867.0,
+    "protein_g": 73.33,
+    "fat_g": 273.33,
+    "carbs_g": 33.33,
+    "description": "FRESH VANILLA FLAVORED COFFEE CREAMER, FRESH VANILLA",
+    "data_type": "branded_food"
+  },
+  "Toffee": {
+    "calories": 469.0,
+    "protein_g": 6.25,
+    "fat_g": 28.12,
+    "carbs_g": 53.12,
+    "description": "ASSORTED MILK & DARK CHOCOLATE, CARAMEL, PEANUT CLUSTER, PECAN DELIGHT, NUT CARAMEL, CASHEW CLUSTER, TOFFEE, ALMONDS, STRAWBERRY CREAM, TRUFFLE",
+    "data_type": "branded_food"
+  },
+  "Chocolate": {
+    "calories": 161.0,
+    "protein_g": 4.69,
+    "fat_g": 4.35,
+    "carbs_g": 26.06,
+    "description": "Ice creams, BREYERS, All Natural Light Vanilla Chocolate Strawberry",
+    "data_type": "sr_legacy_food"
+  },
+  "White chocolate": {
+    "calories": 372.0,
+    "protein_g": 4.26,
+    "fat_g": 22.34,
+    "carbs_g": 40.43,
+    "description": "12 FLAVOR VARIETY CHEESECAKE PLATTER, NY STYLE, CHOCOLATE CHERRY, CHOCOLATE MARBLE, STRAWBERRY SWIRL, CHOCOLATE CHIP, RASPBERRY WHITE CHOCOLATE, BROWNIE, BLUEBERRY SWIRL, VANILLA BEAN, TURTLE, CHOCOLATE, RASPBERRY SWIRL",
+    "data_type": "branded_food"
+  },
+  "Cocoa powder": {
+    "calories": 525.0,
+    "protein_g": 25.0,
+    "fat_g": 25.0,
+    "carbs_g": 50.0,
+    "description": "RAW COCOA POWDER",
+    "data_type": "branded_food"
+  },
+  "Milk chocolate": {
+    "calories": 536.0,
+    "protein_g": 3.57,
+    "fat_g": 32.14,
+    "carbs_g": 53.57,
+    "description": "24 DAYS OF CHOCOLATE BLISS, CARAMEL FLAVORED MILK CHOCOLATE, COCONUT CREME MILK CHOCOLATE, MILK CHOCOLATE, MILK CHOCOLATE CREME MILK CHOCOLATE, MINT FLAVORED DARK CHOCOLATE, STRAWBERRY ROSE CREME WHITE CHOCOLATE, DARK CHOCOLATE WITH SEA SALT, SEA SALT CREME DARK CHOCOLATE, RASPBERRY FLAVORED DARK CHOCOLATE, ESPRESSO MILK CHOCOLATE, MILK CHOCOLATE GANACHE MILK CHOCOLATE",
+    "data_type": "branded_food"
+  },
+  "Hot chocolate": {
+    "calories": 400.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 100.0,
+    "description": "LIMITED EDITION POPS, BERRY LEMONADE, PEACH-MANGO, BLUEBERRY BURST, SUGAR COOKIE, PINEAPPLE-COCONUT, LEMON-LIME, STRAWBERRY-KIWI, CINNAMON ROLL, HOT CHOCOLATE, BIRTHDAY CAKE, STRAWBERRY MILKSHAKE, COTTON CANDY, BANANA SPLIT, TROPICAL FREEZE, DRAGON FRUIT,",
+    "data_type": "branded_food"
+  },
+  "Caramel": {
+    "calories": 351.0,
+    "protein_g": 4.26,
+    "fat_g": 20.21,
+    "carbs_g": 39.36,
+    "description": "12 SLICE VARIETY CHEESECAKE, CHOCOLATE CHIP, RASPBERRY WHITE CHOCOLATE, FUDGE BROWNIE, BLUEBERRY SWIRL, VANILLA BEAN, CARAMEL TURTLE, CHOCOLATE, RASPBERRY SWIRL, NEW YORK STYLE, CHOCOLATE CHERRY, CHOCOLATE MARBLE, STRAWBERRY SWIRL",
+    "data_type": "branded_food"
+  },
+  "Candy": {
+    "calories": 348.0,
+    "protein_g": 2.56,
+    "fat_g": 2.32,
+    "carbs_g": 79.16,
+    "description": "Candies, TWIZZLERS Strawberry Twists Candy",
+    "data_type": "sr_legacy_food"
+  },
+  "Marshmallow": {
+    "calories": 367.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 93.33,
+    "description": "30 FLAVORS CANDY, BLUEBERRY, BUBBLE GUM, BUTTERED POPCORN, CAPPUCCINO, CARAMEL CORN, CHOCOLATE PUDDING, COCONUT, COTTON CANDY, A&W CREAM SODA, DR PEPPER, FRENCH VANILLA, GREEN APPLE, JUICY PEAR, SUNKIST LEMON, LEMON LIME, LICORICE, ORANGE SHERBET, PEACH, PINA COLADA, POMEGRANATE, RED APPLE, A&W ROOT BEER, SIZZLING CINNAMON, STRAWBERRY CHEESECAKE, SUNKIST TANGERINE, TOASTED MARSHMALLOW, TOP BANANA, TUTTI-FRUITTI, VERY CHERRY, WATERMELON",
+    "data_type": "branded_food"
+  },
+  "Honey": {
+    "calories": 399.0,
+    "protein_g": 6.7,
+    "fat_g": 4.9,
+    "carbs_g": 83.3,
+    "description": "Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with real strawberries",
+    "data_type": "sr_legacy_food"
+  },
+  "Maple syrup": {
+    "calories": 359.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 92.31,
+    "description": "BRUNCH FAVORITES CANDY CORN, FRENCH TOAST & MAPLE SYRUP, WAFFLES & STRAWBERRY, CHOCOLATE CHIP & PANCAKES",
+    "data_type": "branded_food"
+  },
+  "Corn syrup": {
+    "calories": 86.0,
+    "protein_g": 0.72,
+    "fat_g": 0.0,
+    "carbs_g": 21.58,
+    "description": "SLICED STRAWBERRIES SWEETENED WITH SUGAR NO HIGH FRICTOSE CORN SYRUP, STRAWBERRIES SWEETENED WITH SUGAR",
+    "data_type": "branded_food"
+  },
+  "Molasses": {
+    "calories": 46.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 11.67,
+    "description": "HAY MAKERS CIDER, STRAWBERRY WITH GINGER, HONEY, MOLASSES & VINEGAR",
+    "data_type": "branded_food"
+  },
+  "Salt": {
+    "calories": 138.0,
+    "protein_g": 10.97,
+    "fat_g": 10.07,
+    "carbs_g": 0.83,
+    "description": "Egg, whole, raw, frozen, salted, pasteurized",
+    "data_type": "sr_legacy_food"
+  },
+  "Sea salt": {
+    "calories": 536.0,
+    "protein_g": 3.57,
+    "fat_g": 32.14,
+    "carbs_g": 53.57,
+    "description": "24 DAYS OF CHOCOLATE BLISS, CARAMEL FLAVORED MILK CHOCOLATE, COCONUT CREME MILK CHOCOLATE, MILK CHOCOLATE, MILK CHOCOLATE CREME MILK CHOCOLATE, MINT FLAVORED DARK CHOCOLATE, STRAWBERRY ROSE CREME WHITE CHOCOLATE, DARK CHOCOLATE WITH SEA SALT, SEA SALT CREME DARK CHOCOLATE, RASPBERRY FLAVORED DARK CHOCOLATE, ESPRESSO MILK CHOCOLATE, MILK CHOCOLATE GANACHE MILK CHOCOLATE",
+    "data_type": "branded_food"
+  },
+  "Kosher salt": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "CLOVER VALLEY, COARSE KOSHER SALT",
+    "data_type": "branded_food"
+  },
+  "Soy sauce": {
+    "calories": 143.0,
+    "protein_g": 8.84,
+    "fat_g": 1.36,
+    "carbs_g": 22.45,
+    "description": "RAW HOSO MAKI COMBO 1/2 ROLL OF HOSO MAKI TUNA AND 1/2 ROLL HOSO MAKI SALMON AND 3 PIECES OF TUNA NIGIRI, 3 PIECES OF SALMON NIGIRI GARNISHED WITH GINGER, WASABI AND SOY SAUCE",
+    "data_type": "branded_food"
+  },
+  "Tamari": {
+    "calories": 239.0,
+    "protein_g": 2.8,
+    "fat_g": 0.6,
+    "carbs_g": 62.5,
+    "description": "Tamarinds, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Teriyaki sauce": {
+    "calories": 82.0,
+    "protein_g": 4.55,
+    "fat_g": 1.82,
+    "carbs_g": 11.82,
+    "description": "ASIAN-STYLE VEGETABLES & RICE FRESH STEAM MUKIMAME, WHITE LONG GRAIN RICE, CARROTS, RED BELL PEPPERS. MUSHROOMS & WILD RICE WITH TERIYAKI SAUCE, ASIAN-STYLE VEGETABLES & RICE",
+    "data_type": "branded_food"
+  },
+  "Worcestershire sauce": {
+    "calories": 77.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 19.17,
+    "description": "Worcestershire sauce",
+    "data_type": "survey_fndds_food"
+  },
+  "Vinegar": {
+    "calories": 117.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 30.0,
+    "description": "ACTIVATED CHARCOAL WITH RAW & UNFILTERED APPLE CIDER VINEGAR, APPLE CIDER",
+    "data_type": "branded_food"
+  },
+  "Apple cider vinegar": {
+    "calories": 117.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 30.0,
+    "description": "ACTIVATED CHARCOAL WITH RAW & UNFILTERED APPLE CIDER VINEGAR, APPLE CIDER",
+    "data_type": "branded_food"
+  },
+  "Rice vinegar": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "100% NATURAL RICE VINEGAR",
+    "data_type": "branded_food"
+  },
+  "Balsamic vinegar": {
+    "calories": 200.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 46.67,
+    "description": "BALSAMIC VINEGAR, STRAWBERRY",
+    "data_type": "branded_food"
+  },
+  "White vinegar": {
+    "calories": 333.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 86.67,
+    "description": "BIANCA SWEET WHITE VINEGAR",
+    "data_type": "branded_food"
+  },
+  "Mustard": {
+    "calories": 27.0,
+    "protein_g": 2.86,
+    "fat_g": 0.42,
+    "carbs_g": 4.67,
+    "description": "Mustard greens, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Ketchup": {
+    "calories": 117.0,
+    "protein_g": 1.11,
+    "fat_g": 0.55,
+    "carbs_g": 26.8,
+    "description": "Ketchup, restaurant",
+    "data_type": "foundation_food"
+  },
+  "Hot sauce": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "FARM FRESH HOT SAUCES",
+    "data_type": "branded_food"
+  },
+  "Chili sauce": {
+    "calories": 92.0,
+    "protein_g": 2.5,
+    "fat_g": 0.3,
+    "carbs_g": 19.79,
+    "description": "Sauce, tomato chili sauce, bottled, with salt",
+    "data_type": "sr_legacy_food"
+  },
+  "Sriracha": {
+    "calories": 464.0,
+    "protein_g": 14.29,
+    "fat_g": 25.0,
+    "carbs_g": 46.43,
+    "description": "BRAD'S, RAW CRUNCHY KALE, FRANK SRIRACHA",
+    "data_type": "branded_food"
+  },
+  "BBQ sauce": {
+    "calories": 140.0,
+    "protein_g": 3.0,
+    "fat_g": 9.0,
+    "carbs_g": 11.0,
+    "description": "BACKYARD BBQ FRESH BLEND OF ROMAINE LETTUCE, KALE, BROCCOLI, RED CABBAGE, SWEET CARROTS, GREEN ONIONS, AND SAVOY CABBAGE WITH RANCH DRESSING, BBQ SAUCE, CRISPY FRIED ONIONS AND BACON BITS CHOPPED SALAD KIT, BACKYARD BBQ",
+    "data_type": "branded_food"
+  },
+  "Oyster sauce": {
+    "calories": 51.0,
+    "protein_g": 1.35,
+    "fat_g": 0.25,
+    "carbs_g": 10.92,
+    "description": "Oyster sauce",
+    "data_type": "survey_fndds_food"
+  },
+  "Fish sauce": {
+    "calories": 35.0,
+    "protein_g": 5.06,
+    "fat_g": 0.01,
+    "carbs_g": 3.64,
+    "description": "Fish sauce",
+    "data_type": "survey_fndds_food"
+  },
+  "Hoisin sauce": {
+    "calories": 220.0,
+    "protein_g": 3.31,
+    "fat_g": 3.39,
+    "carbs_g": 44.08,
+    "description": "Hoisin sauce",
+    "data_type": "survey_fndds_food"
+  },
+  "Black bean sauce": {
+    "calories": 168.0,
+    "protein_g": 6.28,
+    "fat_g": 8.45,
+    "carbs_g": 17.36,
+    "description": "Black bean sauce",
+    "data_type": "survey_fndds_food"
+  },
+  "Curry paste": {
+    "calories": 83.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 16.67,
+    "description": "GREEN CURRY PASTE, FRESH GREEN CHILIES & SPICES",
+    "data_type": "branded_food"
+  },
+  "Curry powder": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "FRESH FINDS, CURRY POWDER",
+    "data_type": "branded_food"
+  },
+  "Chili powder": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "FRESH FINDS, CHILI POWDER",
+    "data_type": "branded_food"
+  },
+  "Paprika": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "FRESH FINDS, PAPRIKA",
+    "data_type": "branded_food"
+  },
+  "Cumin": {
+    "calories": 69.0,
+    "protein_g": 3.45,
+    "fat_g": 3.45,
+    "carbs_g": 3.45,
+    "description": "SHY BROTHERS FARM, CLOUMAGE, CREAMY FRESH CHEESE, ROSEMARY + CUMIN",
+    "data_type": "branded_food"
+  },
+  "Coriander": {
+    "calories": 23.0,
+    "protein_g": 2.13,
+    "fat_g": 0.52,
+    "carbs_g": 3.67,
+    "description": "Coriander (cilantro) leaves, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Turmeric": {
+    "calories": 62.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 12.5,
+    "description": "AMBA HALDAR FRESH TURMERIC PICKLE",
+    "data_type": "branded_food"
+  },
+  "Black pepper": {
+    "calories": 300.0,
+    "protein_g": 12.77,
+    "fat_g": 17.75,
+    "carbs_g": 21.78,
+    "description": "AdvancePierre Blue Label Raw Breaded Black Pepper Western Style Country Fried Beef Steak Fritters",
+    "data_type": "branded_food"
+  },
+  "White pepper": {
+    "calories": 611.0,
+    "protein_g": 5.56,
+    "fat_g": 47.22,
+    "carbs_g": 44.44,
+    "description": "ASSORTED CHOCOLATE TRUFFLES, WHITE PEPPERMINT, MILK PEPPERMINT COOKIE",
+    "data_type": "branded_food"
+  },
+  "Garlic powder": {
+    "calories": 331.0,
+    "protein_g": 16.55,
+    "fat_g": 0.73,
+    "carbs_g": 72.73,
+    "description": "Spices, garlic powder",
+    "data_type": "sr_legacy_food"
+  },
+  "Onion powder": {
+    "calories": 341.0,
+    "protein_g": 10.41,
+    "fat_g": 1.04,
+    "carbs_g": 79.12,
+    "description": "Spices, onion powder",
+    "data_type": "sr_legacy_food"
+  },
+  "Ginger powder": {
+    "calories": 20.0,
+    "protein_g": 1.0,
+    "fat_g": 0.0,
+    "carbs_g": 4.0,
+    "description": "BUTTERFLY, GINGER POWDER",
+    "data_type": "branded_food"
+  },
+  "Five-spice powder": {
+    "calories": 212.0,
+    "protein_g": 18.82,
+    "fat_g": 8.24,
+    "carbs_g": 14.12,
+    "description": "ORGANIC NON-GMO BRAISED TOFU PUFFS FIVE-SPICE TOFU NUGGETS",
+    "data_type": "branded_food"
+  },
+  "Cinnamon": {
+    "calories": 371.0,
+    "protein_g": 5.4,
+    "fat_g": 18.5,
+    "carbs_g": 47.8,
+    "description": "Danish pastry, fruit, enriched (includes apple, cinnamon, raisin, lemon, raspberry, strawberry)",
+    "data_type": "sr_legacy_food"
+  },
+  "Nutmeg": {
+    "calories": 529.0,
+    "protein_g": 4.17,
+    "fat_g": 41.67,
+    "carbs_g": 41.67,
+    "description": "CARROT CAKE COCONUT, RAW HONEY, RAISINS, CINNAMON, NUTMEG AND WALNUTS BLONDE TRUFFLE BAR, CARROT CAKE",
+    "data_type": "branded_food"
+  },
+  "Clove": {
+    "calories": 286.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 80.95,
+    "description": "100% RAW CLOVER HONEY",
+    "data_type": "branded_food"
+  },
+  "Cardamom": {
+    "calories": 508.0,
+    "protein_g": 4.17,
+    "fat_g": 41.67,
+    "carbs_g": 41.67,
+    "description": "GINGER CARDAMOM DARK COCOA, RAW HONEY, COCONUT, GINGER AND CARDAMOM COCOA TRUFFLE BAR, GINGER CARDAMOM",
+    "data_type": "branded_food"
+  },
+  "Star anise": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "100% ORGANIC STAR ANISE",
+    "data_type": "branded_food"
+  },
+  "Bay leaf": {
+    "calories": 313.0,
+    "protein_g": 7.61,
+    "fat_g": 8.36,
+    "carbs_g": 74.97,
+    "description": "Spices, bay leaf",
+    "data_type": "sr_legacy_food"
+  },
+  "Dried basil": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "LIGHTLY DRIED BASIL",
+    "data_type": "branded_food"
+  },
+  "Dried oregano": {
+    "calories": 243.0,
+    "protein_g": 0.93,
+    "fat_g": 0.32,
+    "carbs_g": 65.89,
+    "description": "Apples, dried, sulfured, uncooked",
+    "data_type": "sr_legacy_food"
+  },
+  "Dried thyme": {
+    "calories": 83.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 16.67,
+    "description": "K.L.V., DRIED THYME LEAVES",
+    "data_type": "branded_food"
+  },
+  "Dried rosemary": {
+    "calories": 83.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 16.67,
+    "description": "K.L.V., DRIED ROSEMARY LEAVES",
+    "data_type": "branded_food"
+  },
+  "Parsley flakes": {
+    "calories": 390.0,
+    "protein_g": 11.86,
+    "fat_g": 10.17,
+    "carbs_g": 64.41,
+    "description": "PARMESAN FETTUCCINI PASTA WITH PARSLEY FLAKES IN A CREAMY PARMESAN CHEESE FLAVORED SAUCE EASY SIDES, PARMESAN",
+    "data_type": "branded_food"
+  },
+  "Cayenne pepper": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "FRESH FINDS, CAYENNE PEPPER",
+    "data_type": "branded_food"
+  },
+  "Sugar": {
+    "calories": 307.0,
+    "protein_g": 13.87,
+    "fat_g": 22.82,
+    "carbs_g": 10.95,
+    "description": "Egg, yolk, raw, frozen, sugared, pasteurized",
+    "data_type": "sr_legacy_food"
+  },
+  "Brown sugar": {
+    "calories": 75.0,
+    "protein_g": 0.44,
+    "fat_g": 1.55,
+    "carbs_g": 14.6,
+    "description": "APPLE BERRY CRISP FRESHLY PEELED APPLES, JUICY WILD BLUEBERRIES FROZEN AT PEAK RIPENESS, RASPBERRIES, BLACKBERRIES & RHUBARB, TOPPED WITH A DELICIOUS BROWN SUGAR & BUTTERY OAT CRUMBLE OAT CRUMBLE, APPLE BERRY",
+    "data_type": "branded_food"
+  },
+  "Powdered sugar": {
+    "calories": 420.0,
+    "protein_g": 4.0,
+    "fat_g": 20.0,
+    "carbs_g": 58.0,
+    "description": "MRS. FRESHLEY'S, DELICIOUS DEALS POWDERED SUGAR MINI DONUTS",
+    "data_type": "branded_food"
+  },
+  "Palm sugar": {
+    "calories": 600.0,
+    "protein_g": 6.67,
+    "fat_g": 43.33,
+    "carbs_g": 46.67,
+    "description": "CHOCOLATE WITH COCONUT MILK ORGANIC 55% COCOA AND COCONUT PALM SUGAR",
+    "data_type": "branded_food"
+  },
+  "Vanilla extract": {
+    "calories": 288.0,
+    "protein_g": 0.06,
+    "fat_g": 0.06,
+    "carbs_g": 12.65,
+    "description": "Vanilla extract",
+    "data_type": "sr_legacy_food"
+  },
+  "Baking soda": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "Leavening agents, baking soda",
+    "data_type": "sr_legacy_food"
+  },
+  "Baking powder": {
+    "calories": 53.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 27.7,
+    "description": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+    "data_type": "sr_legacy_food"
+  },
+  "Cornstarch": {
+    "calories": 381.0,
+    "protein_g": 0.26,
+    "fat_g": 0.05,
+    "carbs_g": 91.27,
+    "description": "Cornstarch",
+    "data_type": "sr_legacy_food"
+  },
+  "Gelatin": {
+    "calories": 368.0,
+    "protein_g": 5.26,
+    "fat_g": 0.0,
+    "carbs_g": 84.21,
+    "description": "ALL PINK STRAWBERRY GELATIN",
+    "data_type": "branded_food"
+  },
+  "Agar agar": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 66.67,
+    "description": "AGAR AGAR SEA VEGETABLE FLAKES",
+    "data_type": "branded_food"
+  },
+  "Olive oil": {
+    "calories": 800.0,
+    "protein_g": 0.0,
+    "fat_g": 93.33,
+    "carbs_g": 0.0,
+    "description": "100% ORGANIC EXTRA VIRGIN FRESH-PRESSED OLIVE OIL",
+    "data_type": "branded_food"
+  },
+  "Canola oil": {
+    "calories": 267.0,
+    "protein_g": 6.67,
+    "fat_g": 16.67,
+    "carbs_g": 20.0,
+    "description": "CLASSIC HUMMUS A TRADITIONAL BLEND OF FRESH STEAMED CHICKPEAS, SESAME TAHINI, SALT, CANOLA OIL, AND A TOUCH OF GARLIC, CLASSIC",
+    "data_type": "branded_food"
+  },
+  "Coconut oil": {
+    "calories": 857.0,
+    "protein_g": 0.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0,
+    "description": "FRESH COCONUT FLAVOR 100% ORGANIC VIRGIN & UNREFINED FRESH COCONUT OIL, FRESH COCONUT",
+    "data_type": "branded_food"
+  },
+  "Sesame oil": {
+    "calories": 884.0,
+    "protein_g": 0.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0,
+    "description": "Sesame oil",
+    "data_type": "survey_fndds_food"
+  },
+  "Sunflower oil": {
+    "calories": 900.0,
+    "protein_g": 0.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0,
+    "description": "Sunflower oil",
+    "data_type": "survey_fndds_food"
+  },
+  "Peanut oil": {
+    "calories": 800.0,
+    "protein_g": 0.0,
+    "fat_g": 93.33,
+    "carbs_g": 0.0,
+    "description": "FRESH & EASY, PEANUT OIL",
+    "data_type": "branded_food"
+  },
+  "Vegetable oil": {
+    "calories": 417.0,
+    "protein_g": 0.0,
+    "fat_g": 33.33,
+    "carbs_g": 25.0,
+    "description": "BRUMMEL & BROWN BUTTERY SPREAD, CREAMY STRAWBERRY, 10% NONFAT YOGURT, 34% VEGETABLE OIL SPREAD",
+    "data_type": "branded_food"
+  },
+  "Lard": {
+    "calories": 32.0,
+    "protein_g": 3.02,
+    "fat_g": 0.61,
+    "carbs_g": 5.42,
+    "description": "Collards, raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Shortening": {
+    "calories": 470.0,
+    "protein_g": 9.0,
+    "fat_g": 43.5,
+    "carbs_g": 10.5,
+    "description": "Agutuk, fish with shortening (Alaskan ice cream) (Alaska Native)",
+    "data_type": "sr_legacy_food"
+  },
+  "Cooking wine": {
+    "calories": 100.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 10.0,
+    "description": "BURGUNDY COOKING WINE",
+    "data_type": "branded_food"
+  },
+  "Soy paste": {
+    "calories": 107.0,
+    "protein_g": 7.33,
+    "fat_g": 0.0,
+    "carbs_g": 20.0,
+    "description": "KIMLAN, SOY PASTE",
+    "data_type": "branded_food"
+  },
+  "Fermented bean paste": {
+    "calories": 33.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 6.67,
+    "description": "BAVARIAN FERMENTED WITH CARAWAY SEEDS SAUERKRAUT",
+    "data_type": "branded_food"
+  },
+  "Kimchi": {
+    "calories": 33.0,
+    "protein_g": 3.33,
+    "fat_g": 0.0,
+    "carbs_g": 6.67,
+    "description": "BEAGLE BAY ORGANICS, KIMCHI, RAW SAUERKRAUT",
+    "data_type": "branded_food"
+  },
+  "Pickles": {
+    "calories": 83.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 16.67,
+    "description": "BREAD & BUTTER FRESH PICKLES, BREAD & BUTTER",
+    "data_type": "branded_food"
+  },
+  "Relish": {
+    "calories": 169.0,
+    "protein_g": 1.54,
+    "fat_g": 0.0,
+    "carbs_g": 41.54,
+    "description": "CRANBERRY ORANGE TANGY CRANBERRIES, FRESH ORANGES AND DELICIOUS APPLES SIMMERED WITH CINNAMON AND SUGAR RELISH, CRANBERRY ORANGE",
+    "data_type": "branded_food"
+  },
+  "Miso paste": {
+    "calories": 167.0,
+    "protein_g": 11.11,
+    "fat_g": 5.56,
+    "carbs_g": 16.67,
+    "description": "CHIKUMA, MISO PASTE",
+    "data_type": "branded_food"
+  },
+  "Tahini": {
+    "calories": 570.0,
+    "protein_g": 17.81,
+    "fat_g": 48.0,
+    "carbs_g": 26.19,
+    "description": "Seeds, sesame butter, tahini, from raw and stone ground kernels",
+    "data_type": "sr_legacy_food"
+  },
+  "Peanut butter": {
+    "calories": 368.0,
+    "protein_g": 7.02,
+    "fat_g": 21.05,
+    "carbs_g": 40.35,
+    "description": "7-ELEVEN, FRESH TO GO, COOKIE, PEANUT BUTTER",
+    "data_type": "branded_food"
+  },
+  "Jam": {
+    "calories": 60.0,
+    "protein_g": 0.72,
+    "fat_g": 0.23,
+    "carbs_g": 15.56,
+    "description": "Java-plum, (jambolan), raw",
+    "data_type": "sr_legacy_food"
+  },
+  "Marmalade": {
+    "calories": 250.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 65.0,
+    "description": "FRESH & EASY, DELICIOUS SWEET ORANGE MARMALADE",
+    "data_type": "branded_food"
+  },
+  "Tatsoi": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "NOT FOUND: Tatsoi",
+    "data_type": "not_found"
+  },
+  "Strawberry": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "NOT FOUND: Strawberry",
+    "data_type": "not_found"
+  },
+  "Medlar": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "NOT FOUND: Medlar",
+    "data_type": "not_found"
+  },
+  "Salak": {
+    "calories": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "description": "NOT FOUND: Salak",
+    "data_type": "not_found"
+  }
+}
