@@ -501,21 +501,4 @@ This project is licensed under the MIT License
 - [x] 4-bit quantization for Llama 1B
 - [x] GGUF optimization for Llama 8B
 
-### 🚧 Future Enhancements
 
-- [ ] Multi-language support
-- [ ] Recipe saving and history
-- [ ] Dietary preference filtering (vegan, keto, etc.)
-- [ ] Shopping list generation
-- [ ] Recipe scaling (adjust servings)
-- [ ] Video cooking guidance
-- [ ] Mobile app version
-- [ ] Community recipe sharing
-
----
-
-**Made with ❤️ and 🤖 AI**
-
-*Transform your ingredients into culinary inspiration!*
-
-**Happy Cooking! 🍳**
