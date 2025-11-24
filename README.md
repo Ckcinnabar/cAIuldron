@@ -169,13 +169,7 @@ cAIuldron/
 │       ├── Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf  # Llama 8B GGUF
 │       └── checkpoints/                     # Training checkpoints
 │
-├── specs/                                   # Documentation (optional)
-│   └── 001-ai-recipe-generator/
-│       ├── spec.md                          # Feature specifications
-│       ├── plan.md                          # Implementation plan
-│       ├── research.md                      # Model selection research
-│       └── tasks.md                         # Task breakdown
-│
+
 ├── Deliverable1_Technical_Blueprint_Full.pdf
 ├── Deliverable2_Technical_Blueprint_Full.pdf
 ├── IEEE_Report_cAIuldron.md
@@ -507,21 +501,4 @@ This project is licensed under the MIT License
 - [x] 4-bit quantization for Llama 1B
 - [x] GGUF optimization for Llama 8B
 
-### 🚧 Future Enhancements
 
-- [ ] Multi-language support
-- [ ] Recipe saving and history
-- [ ] Dietary preference filtering (vegan, keto, etc.)
-- [ ] Shopping list generation
-- [ ] Recipe scaling (adjust servings)
-- [ ] Video cooking guidance
-- [ ] Mobile app version
-- [ ] Community recipe sharing
-
----
-
-**Made with ❤️ and 🤖 AI**
-
-*Transform your ingredients into culinary inspiration!*
-
-**Happy Cooking! 🍳**
