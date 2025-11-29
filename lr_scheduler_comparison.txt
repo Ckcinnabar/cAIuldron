@@ -1,0 +1,16 @@
+Learning Rate Scheduler 比较
+
+Linear Scheduler (GPT-2):
+Epoch 1: LR 从 0 → 5e-5 (warmup) → 逐渐降到 3.3e-5
+Epoch 2: LR 继续线性下降到 1.6e-5
+Epoch 3: LR 降到接近 0
+
+Cosine Scheduler (Llama 1B):
+Epoch 1: LR 从 0 → 2e-4 (warmup) → 缓慢下降
+Epoch 2: LR 曲线下降 (余弦曲线)
+Epoch 3: LR 平缓降到最低点
+
+影响:
+- Cosine 让模型在训练后期保持一定学习能力
+- Linear 在最后阶段几乎不学习
+- 对最终收敛效果有 5-10% 的差异

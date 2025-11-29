@@ -9,3 +9,4 @@ models/recipe_generation/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
 /models/recipe_generation/checkpoints
 models/recipe_generation/finetuned/optimizer.pt
 models/recipe_generation/finetuned/model.safetensors
+poster_qa_preparation.md
