@@ -10,3 +10,6 @@ models/recipe_generation/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
 models/recipe_generation/finetuned/optimizer.pt
 models/recipe_generation/finetuned/model.safetensors
 poster_qa_preparation.md
+data/results/pipeline_output/temp_upload.jpg
+nul
+presentation_script.md
