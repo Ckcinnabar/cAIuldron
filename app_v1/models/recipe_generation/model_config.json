@@ -1,0 +1,29 @@
+{
+  "model_name": "gpt2-medium",
+  "model_type": "transformer",
+  "architecture": "GPT-2",
+  "variant": "medium",
+  "parameters": 354823168,
+  "n_layers": 24,
+  "n_heads": 16,
+  "hidden_size": 1024,
+  "vocab_size": 50257,
+  "max_length": 512,
+  "inference_params": {
+    "temperature": 0.9,
+    "top_k": 50,
+    "top_p": 0.95,
+    "num_return_sequences": 5,
+    "no_repeat_ngram_size": 2
+  },
+  "device": "cuda",
+  "cache_dir": "c:\\Users\\Champion\\Documents\\GitHub\\cAIuldron\\models\\.cache\\huggingface",
+  "status": "pretrained",
+  "notes": [
+    "Pre-trained GPT-2 Medium from Hugging Face",
+    "Will be fine-tuned on recipe datasets for better performance",
+    "Generates diverse, creative recipe suggestions",
+    "Uses nucleus sampling (top-p) and top-k for quality",
+    "Target: Generate 5 unique recipes per ingredient"
+  ]
+}
